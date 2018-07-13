@@ -8,6 +8,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// font-awesome
+$fa-font-path: '/webplan/public/fonts/vendor/font-awesome';
+@import "~font-awesome/scss/font-awesome";
+
 // Bulma
 //@import '~bulma/bulma';
 
