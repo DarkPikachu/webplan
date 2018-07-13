@@ -47589,6 +47589,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -47700,9 +47712,7 @@ var staticRenderFns = [
                         [
                           _c("li", { staticClass: "dropdown" }, [
                             _c("a", { attrs: { href: "index.php" } }, [
-                              _c("i", {
-                                staticClass: "glyphicon glyphicon-home"
-                              }),
+                              _c("i", { staticClass: "fa fa-home" }),
                               _vm._v(" HOME ")
                             ])
                           ]),
@@ -47715,11 +47725,9 @@ var staticRenderFns = [
                                 attrs: { "data-toggle": "dropdown", href: "#" }
                               },
                               [
-                                _c("i", {
-                                  staticClass: "glyphicon glyphicon-th-list"
-                                }),
+                                _c("i", { staticClass: "fa fa-th-lis" }),
                                 _vm._v(" เมนูหลัก "),
-                                _c("i", { staticClass: "fa fa-caret-down" })
+                                _c("i", { staticClass: "fa fa-angle-down" })
                               ]
                             ),
                             _vm._v(" "),
@@ -47794,11 +47802,9 @@ var staticRenderFns = [
                                 attrs: { "data-toggle": "dropdown", href: "#" }
                               },
                               [
-                                _c("i", {
-                                  staticClass: "glyphicon glyphicon-book"
-                                }),
+                                _c("i", { staticClass: "fa fa-book" }),
                                 _vm._v(" ข้อมูลพิ้นฐาน "),
-                                _c("i", { staticClass: "fa fa-caret-down" })
+                                _c("i", { staticClass: "fa fa-angle-down" })
                               ]
                             ),
                             _vm._v(" "),
@@ -47979,12 +47985,9 @@ var staticRenderFns = [
                                 attrs: { "data-toggle": "dropdown", href: "#" }
                               },
                               [
-                                _c("i", {
-                                  staticClass:
-                                    "glyphicon glyphicon-circle-arrow-down"
-                                }),
+                                _c("i", { staticClass: "fa fa-download" }),
                                 _vm._v(" Download "),
-                                _c("i", { staticClass: "fa fa-caret-down" })
+                                _c("i", { staticClass: "fa fa-angle-down" })
                               ]
                             ),
                             _vm._v(" "),
@@ -48083,9 +48086,7 @@ var staticRenderFns = [
                                 attrs: { href: "contact.php", target: "_blank" }
                               },
                               [
-                                _c("i", {
-                                  staticClass: "glyphicon glyphicon-phone-alt"
-                                }),
+                                _c("i", { staticClass: "fa fa-phone" }),
                                 _vm._v(" เบอร์โทรติดต่อ ")
                               ]
                             )
@@ -48103,7 +48104,7 @@ var staticRenderFns = [
                                   staticClass: "glyphicon glyphicon-th-large"
                                 }),
                                 _vm._v(" Plan Application "),
-                                _c("i", { staticClass: "fa fa-caret-down" })
+                                _c("i", { staticClass: "fa fa-angle-down" })
                               ]
                             ),
                             _vm._v(" "),
@@ -48211,9 +48212,7 @@ var staticRenderFns = [
                                 }
                               },
                               [
-                                _c("i", {
-                                  staticClass: "glyphicon glyphicon-lock"
-                                }),
+                                _c("i", { staticClass: "fa fa-sign-in" }),
                                 _vm._v(" Login ")
                               ]
                             )

@@ -13,10 +13,14 @@
           <div class="span11" style="text-align:right; margin-right:0px; background-color:#ccc;">
             <ul class="nav navbar-top-links navbar-right">
                   <li class="dropdown">
-                    <a href="index.php"> <i class="glyphicon glyphicon-home"></i> HOME </a> 
+                    <a href="index.php"> <i class="fa fa-home"></i> HOME </a> 
                   </li>
 
-                  <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="glyphicon glyphicon-th-list"></i> เมนูหลัก <i class="fa fa-caret-down"></i> </a>
+                  <li class="dropdown"> 
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+                      <i class="fa fa-th-lis"></i> เมนูหลัก <i class="fa fa-angle-down"></i> 
+                    </a>
+
                     <ul class="dropdown-menu dropdown-tasks">
                       <li>
                         <div><a href="about.php"> เกี่ยวกับหน่วยงาน </a></div>
@@ -40,7 +44,11 @@
                     </ul>
                   </li>
                       
-                  <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="glyphicon glyphicon-book"></i> ข้อมูลพิ้นฐาน <i class="fa fa-caret-down"></i> </a>
+                  <li class="dropdown"> 
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"> 
+                      <i class="fa fa-book"></i> ข้อมูลพิ้นฐาน <i class="fa fa-angle-down"></i> 
+                    </a>
+
                     <ul class="dropdown-menu dropdown-tasks">
                       <li>
                         <div><a href="download_plan/plan_infor_univ/13year.pdf" target="_blank"><i class="fa fa-caret-right"></i> กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย  </a></div>
@@ -71,11 +79,15 @@
                     </ul>
                   </li>
 
-                  <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="glyphicon glyphicon-circle-arrow-down"></i> Download <i class="fa fa-caret-down"></i> </a>
+                  <li class="dropdown"> 
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      <i class="fa fa-download"></i> Download <i class="fa fa-angle-down"></i>
+                    </a>
+
                     <ul class="dropdown-menu dropdown-tasks">
                       <li>
                         <div><a href="notice.php"> ประกาศ/คำสั่ง </a></div>
-                        </li>
+                      </li>
                       <li class="divider"></li>
                       <li>
                         <div><a href="notice_dl_publ/show_all_nw.php"> เอกสารเผยแพร่ </a></div>
@@ -96,10 +108,10 @@
                     <!-- /.dropdown-tasks -->
                   </li>
                       
-                  <li class="dropdown"><a href="contact.php" target="_blank"> <i class="glyphicon glyphicon-phone-alt"></i> เบอร์โทรติดต่อ </a> </li>
+                  <li class="dropdown"><a href="contact.php" target="_blank"> <i class="fa fa-phone"></i> เบอร์โทรติดต่อ </a> </li>
                     <!-- /.dropdown-tasks -->
                 
-                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-th-large"></i> Plan Application <i class="fa fa-caret-down"></i> </a>
+                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-th-large"></i> Plan Application <i class="fa fa-angle-down"></i> </a>
                       <ul class="dropdown-menu dropdown-tasks">
                         <li>
                           <div><a href="http://planning.crru.ac.th/monitoring/" target="_blank">Plan Monitoring System : PMS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ระบบตรวจสอบสถานะเอกสารการขออนุมัติ</a></div>
@@ -124,7 +136,7 @@
                       <!-- /.dropdown-tasks -->
                     </li>
                       
-                      <li class="dropdown"> <a href="backOff/login.php" target="_blank"> <i class="glyphicon glyphicon-lock"></i> Login </a> </li>
+                      <li class="dropdown"> <a href="backOff/login.php" target="_blank"> <i class="fa fa-sign-in"></i> Login </a> </li>
                       
                     </ul>
                     <!-- /.navbar-top-links -->
