@@ -18,6 +18,10 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('header-component', require('./components/HeaderComponent.vue'));
+Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
+import { Navbar } from 'bootstrap-vue/es/components';
+
+Vue.use(Navbar);
 
 const app = new Vue({
     el: '#app'

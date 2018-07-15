@@ -124,9 +124,7 @@
                         <li>
                           <div><a href="http://10.2.163.39:81/" target="_blank">Plan Performance System : PPS<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ระบบบันทึกการปฏิบัติงาน</a></div>
                         </li>
-                          
-                          
-                          <li class="divider"></li>
+                        <li class="divider"></li>
                         <li>
                           <div><a href="http://planning.crru.ac.th/" target="_blank">CRRU E-Budgeting</a></div>
                         </li>

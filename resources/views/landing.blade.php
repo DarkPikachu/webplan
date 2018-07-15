@@ -15,6 +15,7 @@
     </head>
     <body>
         <div id="app">
+            <navbar-component></navbar-component>
             <header-component></header-component>
         </div>
 
