@@ -20,6 +20,9 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "vue-bulma": "github:vue-bulma/vue-bulma"
+        "bootstrap-vue": "^2.0.0-rc.11",
+        "font-awesome": "^4.7.0",
+        "vue-bulma": "github:vue-bulma/vue-bulma",
+        "vue-flux": "^1.0.0"
     }
 }
