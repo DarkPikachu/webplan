@@ -16,12 +16,11 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
-Vue.component('header-component', require('./components/HeaderComponent.vue'));
+//Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//Vue.component('header-component', require('./components/HeaderComponent.vue'));
 Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
-import { Navbar } from 'bootstrap-vue/es/components';
-
-Vue.use(Navbar);
+Vue.component('photo-slider-component', require('./components/PhotoSliderComponent.vue'));
+Vue.component('gallery-component', require('./components/GalleryComponent.vue'));
 
 const app = new Vue({
     el: '#app'

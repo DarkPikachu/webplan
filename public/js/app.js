@@ -1633,11 +1633,145 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/ExampleComponent.vue":
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -1655,19 +1789,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
-});
+
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/HeaderComponent.vue":
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/NavbarComponent.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
 //
 //
 //
@@ -1724,6 +1857,41 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["c" /* Navbar */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
 //
 //
 //
@@ -1819,10 +1987,50 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+
+//import { VueFlux, Transitions } from 'vue-flux';
+//import 'vue-flux/dist/vue-flux.css';
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
+
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["a" /* Carousel */]);
+
+/*export default {
+components: {
+    'vue-flux': VueFlux
+},
+
+data: () => ({
+    fluxOptions: {
+        autoplay: true
+    },
+    fluxImages: [
+        'URL1',
+        'URL2',
+        'URL3'
+    ],
+    fluxTransitions: {
+        transitionTurn3d: Transitions.transitionTurn3d
+    }
+})
+}*/
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
+    data: function data() {
+        return {
+            slide: 0,
+            sliding: null
+        };
+    },
+
+    methods: {
+        onSlideStart: function onSlideStart(slide) {
+            this.sliding = true;
+        },
+        onSlideEnd: function onSlideEnd(slide) {
+            this.sliding = false;
+        }
+    }
 });
 
 /***/ }),
@@ -3755,7 +3963,7 @@ var VuePlugin = {
 
 Object(__WEBPACK_IMPORTED_MODULE_2__utils_plugins__["c" /* vueUse */])(VuePlugin);
 
-/* unused harmony default export */ var _unused_webpack_default_export = (VuePlugin);
+/* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
 
@@ -6787,7 +6995,7 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils_plugins__["c" /* vueUse */])(VuePlugin
 /* unused harmony reexport ButtonToolbar */
 /* unused harmony reexport ButtonGroup */
 /* unused harmony reexport Card */
-/* unused harmony reexport Carousel */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_8__carousel__["a"]; });
 /* unused harmony reexport Collapse */
 /* unused harmony reexport Dropdown */
 /* unused harmony reexport Embed */
@@ -6802,13 +7010,13 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils_plugins__["c" /* vueUse */])(VuePlugin
 /* unused harmony reexport Image */
 /* unused harmony reexport InputGroup */
 /* unused harmony reexport Jumbotron */
-/* unused harmony reexport Layout */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_9__layout__["a"]; });
 /* unused harmony reexport Link */
 /* unused harmony reexport ListGroup */
 /* unused harmony reexport Media */
 /* unused harmony reexport Modal */
 /* unused harmony reexport Nav */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_28__navbar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_28__navbar__["a"]; });
 /* unused harmony reexport Pagination */
 /* unused harmony reexport PaginationNav */
 /* unused harmony reexport Popover */
@@ -7479,7 +7687,7 @@ var VuePlugin = {
 
 Object(__WEBPACK_IMPORTED_MODULE_4__utils_plugins__["c" /* vueUse */])(VuePlugin);
 
-/* unused harmony default export */ var _unused_webpack_default_export = (VuePlugin);
+/* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
 
 /***/ }),
 
@@ -19804,7 +20012,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".fade-enter-active, .fade-leave-active {\n    transition: opacity .15s linear;\n}\n.fade-enter, .fade-leave-to {\n    opacity: 0;\n}\n", ""]);
+exports.push([module.i, ".fade-enter-active, .fade-leave-active {\r\n    transition: opacity .15s linear;\r\n}\r\n.fade-enter, .fade-leave-to {\r\n    opacity: 0;\r\n}\r\n", ""]);
 
 // exports
 
@@ -19819,7 +20027,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* workaround for https://github.com/bootstrap-vue/bootstrap-vue/issues/1560 */\n/* source: _input-group.scss */\n\n.input-group > .input-group-prepend > .b-dropdown > .btn,\n.input-group > .input-group-append:not(:last-child) > .b-dropdown > .btn,\n.input-group > .input-group-append:last-child > .b-dropdown:not(:last-child):not(.dropdown-toggle) > .btn {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n}\n\n.input-group > .input-group-append > .b-dropdown > .btn,\n.input-group > .input-group-prepend:not(:first-child) > .b-dropdown > .btn,\n.input-group > .input-group-prepend:first-child > .b-dropdown:not(:first-child) > .btn {\n    border-top-left-radius: 0;\n    border-bottom-left-radius: 0;\n}\n", ""]);
+exports.push([module.i, "/* workaround for https://github.com/bootstrap-vue/bootstrap-vue/issues/1560 */\r\n/* source: _input-group.scss */\r\n\r\n.input-group > .input-group-prepend > .b-dropdown > .btn,\r\n.input-group > .input-group-append:not(:last-child) > .b-dropdown > .btn,\r\n.input-group > .input-group-append:last-child > .b-dropdown:not(:last-child):not(.dropdown-toggle) > .btn {\r\n    border-top-right-radius: 0;\r\n    border-bottom-right-radius: 0;\r\n}\r\n\r\n.input-group > .input-group-append > .b-dropdown > .btn,\r\n.input-group > .input-group-prepend:not(:first-child) > .b-dropdown > .btn,\r\n.input-group > .input-group-prepend:first-child > .b-dropdown:not(:first-child) > .btn {\r\n    border-top-left-radius: 0;\r\n    border-bottom-left-radius: 0;\r\n}\r\n", ""]);
 
 // exports
 
@@ -19834,7 +20042,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* Special styling for type=range and type=color input */\ninput.form-control[type=\"range\"],\ninput.form-control[type=\"color\"] {\n    height: 2.25rem;\n}\ninput.form-control.form-control-sm[type=\"range\"],\ninput.form-control.form-control-sm[type=\"color\"] {\n    height: 1.9375rem;\n}\ninput.form-control.form-control-lg[type=\"range\"],\ninput.form-control.form-control-lg[type=\"color\"] {\n    height: 3rem;\n}\n\n/* Less padding on type=color */\ninput.form-control[type=\"color\"] {\n    padding: 0.25rem 0.25rem;\n}\ninput.form-control.form-control-sm[type=\"color\"] {\n    padding: 0.125rem 0.125rem;\n}\n", ""]);
+exports.push([module.i, "/* Special styling for type=range and type=color input */\r\ninput.form-control[type=\"range\"],\r\ninput.form-control[type=\"color\"] {\r\n    height: 2.25rem;\r\n}\r\ninput.form-control.form-control-sm[type=\"range\"],\r\ninput.form-control.form-control-sm[type=\"color\"] {\r\n    height: 1.9375rem;\r\n}\r\ninput.form-control.form-control-lg[type=\"range\"],\r\ninput.form-control.form-control-lg[type=\"color\"] {\r\n    height: 3rem;\r\n}\r\n\r\n/* Less padding on type=color */\r\ninput.form-control[type=\"color\"] {\r\n    padding: 0.25rem 0.25rem;\r\n}\r\ninput.form-control.form-control-sm[type=\"color\"] {\r\n    padding: 0.125rem 0.125rem;\r\n}\r\n", ""]);
 
 // exports
 
@@ -19849,7 +20057,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "/* Add support for fixed layout table */\ntable.b-table.b-table-fixed {\n    table-layout: fixed;\n}\n\n/* Busy table styling */\ntable.b-table[aria-busy='false'] {\n    opacity: 1;\n}\ntable.b-table[aria-busy='true'] {\n    opacity: 0.6;\n}\n\n/* Sort styling */\ntable.b-table > thead > tr > th,\ntable.b-table > tfoot > tr > th {\n    position: relative;\n}\ntable.b-table > thead > tr > th.sorting,\ntable.b-table > tfoot > tr > th.sorting {\n    padding-right: 1.5em;\n    cursor: pointer;\n}\ntable.b-table > thead > tr > th.sorting::before,\ntable.b-table > thead > tr > th.sorting::after,\ntable.b-table > tfoot > tr > th.sorting::before,\ntable.b-table > tfoot > tr > th.sorting::after {\n    position: absolute;\n    bottom: 0;\n    display: block;\n    opacity: 0.4;\n    padding-bottom: inherit;\n    font-size: inherit;\n    line-height: 180%;\n}\ntable.b-table > thead > tr > th.sorting::before,\ntable.b-table > tfoot > tr > th.sorting::before {\n    right: 0.75em;\n    content: '\\2191';\n}\ntable.b-table > thead > tr > th.sorting::after,\ntable.b-table > tfoot > tr > th.sorting::after {\n    right: 0.25em;\n    content: '\\2193';\n}\ntable.b-table > thead > tr > th.sorting_asc::after,\ntable.b-table > thead > tr > th.sorting_desc::before,\ntable.b-table > tfoot > tr > th.sorting_asc::after,\ntable.b-table > tfoot > tr > th.sorting_desc::before {\n    opacity: 1;\n}\n\n/* Stacked table layout */\n/* Derived from http://blog.adrianroselli.com/2017/11/a-responsive-accessible-table.html */\n/* Always stacked */\ntable.b-table.b-table-stacked {\n    width: 100%;\n}\ntable.b-table.b-table-stacked,\ntable.b-table.b-table-stacked > tbody,\ntable.b-table.b-table-stacked > tbody > tr,\ntable.b-table.b-table-stacked > tbody > tr > td,\ntable.b-table.b-table-stacked > tbody > tr > th,\ntable.b-table.b-table-stacked > caption {\n    display: block;\n}\n\n/* Hide stuff we can't deal with, or shouldn't show */\ntable.b-table.b-table-stacked > thead,\ntable.b-table.b-table-stacked > tfoot,\ntable.b-table.b-table-stacked > tbody > tr.b-table-top-row,\ntable.b-table.b-table-stacked > tbody > tr.b-table-bottom-row {\n    display: none;\n}\n\n/* inter-row top border */\ntable.b-table.b-table-stacked > tbody > tr > :first-child {\n    border-top-width: 0.4rem;\n}\n\n/* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\ntable.b-table.b-table-stacked > tbody > tr > [data-label] {\n    display: grid;\n    grid-template-columns: 40% auto;\n    grid-gap: 0.25rem 1rem;\n}\n\n/* generate row cell \"heading\" */\ntable.b-table.b-table-stacked > tbody > tr > [data-label]::before {\n    content: attr(data-label);\n    display: inline;\n    text-align: right;\n    overflow-wrap: break-word;\n    font-weight: bold;\n    font-style: normal;\n}\n\n@media all and (max-width: 575.99px) {\n    /* Under SM */\n    table.b-table.b-table-stacked-sm {\n        width: 100%;\n    }\n    table.b-table.b-table-stacked-sm,\n    table.b-table.b-table-stacked-sm > tbody,\n    table.b-table.b-table-stacked-sm > tbody > tr,\n    table.b-table.b-table-stacked-sm > tbody > tr > td,\n    table.b-table.b-table-stacked-sm > tbody > tr > th,\n    table.b-table.b-table-stacked-sm > caption {\n        display: block;\n    }\n    /* hide stuff we can't deal with, or shouldn't show */\n    table.b-table.b-table-stacked-sm > thead,\n    table.b-table.b-table-stacked-sm > tfoot,\n    table.b-table.b-table-stacked-sm > tbody > tr.b-table-top-row,\n    table.b-table.b-table-stacked-sm > tbody > tr.b-table-bottom-row {\n        display: none;\n    }\n    /* inter-row top border */\n    table.b-table.b-table-stacked-sm > tbody > tr > :first-child {\n        border-top-width: 0.4rem;\n    }\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\n    table.b-table.b-table-stacked-sm > tbody > tr > [data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: 0.25rem 1rem;\n    }\n    /* generate row cell \"heading\" */\n    table.b-table.b-table-stacked-sm > tbody > tr > [data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n    }\n}\n\n@media all and (max-width: 767.99px) {\n    /* under MD  */\n    table.b-table.b-table-stacked-md {\n        width: 100%;\n    }\n    table.b-table.b-table-stacked-md,\n    table.b-table.b-table-stacked-md > tbody,\n    table.b-table.b-table-stacked-md > tbody > tr,\n    table.b-table.b-table-stacked-md > tbody > tr > td,\n    table.b-table.b-table-stacked-md > tbody > tr > th,\n    table.b-table.b-table-stacked-md > caption {\n        display: block;\n    }\n    /* hide stuff we can't deal with, or shouldn't show */\n    table.b-table.b-table-stacked-md > thead,\n    table.b-table.b-table-stacked-md > tfoot,\n    table.b-table.b-table-stacked-md > tbody > tr.b-table-top-row,\n    table.b-table.b-table-stacked-md > tbody > tr.b-table-bottom-row {\n        display: none;\n    }\n    /* inter-row top border */\n    table.b-table.b-table-stacked-md > tbody > tr > :first-child {\n        border-top-width: 0.4rem;\n    }\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\n    table.b-table.b-table-stacked-md > tbody > tr > [data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: 0.25rem 1rem;\n    }\n    /* generate row cell \"heading\" */\n    table.b-table.b-table-stacked-md > tbody > tr > [data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n    }\n}\n\n@media all and (max-width: 991.99px) {\n    /* under LG  */\n    table.b-table.b-table-stacked-lg {\n        width: 100%;\n    }\n    table.b-table.b-table-stacked-lg,\n    table.b-table.b-table-stacked-lg > tbody,\n    table.b-table.b-table-stacked-lg > tbody > tr,\n    table.b-table.b-table-stacked-lg > tbody > tr > td,\n    table.b-table.b-table-stacked-lg > tbody > tr > th,\n    table.b-table.b-table-stacked-lg > caption {\n        display: block;\n    }\n    /* hide stuff we can't deal with, or shouldn't show */\n    table.b-table.b-table-stacked-lg > thead,\n    table.b-table.b-table-stacked-lg > tfoot,\n    table.b-table.b-table-stacked-lg > tbody > tr.b-table-top-row,\n    table.b-table.b-table-stacked-lg > tbody > tr.b-table-bottom-row {\n        display: none;\n    }\n    /* inter-row top border */\n    table.b-table.b-table-stacked-lg > tbody > tr > :first-child {\n        border-top-width: 0.4rem;\n    }\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\n    table.b-table.b-table-stacked-lg > tbody > tr > [data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: 0.25rem 1rem;\n    }\n    /* generate row cell \"heading\" */\n    table.b-table.b-table-stacked-lg > tbody > tr > [data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n    }\n}\n\n@media all and (max-width: 1199.99px) {\n    /* under XL  */\n    table.b-table.b-table-stacked-xl {\n        width: 100%;\n    }\n    table.b-table.b-table-stacked-xl,\n    table.b-table.b-table-stacked-xl > tbody,\n    table.b-table.b-table-stacked-xl > tbody > tr,\n    table.b-table.b-table-stacked-xl > tbody > tr > td,\n    table.b-table.b-table-stacked-xl > tbody > tr > th,\n    table.b-table.b-table-stacked-xl > caption {\n        display: block;\n    }\n    /* hide stuff we can't deal with, or shouldn't show */\n    table.b-table.b-table-stacked-xl > thead,\n    table.b-table.b-table-stacked-xl > tfoot,\n    table.b-table.b-table-stacked-xl > tbody > tr.b-table-top-row,\n    table.b-table.b-table-stacked-xl > tbody > tr.b-table-bottom-row {\n        display: none;\n    }\n    /* inter-row top border */\n    table.b-table.b-table-stacked-xl > tbody > tr > :first-child {\n        border-top-width: 0.4rem;\n    }\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\n    table.b-table.b-table-stacked-xl > tbody > tr > [data-label] {\n        display: grid;\n        grid-template-columns: 40% auto;\n        grid-gap: 0.25rem 1rem;\n    }\n    /* generate row cell \"heading\" */\n    table.b-table.b-table-stacked-xl > tbody > tr > [data-label]::before {\n        content: attr(data-label);\n        display: inline;\n        text-align: right;\n        overflow-wrap: break-word;\n        font-weight: bold;\n        font-style: normal;\n    }\n}\n\n/* Details row styling */\ntable.b-table > tbody > tr.b-table-details > td {\n    border-top: none;\n}\n", ""]);
+exports.push([module.i, "/* Add support for fixed layout table */\r\ntable.b-table.b-table-fixed {\r\n    table-layout: fixed;\r\n}\r\n\r\n/* Busy table styling */\r\ntable.b-table[aria-busy='false'] {\r\n    opacity: 1;\r\n}\r\ntable.b-table[aria-busy='true'] {\r\n    opacity: 0.6;\r\n}\r\n\r\n/* Sort styling */\r\ntable.b-table > thead > tr > th,\r\ntable.b-table > tfoot > tr > th {\r\n    position: relative;\r\n}\r\ntable.b-table > thead > tr > th.sorting,\r\ntable.b-table > tfoot > tr > th.sorting {\r\n    padding-right: 1.5em;\r\n    cursor: pointer;\r\n}\r\ntable.b-table > thead > tr > th.sorting::before,\r\ntable.b-table > thead > tr > th.sorting::after,\r\ntable.b-table > tfoot > tr > th.sorting::before,\r\ntable.b-table > tfoot > tr > th.sorting::after {\r\n    position: absolute;\r\n    bottom: 0;\r\n    display: block;\r\n    opacity: 0.4;\r\n    padding-bottom: inherit;\r\n    font-size: inherit;\r\n    line-height: 180%;\r\n}\r\ntable.b-table > thead > tr > th.sorting::before,\r\ntable.b-table > tfoot > tr > th.sorting::before {\r\n    right: 0.75em;\r\n    content: '\\2191';\r\n}\r\ntable.b-table > thead > tr > th.sorting::after,\r\ntable.b-table > tfoot > tr > th.sorting::after {\r\n    right: 0.25em;\r\n    content: '\\2193';\r\n}\r\ntable.b-table > thead > tr > th.sorting_asc::after,\r\ntable.b-table > thead > tr > th.sorting_desc::before,\r\ntable.b-table > tfoot > tr > th.sorting_asc::after,\r\ntable.b-table > tfoot > tr > th.sorting_desc::before {\r\n    opacity: 1;\r\n}\r\n\r\n/* Stacked table layout */\r\n/* Derived from http://blog.adrianroselli.com/2017/11/a-responsive-accessible-table.html */\r\n/* Always stacked */\r\ntable.b-table.b-table-stacked {\r\n    width: 100%;\r\n}\r\ntable.b-table.b-table-stacked,\r\ntable.b-table.b-table-stacked > tbody,\r\ntable.b-table.b-table-stacked > tbody > tr,\r\ntable.b-table.b-table-stacked > tbody > tr > td,\r\ntable.b-table.b-table-stacked > tbody > tr > th,\r\ntable.b-table.b-table-stacked > caption {\r\n    display: block;\r\n}\r\n\r\n/* Hide stuff we can't deal with, or shouldn't show */\r\ntable.b-table.b-table-stacked > thead,\r\ntable.b-table.b-table-stacked > tfoot,\r\ntable.b-table.b-table-stacked > tbody > tr.b-table-top-row,\r\ntable.b-table.b-table-stacked > tbody > tr.b-table-bottom-row {\r\n    display: none;\r\n}\r\n\r\n/* inter-row top border */\r\ntable.b-table.b-table-stacked > tbody > tr > :first-child {\r\n    border-top-width: 0.4rem;\r\n}\r\n\r\n/* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\ntable.b-table.b-table-stacked > tbody > tr > [data-label] {\r\n    display: grid;\r\n    grid-template-columns: 40% auto;\r\n    grid-gap: 0.25rem 1rem;\r\n}\r\n\r\n/* generate row cell \"heading\" */\r\ntable.b-table.b-table-stacked > tbody > tr > [data-label]::before {\r\n    content: attr(data-label);\r\n    display: inline;\r\n    text-align: right;\r\n    overflow-wrap: break-word;\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@media all and (max-width: 575.99px) {\r\n    /* Under SM */\r\n    table.b-table.b-table-stacked-sm {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-sm,\r\n    table.b-table.b-table-stacked-sm > tbody,\r\n    table.b-table.b-table-stacked-sm > tbody > tr,\r\n    table.b-table.b-table-stacked-sm > tbody > tr > td,\r\n    table.b-table.b-table-stacked-sm > tbody > tr > th,\r\n    table.b-table.b-table-stacked-sm > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-sm > thead,\r\n    table.b-table.b-table-stacked-sm > tfoot,\r\n    table.b-table.b-table-stacked-sm > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-sm > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-sm > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-sm > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-sm > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n@media all and (max-width: 767.99px) {\r\n    /* under MD  */\r\n    table.b-table.b-table-stacked-md {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-md,\r\n    table.b-table.b-table-stacked-md > tbody,\r\n    table.b-table.b-table-stacked-md > tbody > tr,\r\n    table.b-table.b-table-stacked-md > tbody > tr > td,\r\n    table.b-table.b-table-stacked-md > tbody > tr > th,\r\n    table.b-table.b-table-stacked-md > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-md > thead,\r\n    table.b-table.b-table-stacked-md > tfoot,\r\n    table.b-table.b-table-stacked-md > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-md > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-md > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-md > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-md > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n@media all and (max-width: 991.99px) {\r\n    /* under LG  */\r\n    table.b-table.b-table-stacked-lg {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-lg,\r\n    table.b-table.b-table-stacked-lg > tbody,\r\n    table.b-table.b-table-stacked-lg > tbody > tr,\r\n    table.b-table.b-table-stacked-lg > tbody > tr > td,\r\n    table.b-table.b-table-stacked-lg > tbody > tr > th,\r\n    table.b-table.b-table-stacked-lg > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-lg > thead,\r\n    table.b-table.b-table-stacked-lg > tfoot,\r\n    table.b-table.b-table-stacked-lg > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-lg > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-lg > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-lg > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-lg > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n@media all and (max-width: 1199.99px) {\r\n    /* under XL  */\r\n    table.b-table.b-table-stacked-xl {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-xl,\r\n    table.b-table.b-table-stacked-xl > tbody,\r\n    table.b-table.b-table-stacked-xl > tbody > tr,\r\n    table.b-table.b-table-stacked-xl > tbody > tr > td,\r\n    table.b-table.b-table-stacked-xl > tbody > tr > th,\r\n    table.b-table.b-table-stacked-xl > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-xl > thead,\r\n    table.b-table.b-table-stacked-xl > tfoot,\r\n    table.b-table.b-table-stacked-xl > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-xl > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-xl > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-xl > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-xl > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n/* Details row styling */\r\ntable.b-table > tbody > tr.b-table-details > td {\r\n    border-top: none;\r\n}\r\n", ""]);
 
 // exports
 
@@ -52550,682 +52758,6 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-032be6c9\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/HeaderComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row-fluid" }, [
-        _c("div", { staticClass: "span1" }),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "span5",
-            staticStyle: { "margin-left": "0px" },
-            attrs: { align: "left" }
-          },
-          [_c("br"), _c("img", { attrs: { src: "img/head_logo02.png" } })]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "span6",
-            staticStyle: { "margin-left": "0px" },
-            attrs: { align: "right" }
-          },
-          [
-            _c("br"),
-            _c(
-              "a",
-              { attrs: { href: "http://www.crru.ac.th", target: "_blank" } },
-              [_c("img", { attrs: { src: "img/crru.png" } })]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "https://www.facebook.com/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%9C%E0%B8%99-%E0%B8%A1%E0%B8%A3%E0%B8%8A%E0%B8%A3-1128441437167082/",
-                  target: "_blank"
-                }
-              },
-              [_c("img", { attrs: { src: "img/fb.png" } })]
-            )
-          ]
-        )
-      ]),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "row",
-          staticStyle: {
-            "background-color": "#ccc",
-            height: "50px",
-            "margin-top": "1px"
-          }
-        },
-        [
-          _c(
-            "div",
-            {
-              staticClass: "span12",
-              staticStyle: { "background-color": "#ccc" }
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "row-fluid",
-                  staticStyle: { "background-color": "#ccc", height: "50px" },
-                  attrs: { id: "top-menu" }
-                },
-                [
-                  _c("div", { staticClass: "span1" }),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "span11",
-                      staticStyle: {
-                        "text-align": "right",
-                        "margin-right": "0px",
-                        "background-color": "#ccc"
-                      }
-                    },
-                    [
-                      _c(
-                        "ul",
-                        { staticClass: "nav navbar-top-links navbar-right" },
-                        [
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c("a", { attrs: { href: "index.php" } }, [
-                              _c("i", { staticClass: "fa fa-home" }),
-                              _vm._v(" HOME ")
-                            ])
-                          ]),
-                          _vm._v(" "),
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c(
-                              "a",
-                              {
-                                staticClass: "dropdown-toggle",
-                                attrs: { "data-toggle": "dropdown", href: "#" }
-                              },
-                              [
-                                _c("i", { staticClass: "fa fa-th-lis" }),
-                                _vm._v(" เมนูหลัก "),
-                                _c("i", { staticClass: "fa fa-angle-down" })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "ul",
-                              { staticClass: "dropdown-menu dropdown-tasks" },
-                              [
-                                _c("li", [
-                                  _c("div", [
-                                    _c("a", { attrs: { href: "about.php" } }, [
-                                      _vm._v(" เกี่ยวกับหน่วยงาน ")
-                                    ])
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c("a", { attrs: { href: "struc.php" } }, [
-                                      _vm._v(" โครงสร้างหน่วยงาน ")
-                                    ])
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      { attrs: { href: "personal.php" } },
-                                      [_vm._v(" บุคลากร ")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "plan_gallery/show_all.php"
-                                        }
-                                      },
-                                      [_vm._v(" ประมวลภาพกิจกรรมหน่วยงาน ")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c("a", { attrs: { href: "#" } }, [
-                                      _vm._v(" แผนผังเว็บไซต์ ")
-                                    ])
-                                  ])
-                                ])
-                              ]
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c(
-                              "a",
-                              {
-                                staticClass: "dropdown-toggle",
-                                attrs: { "data-toggle": "dropdown", href: "#" }
-                              },
-                              [
-                                _c("i", { staticClass: "fa fa-book" }),
-                                _vm._v(" ข้อมูลพิ้นฐาน "),
-                                _c("i", { staticClass: "fa fa-angle-down" })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "ul",
-                              { staticClass: "dropdown-menu dropdown-tasks" },
-                              [
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "download_plan/plan_infor_univ/13year.pdf",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass: "fa fa-caret-right"
-                                        }),
-                                        _vm._v(
-                                          " กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี "
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                          "       มหาวิทยาลัยราชภัฏเชียงราย  "
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "download_plan/plan_infor_univ/4Y.pdf",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass: "fa fa-caret-right"
-                                        }),
-                                        _vm._v(
-                                          " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี"
-                                        ),
-                                        _c("br"),
-                                        _vm._v(
-                                          "       มหาวิทยาลัยราชภัฏเชียงราย "
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "plan_infor_univ/show_all_nw.php",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass: "fa fa-caret-right"
-                                        }),
-                                        _vm._v(" สารสนเทศ/รายงานประจำปี "),
-                                        _c("br"),
-                                        _vm._v(
-                                          "       มหาวิทยาลัยราชภัฏเชียงราย "
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "download_plan/plan_infor_plan/Intelligence(57-60).pdf",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass: "fa fa-caret-right"
-                                        }),
-                                        _vm._v(
-                                          " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี "
-                                        ),
-                                        _c("br"),
-                                        _vm._v("       กองนโยบายและแผน ")
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "download_plan/plan_infor_plan/2plus5_plan.pdf",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass: "fa fa-caret-right"
-                                        }),
-                                        _vm._v(
-                                          " แผนยุทธศาสตร์การพัฒนา ระยะ 2+5"
-                                        ),
-                                        _c("br"),
-                                        _vm._v("       กองนโยบายและแผน ")
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("br"),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "plan_infor_plan/show_all_nw.php",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _c("i", {
-                                          staticClass: "fa fa-caret-right"
-                                        }),
-                                        _vm._v(" แผนปฏิบัติการ/รายงานประจำปี "),
-                                        _c("br"),
-                                        _vm._v("       กองนโยบายและแผน ")
-                                      ]
-                                    )
-                                  ])
-                                ])
-                              ]
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c(
-                              "a",
-                              {
-                                staticClass: "dropdown-toggle",
-                                attrs: { "data-toggle": "dropdown", href: "#" }
-                              },
-                              [
-                                _c("i", { staticClass: "fa fa-download" }),
-                                _vm._v(" Download "),
-                                _c("i", { staticClass: "fa fa-angle-down" })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "ul",
-                              { staticClass: "dropdown-menu dropdown-tasks" },
-                              [
-                                _c("li", [
-                                  _c("div", [
-                                    _c("a", { attrs: { href: "notice.php" } }, [
-                                      _vm._v(" ประกาศ/คำสั่ง ")
-                                    ])
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "notice_dl_publ/show_all_nw.php"
-                                        }
-                                      },
-                                      [_vm._v(" เอกสารเผยแพร่ ")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "notice_dl_edu/show_all_nw.php"
-                                        }
-                                      },
-                                      [
-                                        _vm._v(
-                                          " แบบฟอร์มงานวิเคราะห์นโยบายและแผน "
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "notice_dl_supp/show_all_nw.php"
-                                        }
-                                      },
-                                      [_vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ ")]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "notice_dl_orther/show_all_nw.php"
-                                        }
-                                      },
-                                      [
-                                        _vm._v(
-                                          " แบบฟอร์มงานติดตามและประเมินผล "
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ])
-                              ]
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c(
-                              "a",
-                              {
-                                attrs: { href: "contact.php", target: "_blank" }
-                              },
-                              [
-                                _c("i", { staticClass: "fa fa-phone" }),
-                                _vm._v(" เบอร์โทรติดต่อ ")
-                              ]
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c(
-                              "a",
-                              {
-                                staticClass: "dropdown-toggle",
-                                attrs: { "data-toggle": "dropdown", href: "#" }
-                              },
-                              [
-                                _c("i", {
-                                  staticClass: "glyphicon glyphicon-th-large"
-                                }),
-                                _vm._v(" Plan Application "),
-                                _c("i", { staticClass: "fa fa-angle-down" })
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "ul",
-                              { staticClass: "dropdown-menu dropdown-tasks" },
-                              [
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href:
-                                            "http://planning.crru.ac.th/monitoring/",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _vm._v("Plan Monitoring System : PMS"),
-                                        _c("br"),
-                                        _vm._v(
-                                          "     ระบบตรวจสอบสถานะเอกสารการขออนุมัติ"
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "http://qas.crru.ac.th/sps/",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _vm._v(
-                                          "Strategic Planning and Quality"
-                                        ),
-                                        _c("br"),
-                                        _vm._v("     Assurance System : SPQAS"),
-                                        _c("br"),
-                                        _vm._v(
-                                          "     ระบบแผนจัดการเชิงกลยุทธ์และประกันคุณภาพ"
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "http://10.2.163.39:81/",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [
-                                        _vm._v("Plan Performance System : PPS"),
-                                        _c("br"),
-                                        _vm._v("     ระบบบันทึกการปฏิบัติงาน")
-                                      ]
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                _c("li", { staticClass: "divider" }),
-                                _vm._v(" "),
-                                _c("li", [
-                                  _c("div", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          href: "http://planning.crru.ac.th/",
-                                          target: "_blank"
-                                        }
-                                      },
-                                      [_vm._v("CRRU E-Budgeting")]
-                                    )
-                                  ])
-                                ])
-                              ]
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", { staticClass: "dropdown" }, [
-                            _c(
-                              "a",
-                              {
-                                attrs: {
-                                  href: "backOff/login.php",
-                                  target: "_blank"
-                                }
-                              },
-                              [
-                                _c("i", { staticClass: "fa fa-sign-in" }),
-                                _vm._v(" Login ")
-                              ]
-                            )
-                          ])
-                        ]
-                      )
-                    ]
-                  )
-                ]
-              )
-            ]
-          )
-        ]
-      )
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-032be6c9", module.exports)
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-0ca92eac\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/ExampleComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card card-default" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
-            ])
-          ])
-        ])
-      ])
-    ])
-  }
-]
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-0ca92eac", module.exports)
-  }
-}
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-36407a26\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -53233,269 +52765,223 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "fluid-width" }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "fluid-width" }, [
+  return _c(
+    "b-container",
+    { staticStyle: { "padding-top": "15px" }, attrs: { fluid: "" } },
+    [
       _c(
-        "div",
-        { staticClass: "span12", staticStyle: { "background-color": "#ccc" } },
+        "b-row",
+        { attrs: { fluid: "" } },
         [
+          _c("b-col", { attrs: { cols: "1", md: "1" } }),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "5", md: "5" } }, [
+            _c("img", {
+              attrs: {
+                src: "http://plan.crru.ac.th/web_planning/img/head_logo02.png"
+              }
+            })
+          ]),
+          _vm._v(" "),
           _c(
-            "div",
+            "b-col",
             {
-              staticClass: "row-fluid",
-              staticStyle: { "background-color": "#ccc", height: "50px" },
-              attrs: { id: "top-menu" }
+              staticClass: "text-right",
+              staticStyle: { "padding-right": "30px" },
+              attrs: { cols: "6", md: "6", "align-v": "center" }
             },
             [
-              _c("div", { staticClass: "span1" }),
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("img", {
+                  attrs: {
+                    src: "http://plan.crru.ac.th/web_planning/img/crru.png"
+                  }
+                })
+              ]),
               _vm._v(" "),
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("img", {
+                  attrs: {
+                    src: "http://plan.crru.ac.th/web_planning/img/fb.png"
+                  }
+                })
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        {
+          staticStyle: { "background-color": "#ccc", height: "50px" },
+          attrs: { fluid: "" }
+        },
+        [
+          _c(
+            "b-col",
+            { staticClass: "text-right" },
+            [
               _c(
-                "div",
+                "b-navbar",
                 {
-                  staticClass: "span11",
-                  staticStyle: {
-                    "text-align": "right",
-                    "margin-right": "0px",
-                    "background-color": "#ccc"
+                  attrs: {
+                    toggleable: "",
+                    type: "light",
+                    variant: "faded",
+                    right: ""
                   }
                 },
                 [
+                  _c("b-navbar-toggle", {
+                    attrs: { target: "nav_dropdown_collapse" }
+                  }),
+                  _vm._v(" "),
                   _c(
-                    "b-navbar",
+                    "b-collapse",
                     {
                       attrs: {
-                        type: "dark",
-                        variant: "primary",
-                        toggleable: ""
+                        "is-nav": "",
+                        id: "nav_dropdown_collapse",
+                        order: "*"
                       }
                     },
                     [
-                      _c("b-navbar-toggle", {
-                        attrs: { target: "nav_dropdown_collapse" }
-                      }),
-                      _vm._v(" "),
                       _c(
-                        "b-collapse",
-                        {
-                          attrs: { "is-nav": "", id: "nav_dropdown_collapse" }
-                        },
+                        "b-navbar-nav",
                         [
+                          _c("b-nav-item", { attrs: { href: "#" } }, [
+                            _c("i", { staticClass: "fa fa-home" }),
+                            _vm._v(" Home")
+                          ]),
+                          _vm._v(" "),
                           _c(
-                            "b-navbar-nav",
+                            "b-nav-item-dropdown",
+                            {
+                              attrs: {
+                                text: "<i class='fa fa-th-lis'></i> เมนูหลัก",
+                                left: ""
+                              }
+                            },
                             [
-                              _c("b-nav-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-home" }),
-                                _vm._v(" Home")
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" เกี่ยวกับหน่วยงาน")
                               ]),
                               _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                {
-                                  attrs: {
-                                    text:
-                                      "<i class='fa fa-th-lis'></i> เมนูหลัก",
-                                    left: ""
-                                  }
-                                },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" เกี่ยวกับหน่วยงาน")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "divider" }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" โครงสร้างหน่วยงาน")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("li", { staticClass: "divider" }),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" บุคลากร")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" ประมวลภาพกิจกรรมหน่วยงาน")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" แผนผังเว็บไซต์")]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                { attrs: { text: "ข้อมูลพิ้นฐาน", left: "" } },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี "
-                                      ),
-                                      _c("br"),
-                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี"
-                                      ),
-                                      _c("br"),
-                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(" สารสนเทศ/รายงานประจำปี "),
-                                      _c("br"),
-                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี "
-                                      ),
-                                      _c("br"),
-                                      _vm._v("       กองนโยบายและแผน")
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 2+5"),
-                                      _c("br"),
-                                      _vm._v("       กองนโยบายและแผน")
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(" แผนปฏิบัติการ/รายงานประจำปี "),
-                                      _c("br"),
-                                      _vm._v("       กองนโยบายและแผน")
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                { attrs: { text: "Download", left: "" } },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" ประกาศ/คำสั่ง")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" เอกสารเผยแพร่")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _vm._v(
-                                        " แบบฟอร์มงานวิเคราะห์นโยบายและแผน"
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" แบบฟอร์มงานติดตามและประเมินผล")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("b-dropdown-item", {
-                                    attrs: { href: "#" }
-                                  })
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c("b-nav-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-phone" }),
-                                _vm._v(" เบอร์โทรติดต่อ")
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" โครงสร้างหน่วยงาน")
                               ]),
                               _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                { attrs: { text: "User", right: "" } },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v("Account")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v("Settings")]
-                                  )
-                                ],
-                                1
-                              )
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" บุคลากร")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" ประมวลภาพกิจกรรมหน่วยงาน")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" แผนผังเว็บไซต์")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item-dropdown",
+                            { attrs: { text: "ข้อมูลพิ้นฐาน" } },
+                            [
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-caret-right" }),
+                                _vm._v(" กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี "),
+                                _c("br"),
+                                _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-caret-right" }),
+                                _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี"),
+                                _c("br"),
+                                _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-caret-right" }),
+                                _vm._v(" สารสนเทศ/รายงานประจำปี "),
+                                _c("br"),
+                                _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-caret-right" }),
+                                _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี "),
+                                _c("br"),
+                                _vm._v("       กองนโยบายและแผน")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-caret-right" }),
+                                _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 2+5"),
+                                _c("br"),
+                                _vm._v("       กองนโยบายและแผน")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-caret-right" }),
+                                _vm._v(" แผนปฏิบัติการ/รายงานประจำปี "),
+                                _c("br"),
+                                _vm._v("       กองนโยบายและแผน")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item-dropdown",
+                            { attrs: { text: "Download" } },
+                            [
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" ประกาศ/คำสั่ง")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" เอกสารเผยแพร่")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" แบบฟอร์มงานวิเคราะห์นโยบายและแผน")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v(" แบบฟอร์มงานติดตามและประเมินผล")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c("b-nav-item", { attrs: { href: "#" } }, [
+                            _c("i", { staticClass: "fa fa-phone" }),
+                            _vm._v(" เบอร์โทรติดต่อ")
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "b-nav-item-dropdown",
+                            { attrs: { text: "Plan Application", right: "" } },
+                            [
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v("Account")
+                              ]),
+                              _vm._v(" "),
+                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
+                                _vm._v("Settings")
+                              ])
                             ],
                             1
                           )
@@ -53507,86 +52993,807 @@ var render = function() {
                   )
                 ],
                 1
-              ),
-              _vm._v(" "),
-              _vm._m(1)
-            ]
+              )
+            ],
+            1
           )
-        ]
-      )
-    ])
-  ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("b-row", {
+        staticStyle: { "background-color": "#666", height: "5px" },
+        attrs: { fluid: "" }
+      })
+    ],
+    1
+  )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid" }, [
-      _c("div", { staticClass: "row-fluid" }, [
-        _c("div", { staticClass: "span1" }),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "span5",
-            staticStyle: { "margin-left": "0px" },
-            attrs: { align: "left" }
-          },
-          [_c("br"), _c("img", { attrs: { src: "img/head_logo02.png" } })]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "span6",
-            staticStyle: { "margin-left": "0px" },
-            attrs: { align: "right" }
-          },
-          [
-            _c("br"),
-            _c(
-              "a",
-              { attrs: { href: "http://www.crru.ac.th", target: "_blank" } },
-              [_c("img", { attrs: { src: "img/crru.png" } })]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                attrs: {
-                  href:
-                    "https://www.facebook.com/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%9C%E0%B8%99-%E0%B8%A1%E0%B8%A3%E0%B8%8A%E0%B8%A3-1128441437167082/",
-                  target: "_blank"
-                }
-              },
-              [_c("img", { attrs: { src: "img/fb.png" } })]
-            )
-          ]
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass: "row-fluid",
-        staticStyle: { "background-color": "#666", height: "5px" }
-      },
-      [_c("div", { staticClass: "span12" })]
-    )
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
     require("vue-hot-reload-api")      .rerender("data-v-36407a26", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7f6edbc2\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    { staticStyle: { "padding-top": "15px" }, attrs: { fluid: "" } },
+    [
+      _c(
+        "b-row",
+        { attrs: { fluid: "" } },
+        [
+          _c(
+            "b-card-group",
+            { staticClass: "mb-3", attrs: { deck: "" } },
+            [
+              _c(
+                "b-card",
+                { attrs: { "no-body": "" } },
+                [
+                  _c("b-card-header", [_vm._v("ประมวลภาพกิจกรรม")]),
+                  _vm._v(" "),
+                  _c("b-card-body", [
+                    _c(
+                      "table",
+                      { attrs: { width: "595", border: "0", align: "center" } },
+                      [
+                        _c("tbody", [
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                attrs: {
+                                  width: "273",
+                                  height: "212",
+                                  align: "center",
+                                  valign: "middle",
+                                  bgcolor: "#CCCCCC"
+                                }
+                              },
+                              [
+                                _c(
+                                  "table",
+                                  {
+                                    attrs: {
+                                      width: "220",
+                                      height: "160",
+                                      border: "0",
+                                      align: "center",
+                                      cellpadding: "0",
+                                      cellspacing: "0",
+                                      bgcolor: "#FFFFFF"
+                                    }
+                                  },
+                                  [
+                                    _c("tbody", [
+                                      _c("tr", [
+                                        _c(
+                                          "td",
+                                          { attrs: { align: "center" } },
+                                          [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "plan_gallery/notice_file/280661000000/lb/index.html",
+                                                  target: "_blank"
+                                                }
+                                              },
+                                              [
+                                                _c("img", {
+                                                  staticClass: "img-thumbnail",
+                                                  attrs: {
+                                                    src:
+                                                      "http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/280661000000/280661000000.jpg",
+                                                    width: "200"
+                                                  }
+                                                })
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                attrs: {
+                                  width: "312",
+                                  valign: "top",
+                                  bgcolor: "#f2f2f2"
+                                }
+                              },
+                              [
+                                _c(
+                                  "table",
+                                  {
+                                    attrs: {
+                                      width: "309",
+                                      border: "0",
+                                      align: "right"
+                                    }
+                                  },
+                                  [
+                                    _c("tbody", [
+                                      _c("tr", [
+                                        _c("td", { attrs: { width: "9" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { width: "240" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { width: "10" } })
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("tr", [
+                                        _c("td", { attrs: { height: "171" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { valign: "top" } }, [
+                                          _c("p", [_vm._v(" ")]),
+                                          _vm._v(" "),
+                                          _c("p", [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "plan_gallery/notice_file/280661000000/lb/index.html",
+                                                  target: "_blank"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "font",
+                                                  {
+                                                    attrs: { color: "#666666" }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "      กองนโยบายและแผน จัดการประชุมชี้แจงการใช้งานระบบ CRRU E-Budgeting (สำหรับหัวหน้าหน่วยงาน) วันที่ 28 มิถุนายน 2561 ณ ห้องประชุมเอื้องมัจฉา อาคารยุพราชวิทยมงคล มหาวิทยาลัยราชภัฏเชียงราย"
+                                                    )
+                                                  ]
+                                                )
+                                              ],
+                                              1
+                                            )
+                                          ])
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("td")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("tr", [
+                                        _c("td", { attrs: { height: "20" } }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "td",
+                                          { attrs: { align: "right" } },
+                                          [
+                                            _c("p", [
+                                              _c("i", {
+                                                staticClass: "fa fa-calendar"
+                                              }),
+                                              _vm._v("  "),
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href:
+                                                      "plan_gallery/notice_file/280661000000/lb/index.html",
+                                                    target: "_blank"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "font",
+                                                    {
+                                                      attrs: {
+                                                        color: "#666666"
+                                                      }
+                                                    },
+                                                    [_vm._v("28 มิถุนายน 2561")]
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            ])
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c("td")
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                attrs: {
+                                  width: "273",
+                                  height: "212",
+                                  align: "center",
+                                  valign: "middle",
+                                  bgcolor: "#CCCCCC"
+                                }
+                              },
+                              [
+                                _c(
+                                  "table",
+                                  {
+                                    attrs: {
+                                      width: "220",
+                                      height: "160",
+                                      border: "0",
+                                      align: "center",
+                                      cellpadding: "0",
+                                      cellspacing: "0",
+                                      bgcolor: "#FFFFFF"
+                                    }
+                                  },
+                                  [
+                                    _c("tbody", [
+                                      _c("tr", [
+                                        _c(
+                                          "td",
+                                          { attrs: { align: "center" } },
+                                          [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "plan_gallery/notice_file/120661000000/lb/index.html",
+                                                  target: "_blank"
+                                                }
+                                              },
+                                              [
+                                                _c("img", {
+                                                  staticClass: "img-thumbnail",
+                                                  attrs: {
+                                                    src:
+                                                      "plan_gallery/notice_file/120661000000/120661000000.jpg",
+                                                    width: "200"
+                                                  }
+                                                })
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                attrs: {
+                                  width: "312",
+                                  valign: "top",
+                                  bgcolor: "#f2f2f2"
+                                }
+                              },
+                              [
+                                _c(
+                                  "table",
+                                  {
+                                    attrs: {
+                                      width: "309",
+                                      border: "0",
+                                      align: "right"
+                                    }
+                                  },
+                                  [
+                                    _c("tbody", [
+                                      _c("tr", [
+                                        _c("td", { attrs: { width: "9" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { width: "240" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { width: "10" } })
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("tr", [
+                                        _c("td", { attrs: { height: "171" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { valign: "top" } }, [
+                                          _c("p", [_vm._v(" ")]),
+                                          _vm._v(" "),
+                                          _c("p", [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "plan_gallery/notice_file/120661000000/lb/index.html",
+                                                  target: "_blank"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "font",
+                                                  {
+                                                    attrs: { color: "#666666" }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "      การประชุมชี้แจงการจัดทำแผนปฏิบัติการ ประจำปีงบประมาณ พ.ศ. 2562 ณ ห้องประชุมมณีไตรรงค์ มหาวิทยาลัยราชภัฏเชียงราย"
+                                                    )
+                                                  ]
+                                                )
+                                              ],
+                                              1
+                                            )
+                                          ])
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("td")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("tr", [
+                                        _c("td", { attrs: { height: "20" } }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "td",
+                                          { attrs: { align: "right" } },
+                                          [
+                                            _c("p", [
+                                              _c("i", {
+                                                staticClass: "fa fa-calendar"
+                                              }),
+                                              _vm._v("  "),
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href:
+                                                      "plan_gallery/notice_file/120661000000/lb/index.html",
+                                                    target: "_blank"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "font",
+                                                    {
+                                                      attrs: {
+                                                        color: "#666666"
+                                                      }
+                                                    },
+                                                    [_vm._v("12 มิถุนายน 2561")]
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            ])
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c("td")
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              {
+                                attrs: {
+                                  width: "273",
+                                  height: "212",
+                                  align: "center",
+                                  valign: "middle",
+                                  bgcolor: "#CCCCCC"
+                                }
+                              },
+                              [
+                                _c(
+                                  "table",
+                                  {
+                                    attrs: {
+                                      width: "220",
+                                      height: "160",
+                                      border: "0",
+                                      align: "center",
+                                      cellpadding: "0",
+                                      cellspacing: "0",
+                                      bgcolor: "#FFFFFF"
+                                    }
+                                  },
+                                  [
+                                    _c("tbody", [
+                                      _c("tr", [
+                                        _c(
+                                          "td",
+                                          { attrs: { align: "center" } },
+                                          [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "plan_gallery/notice_file/040561000000/lb/index.html",
+                                                  target: "_blank"
+                                                }
+                                              },
+                                              [
+                                                _c("img", {
+                                                  staticClass: "img-thumbnail",
+                                                  attrs: {
+                                                    src:
+                                                      "plan_gallery/notice_file/040561000000/040561000000.jpg",
+                                                    width: "200"
+                                                  }
+                                                })
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              {
+                                attrs: {
+                                  width: "312",
+                                  valign: "top",
+                                  bgcolor: "#f2f2f2"
+                                }
+                              },
+                              [
+                                _c(
+                                  "table",
+                                  {
+                                    attrs: {
+                                      width: "309",
+                                      border: "0",
+                                      align: "right"
+                                    }
+                                  },
+                                  [
+                                    _c("tbody", [
+                                      _c("tr", [
+                                        _c("td", { attrs: { width: "9" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { width: "240" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { width: "10" } })
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("tr", [
+                                        _c("td", { attrs: { height: "171" } }),
+                                        _vm._v(" "),
+                                        _c("td", { attrs: { valign: "top" } }, [
+                                          _c("p", [_vm._v(" ")]),
+                                          _vm._v(" "),
+                                          _c("p", [
+                                            _c(
+                                              "a",
+                                              {
+                                                attrs: {
+                                                  href:
+                                                    "plan_gallery/notice_file/040561000000/lb/index.html",
+                                                  target: "_blank"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "font",
+                                                  {
+                                                    attrs: { color: "#666666" }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "      การประชุมเพื่อพิจารณา (ร่าง) แผนยุทธศาสตร์การพัฒนามหาวิทยาลัยราชภัฏเชียงราย ระยะ 5 ปี (พ.ศ. 2560-2564) ฉบับทบทวนและปรับปรุง และกำหนดจุดเน้นการพัฒนา "
+                                                    )
+                                                  ]
+                                                )
+                                              ],
+                                              1
+                                            )
+                                          ])
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("td")
+                                      ]),
+                                      _vm._v(" "),
+                                      _c("tr", [
+                                        _c("td", { attrs: { height: "20" } }),
+                                        _vm._v(" "),
+                                        _c(
+                                          "td",
+                                          { attrs: { align: "right" } },
+                                          [
+                                            _c("p", [
+                                              _c("i", {
+                                                staticClass: "fa fa-calendar"
+                                              }),
+                                              _vm._v("  "),
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    href:
+                                                      "plan_gallery/notice_file/040561000000/lb/index.html",
+                                                    target: "_blank"
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "font",
+                                                    {
+                                                      attrs: {
+                                                        color: "#666666"
+                                                      }
+                                                    },
+                                                    [_vm._v("4 พฤษภาคม 2561")]
+                                                  )
+                                                ],
+                                                1
+                                              )
+                                            ])
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c("td")
+                                      ])
+                                    ])
+                                  ]
+                                )
+                              ]
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-card-footer", [
+                    _c("span", { staticClass: "pull-left" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "plan_gallery/show_all.php",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("View All")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "plan_gallery/show_all.php",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("span", { staticClass: "pull-right" }, [
+                          _c("i", { staticClass: "fa fa-arrow-circle-right" })
+                        ])
+                      ]
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-7f6edbc2", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dec788fe\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    { staticStyle: { "padding-top": "15px" }, attrs: { fluid: "" } },
+    [
+      _c(
+        "b-row",
+        { attrs: { fluid: "" } },
+        [
+          _c(
+            "b-col",
+            { attrs: { cols: "12", md: "8", sm: "12" } },
+            [
+              _c(
+                "b-carousel",
+                {
+                  staticStyle: { "text-shadow": "1px 1px 2px #333" },
+                  attrs: {
+                    id: "carousel1",
+                    controls: "",
+                    indicators: "",
+                    background: "#ababab",
+                    interval: 4000,
+                    "img-width": "1024",
+                    "img-height": "480"
+                  },
+                  on: {
+                    "sliding-start": _vm.onSlideStart,
+                    "sliding-end": _vm.onSlideEnd
+                  },
+                  model: {
+                    value: _vm.slide,
+                    callback: function($$v) {
+                      _vm.slide = $$v
+                    },
+                    expression: "slide"
+                  }
+                },
+                [
+                  _c("b-carousel-slide", {
+                    attrs: {
+                      caption: "First slide",
+                      text:
+                        "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+                      "img-src": "https://picsum.photos/1024/480/?image=52"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "b-carousel-slide",
+                    {
+                      attrs: {
+                        "img-src": "https://picsum.photos/1024/480/?image=54"
+                      }
+                    },
+                    [_c("h1", [_vm._v("Hello world!")])]
+                  ),
+                  _vm._v(" "),
+                  _c("b-carousel-slide", {
+                    attrs: {
+                      "img-src": "https://picsum.photos/1024/480/?image=58"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-carousel-slide", [
+                    _c("img", {
+                      staticClass: "d-block img-fluid w-100",
+                      attrs: {
+                        slot: "img",
+                        width: "1024",
+                        height: "480",
+                        src: "https://picsum.photos/1024/480/?image=55",
+                        alt: "image slot"
+                      },
+                      slot: "img"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-carousel-slide",
+                    {
+                      attrs: {
+                        caption: "Blank Image",
+                        "img-blank": "",
+                        "img-alt": "Blank image"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse\n                    eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque\n                    ut lacus vel interdum.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { cols: "12", md: "4", sm: "*" } },
+            [
+              _c(
+                "b-card",
+                {
+                  attrs: {
+                    header: "สายตรงผู้อำนวยการ",
+                    "header-tag": "header",
+                    "header-bg-variant": "primary",
+                    "header-text-variant": "white",
+                    "header-class": "",
+                    footer:
+                      "นางใกล้รุ่ง เกตวันดี<br>ผู้อำนวยการกองนโยบายและแผน",
+                    "footer-tag": "footer",
+                    "footer-class": "text-right",
+                    title: ""
+                  }
+                },
+                [
+                  _c("b-img", {
+                    attrs: {
+                      src:
+                        "http://plan.crru.ac.th/web_planning/img/direeee.png",
+                      width: "250",
+                      right: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "1", md: "1" } })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-dec788fe", module.exports)
   }
 }
 
@@ -64617,11 +64824,8 @@ module.exports = function(module) {
 /***/ }),
 
 /***/ "./resources/assets/js/app.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -64639,12 +64843,11 @@ window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__("./resources/assets/js/components/ExampleComponent.vue"));
-Vue.component('header-component', __webpack_require__("./resources/assets/js/components/HeaderComponent.vue"));
+//Vue.component('example-component', require('./components/ExampleComponent.vue'));
+//Vue.component('header-component', require('./components/HeaderComponent.vue'));
 Vue.component('navbar-component', __webpack_require__("./resources/assets/js/components/NavbarComponent.vue"));
-
-
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["a" /* Navbar */]);
+Vue.component('photo-slider-component', __webpack_require__("./resources/assets/js/components/PhotoSliderComponent.vue"));
+Vue.component('gallery-component', __webpack_require__("./resources/assets/js/components/GalleryComponent.vue"));
 
 var app = new Vue({
   el: '#app'
@@ -64714,15 +64917,15 @@ if (token) {
 
 /***/ }),
 
-/***/ "./resources/assets/js/components/ExampleComponent.vue":
+/***/ "./resources/assets/js/components/GalleryComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/ExampleComponent.vue")
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-0ca92eac\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/ExampleComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7f6edbc2\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -64739,7 +64942,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\ExampleComponent.vue"
+Component.options.__file = "resources\\assets\\js\\components\\GalleryComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -64748,57 +64951,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-0ca92eac", Component.options)
+    hotAPI.createRecord("data-v-7f6edbc2", Component.options)
   } else {
-    hotAPI.reload("data-v-0ca92eac", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-
-/***/ "./resources/assets/js/components/HeaderComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
-/* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/HeaderComponent.vue")
-/* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-032be6c9\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/HeaderComponent.vue")
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources\\assets\\js\\components\\HeaderComponent.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-032be6c9", Component.options)
-  } else {
-    hotAPI.reload("data-v-032be6c9", Component.options)
+    hotAPI.reload("data-v-7f6edbc2", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -64816,7 +64971,7 @@ module.exports = Component.exports
 var disposed = false
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/NavbarComponent.vue")
 /* template */
 var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-36407a26\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue")
 /* template functional */
@@ -64847,6 +65002,54 @@ if (false) {(function () {
     hotAPI.createRecord("data-v-36407a26", Component.options)
   } else {
     hotAPI.reload("data-v-36407a26", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/PhotoSliderComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/PhotoSliderComponent.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dec788fe\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\PhotoSliderComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-dec788fe", Component.options)
+  } else {
+    hotAPI.reload("data-v-dec788fe", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true

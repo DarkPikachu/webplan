@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);.fade-enter-active, .fade-leave-active {
+@import url(https://fonts.googleapis.com/css?family=Athiti|Chonburi|Kanit|Pattaya);.fade-enter-active, .fade-leave-active {
     -webkit-transition: opacity .15s linear;
     transition: opacity .15s linear;
 }
@@ -13840,5 +13840,9 @@ a.text-dark:focus {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
 }
 
