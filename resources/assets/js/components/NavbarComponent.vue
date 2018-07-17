@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid style="padding-top: 15px;">
+    <b-container fluid style="padding-top: 20px; margin-bottom: 20px;">
         <!-- Header -->
         <b-row fluid>
             <b-col cols="1" md="1"></b-col>
@@ -16,7 +16,7 @@
                 <div class="row-fluid" style="background-color:#ccc; height:50px;" id="top-menu">
                     <div class="span1"></div>
                     <div class="span11" style="text-align:right; margin-right:0px; background-color:#ccc;">-->
-                        <b-col  class="text-right">
+                    <b-col  class="text-right">
                         <b-navbar toggleable type="light" variant="faded" right>
                             <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
                             <b-collapse is-nav id="nav_dropdown_collapse" order="*">
@@ -60,7 +60,7 @@
                                 </b-navbar-nav>
                             </b-collapse>
                         </b-navbar>
-                        </b-col>
+                    </b-col>
                     <!--</div>
                     <div class="row-fluid" style="background-color:#666; height:5px">
                         <div class="span12"></div>

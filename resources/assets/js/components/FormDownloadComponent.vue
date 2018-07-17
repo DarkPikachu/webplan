@@ -1,0 +1,68 @@
+<template>
+    <b-container>
+<b-card-group deck class="mb-4">
+            <b-card header-bg-variant="warning"
+                    header="เอกสาร/แบบฟอร์ม"
+                    class="text-left ">
+                <b-card-body>
+                    <b-tabs>
+                        <b-tab title="งานวิเคราะห์นโบบายและแผน" active>
+                            <template slot="title">
+                                <i class="fa fa-paperclip"></i> งานวิเคราะห์นโบบายและแผน
+                            </template>
+                            <div>
+                                <b-table hover :items="items">
+                                    <span slot="html" slot-scope="data" v-html="data.value"> </span>
+                                </b-table>
+                            </div>
+                        </b-tab>
+                        <b-tab title="งานวิเคราะห์งบประมาณ" >
+                            <template slot="title">
+                                <i class="fa fa-paperclip"></i> งานวิเคราะห์งบประมาณ
+                            </template>
+                            <br>I'm the second tab content
+                        </b-tab>
+                        <b-tab title="งานติดตามและประเมินผล" >
+                            <template slot="title">
+                                <i class="fa fa-paperclip"></i> งานติดตามและประเมินผล
+                            </template>
+                            <br>Disabled tab!
+                        </b-tab>
+                        <b-tab title="เอกสารเผยแพร่" >
+                            <template slot="title">
+                                <i class="fa fa-list-alt"></i> เอกสารเผยแพร่
+                            </template>
+                            <br>Disabled tab!
+                        </b-tab>
+                    </b-tabs>
+                </b-card-body>
+            </b-card>
+</b-card-group>
+<b-card-group deck class="mb-4">
+            <b-card header-bg-variant="warning"
+                    header="Download แบบฟอร์ม"
+                    class="text-left">
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </b-card>
+</b-card-group>
+    </b-container>
+</template>
+
+<script>
+const items = [
+  { date: '2018-01-04', title: '<i class="fa fa-paperclip"></i>แบบฟอร์มรายงานผลการดำเนินงานตามแผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี (พ.ศ. 2557 - 2560) หน่วยงานจัดการศึกษา' },
+  { date: '2018-01-04', title: 'แบบฟอร์มรายงานผลการดำเนินงานตามแผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี (พ.ศ. 2557 - 2560) หน่วยงานสนับสนุนการจัดการศึกษาและบริการ' },
+  { date: '2017-04-24', title: 'คู่มือการจัดทำแผนยุทธศาสตร์การพัฒนาหน่วยงาน ระยะ 5 ปี (พ.ศ. 2560 - 2564)' },
+  { date: '2017-04-22', title: 'รหัสประเด็นยุทธศาสตร์ กลยุทธ์ และมาตรการ ตามแผนยุทธศาสตร์การพัฒนามหาวิทยาลัยราชภัฏเชียงราย ระยะ 5 ปี (พ.ศ. 2560 - 2564)' },
+  { date: '2016-04-21', title: 'แบบฟอร์มจุดเน้นการพัฒนาหน่วยงานตามแผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี (พ.ศ.2557-2560) ทบทวนปี พ.ศ.2560 สำหรับหน่วยงานสนับสนุนหน่วยงานจัดการศึกษา' },
+  { date: '2016-04-21', title: 'แบบฟอร์มการจัดทำข้อมูลสารสนเทศเพิ่มเติม ของคณะกรรมการติดตาม ตรวจสอบ และประเมินผลงาน มหาวิทยาลัยราชภัฏเชียงราย' },
+]
+
+export default {
+  data () {
+    return {
+      items: items
+    }
+  }
+}
+</script>

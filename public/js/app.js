@@ -1633,6 +1633,213 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/FormDownloadComponent.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var items = [{ date: '2018-01-04', title: '<i class="fa fa-paperclip"></i>แบบฟอร์มรายงานผลการดำเนินงานตามแผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี (พ.ศ. 2557 - 2560) หน่วยงานจัดการศึกษา' }, { date: '2018-01-04', title: 'แบบฟอร์มรายงานผลการดำเนินงานตามแผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี (พ.ศ. 2557 - 2560) หน่วยงานสนับสนุนการจัดการศึกษาและบริการ' }, { date: '2017-04-24', title: 'คู่มือการจัดทำแผนยุทธศาสตร์การพัฒนาหน่วยงาน ระยะ 5 ปี (พ.ศ. 2560 - 2564)' }, { date: '2017-04-22', title: 'รหัสประเด็นยุทธศาสตร์ กลยุทธ์ และมาตรการ ตามแผนยุทธศาสตร์การพัฒนามหาวิทยาลัยราชภัฏเชียงราย ระยะ 5 ปี (พ.ศ. 2560 - 2564)' }, { date: '2016-04-21', title: 'แบบฟอร์มจุดเน้นการพัฒนาหน่วยงานตามแผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี (พ.ศ.2557-2560) ทบทวนปี พ.ศ.2560 สำหรับหน่วยงานสนับสนุนหน่วยงานจัดการศึกษา' }, { date: '2016-04-21', title: 'แบบฟอร์มการจัดทำข้อมูลสารสนเทศเพิ่มเติม ของคณะกรรมการติดตาม ตรวจสอบ และประเมินผลงาน มหาวิทยาลัยราชภัฏเชียงราย' }];
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      items: items
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1788,10 +1995,116 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/InfoComponent.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
+
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -1988,33 +2301,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-//import { VueFlux, Transitions } from 'vue-flux';
-//import 'vue-flux/dist/vue-flux.css';
-
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["a" /* Carousel */]);
 
-/*export default {
-components: {
-    'vue-flux': VueFlux
-},
-
-data: () => ({
-    fluxOptions: {
-        autoplay: true
-    },
-    fluxImages: [
-        'URL1',
-        'URL2',
-        'URL3'
-    ],
-    fluxTransitions: {
-        transitionTurn3d: Transitions.transitionTurn3d
-    }
-})
-}*/
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
@@ -2031,6 +2322,29 @@ data: () => ({
             this.sliding = false;
         }
     }
+
+    //import { VueFlux, Transitions } from 'vue-flux';
+    //import 'vue-flux/dist/vue-flux.css';
+    /*export default {
+    components: {
+        'vue-flux': VueFlux
+    },
+    
+    data: () => ({
+        fluxOptions: {
+            autoplay: true
+        },
+        fluxImages: [
+            'URL1',
+            'URL2',
+            'URL3'
+        ],
+        fluxTransitions: {
+            transitionTurn3d: Transitions.transitionTurn3d
+        }
+    })
+    }*/
+
 });
 
 /***/ }),
@@ -20058,6 +20372,21 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 // module
 exports.push([module.i, "/* Add support for fixed layout table */\r\ntable.b-table.b-table-fixed {\r\n    table-layout: fixed;\r\n}\r\n\r\n/* Busy table styling */\r\ntable.b-table[aria-busy='false'] {\r\n    opacity: 1;\r\n}\r\ntable.b-table[aria-busy='true'] {\r\n    opacity: 0.6;\r\n}\r\n\r\n/* Sort styling */\r\ntable.b-table > thead > tr > th,\r\ntable.b-table > tfoot > tr > th {\r\n    position: relative;\r\n}\r\ntable.b-table > thead > tr > th.sorting,\r\ntable.b-table > tfoot > tr > th.sorting {\r\n    padding-right: 1.5em;\r\n    cursor: pointer;\r\n}\r\ntable.b-table > thead > tr > th.sorting::before,\r\ntable.b-table > thead > tr > th.sorting::after,\r\ntable.b-table > tfoot > tr > th.sorting::before,\r\ntable.b-table > tfoot > tr > th.sorting::after {\r\n    position: absolute;\r\n    bottom: 0;\r\n    display: block;\r\n    opacity: 0.4;\r\n    padding-bottom: inherit;\r\n    font-size: inherit;\r\n    line-height: 180%;\r\n}\r\ntable.b-table > thead > tr > th.sorting::before,\r\ntable.b-table > tfoot > tr > th.sorting::before {\r\n    right: 0.75em;\r\n    content: '\\2191';\r\n}\r\ntable.b-table > thead > tr > th.sorting::after,\r\ntable.b-table > tfoot > tr > th.sorting::after {\r\n    right: 0.25em;\r\n    content: '\\2193';\r\n}\r\ntable.b-table > thead > tr > th.sorting_asc::after,\r\ntable.b-table > thead > tr > th.sorting_desc::before,\r\ntable.b-table > tfoot > tr > th.sorting_asc::after,\r\ntable.b-table > tfoot > tr > th.sorting_desc::before {\r\n    opacity: 1;\r\n}\r\n\r\n/* Stacked table layout */\r\n/* Derived from http://blog.adrianroselli.com/2017/11/a-responsive-accessible-table.html */\r\n/* Always stacked */\r\ntable.b-table.b-table-stacked {\r\n    width: 100%;\r\n}\r\ntable.b-table.b-table-stacked,\r\ntable.b-table.b-table-stacked > tbody,\r\ntable.b-table.b-table-stacked > tbody > tr,\r\ntable.b-table.b-table-stacked > tbody > tr > td,\r\ntable.b-table.b-table-stacked > tbody > tr > th,\r\ntable.b-table.b-table-stacked > caption {\r\n    display: block;\r\n}\r\n\r\n/* Hide stuff we can't deal with, or shouldn't show */\r\ntable.b-table.b-table-stacked > thead,\r\ntable.b-table.b-table-stacked > tfoot,\r\ntable.b-table.b-table-stacked > tbody > tr.b-table-top-row,\r\ntable.b-table.b-table-stacked > tbody > tr.b-table-bottom-row {\r\n    display: none;\r\n}\r\n\r\n/* inter-row top border */\r\ntable.b-table.b-table-stacked > tbody > tr > :first-child {\r\n    border-top-width: 0.4rem;\r\n}\r\n\r\n/* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\ntable.b-table.b-table-stacked > tbody > tr > [data-label] {\r\n    display: grid;\r\n    grid-template-columns: 40% auto;\r\n    grid-gap: 0.25rem 1rem;\r\n}\r\n\r\n/* generate row cell \"heading\" */\r\ntable.b-table.b-table-stacked > tbody > tr > [data-label]::before {\r\n    content: attr(data-label);\r\n    display: inline;\r\n    text-align: right;\r\n    overflow-wrap: break-word;\r\n    font-weight: bold;\r\n    font-style: normal;\r\n}\r\n\r\n@media all and (max-width: 575.99px) {\r\n    /* Under SM */\r\n    table.b-table.b-table-stacked-sm {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-sm,\r\n    table.b-table.b-table-stacked-sm > tbody,\r\n    table.b-table.b-table-stacked-sm > tbody > tr,\r\n    table.b-table.b-table-stacked-sm > tbody > tr > td,\r\n    table.b-table.b-table-stacked-sm > tbody > tr > th,\r\n    table.b-table.b-table-stacked-sm > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-sm > thead,\r\n    table.b-table.b-table-stacked-sm > tfoot,\r\n    table.b-table.b-table-stacked-sm > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-sm > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-sm > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-sm > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-sm > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n@media all and (max-width: 767.99px) {\r\n    /* under MD  */\r\n    table.b-table.b-table-stacked-md {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-md,\r\n    table.b-table.b-table-stacked-md > tbody,\r\n    table.b-table.b-table-stacked-md > tbody > tr,\r\n    table.b-table.b-table-stacked-md > tbody > tr > td,\r\n    table.b-table.b-table-stacked-md > tbody > tr > th,\r\n    table.b-table.b-table-stacked-md > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-md > thead,\r\n    table.b-table.b-table-stacked-md > tfoot,\r\n    table.b-table.b-table-stacked-md > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-md > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-md > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-md > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-md > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n@media all and (max-width: 991.99px) {\r\n    /* under LG  */\r\n    table.b-table.b-table-stacked-lg {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-lg,\r\n    table.b-table.b-table-stacked-lg > tbody,\r\n    table.b-table.b-table-stacked-lg > tbody > tr,\r\n    table.b-table.b-table-stacked-lg > tbody > tr > td,\r\n    table.b-table.b-table-stacked-lg > tbody > tr > th,\r\n    table.b-table.b-table-stacked-lg > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-lg > thead,\r\n    table.b-table.b-table-stacked-lg > tfoot,\r\n    table.b-table.b-table-stacked-lg > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-lg > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-lg > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-lg > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-lg > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n@media all and (max-width: 1199.99px) {\r\n    /* under XL  */\r\n    table.b-table.b-table-stacked-xl {\r\n        width: 100%;\r\n    }\r\n    table.b-table.b-table-stacked-xl,\r\n    table.b-table.b-table-stacked-xl > tbody,\r\n    table.b-table.b-table-stacked-xl > tbody > tr,\r\n    table.b-table.b-table-stacked-xl > tbody > tr > td,\r\n    table.b-table.b-table-stacked-xl > tbody > tr > th,\r\n    table.b-table.b-table-stacked-xl > caption {\r\n        display: block;\r\n    }\r\n    /* hide stuff we can't deal with, or shouldn't show */\r\n    table.b-table.b-table-stacked-xl > thead,\r\n    table.b-table.b-table-stacked-xl > tfoot,\r\n    table.b-table.b-table-stacked-xl > tbody > tr.b-table-top-row,\r\n    table.b-table.b-table-stacked-xl > tbody > tr.b-table-bottom-row {\r\n        display: none;\r\n    }\r\n    /* inter-row top border */\r\n    table.b-table.b-table-stacked-xl > tbody > tr > :first-child {\r\n        border-top-width: 0.4rem;\r\n    }\r\n    /* convert TD/TH contents to \"cells\". Caveat: child elements become cells! */\r\n    table.b-table.b-table-stacked-xl > tbody > tr > [data-label] {\r\n        display: grid;\r\n        grid-template-columns: 40% auto;\r\n        grid-gap: 0.25rem 1rem;\r\n    }\r\n    /* generate row cell \"heading\" */\r\n    table.b-table.b-table-stacked-xl > tbody > tr > [data-label]::before {\r\n        content: attr(data-label);\r\n        display: inline;\r\n        text-align: right;\r\n        overflow-wrap: break-word;\r\n        font-weight: bold;\r\n        font-style: normal;\r\n    }\r\n}\r\n\r\n/* Details row styling */\r\ntable.b-table > tbody > tr.b-table-details > td {\r\n    border-top: none;\r\n}\r\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\na:hover {\n    color: #FFF;\n    text-decoration: none;\n}\na:link {\n    text-decoration: none;\n    color: #CCC;\n}\na:visited {\n    text-decoration: none;\n}\na:active {\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 
@@ -52758,6 +53087,95 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-24f37e88\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/InfoComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    [
+      _c(
+        "b-card-group",
+        { staticClass: "mb-4", attrs: { deck: "" } },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "text-left",
+              attrs: {
+                "bg-variant": "primary",
+                "text-variant": "white",
+                header: "นโยบายรัฐบาล"
+              }
+            },
+            [
+              _c("p", { staticClass: "card-text" }, [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-card",
+            {
+              staticClass: "text-left",
+              attrs: {
+                "bg-variant": "secondary",
+                "text-variant": "white",
+                header: "ข้อมลพื้นฐานมหาวิทยาลัย"
+              }
+            },
+            [
+              _c("p", { staticClass: "card-text" }, [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                )
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "b-card",
+            {
+              staticClass: "text-left",
+              attrs: {
+                "bg-variant": "success",
+                "text-variant": "white",
+                header: "ข้อมลพื้นฐานกองนโยบายและแผน"
+              }
+            },
+            [
+              _c("p", { staticClass: "card-text" }, [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-24f37e88", module.exports)
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-36407a26\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -52767,7 +53185,10 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
-    { staticStyle: { "padding-top": "15px" }, attrs: { fluid: "" } },
+    {
+      staticStyle: { "padding-top": "20px", "margin-bottom": "20px" },
+      attrs: { fluid: "" }
+    },
     [
       _c(
         "b-row",
@@ -53021,6 +53442,182 @@ if (false) {
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6d41418a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FormDownloadComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    [
+      _c(
+        "b-card-group",
+        { staticClass: "mb-4", attrs: { deck: "" } },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "text-left ",
+              attrs: {
+                "header-bg-variant": "warning",
+                header: "เอกสาร/แบบฟอร์ม"
+              }
+            },
+            [
+              _c(
+                "b-card-body",
+                [
+                  _c(
+                    "b-tabs",
+                    [
+                      _c(
+                        "b-tab",
+                        {
+                          attrs: {
+                            title: "งานวิเคราะห์นโบบายและแผน",
+                            active: ""
+                          }
+                        },
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-paperclip" }),
+                            _vm._v(
+                              " งานวิเคราะห์นโบบายและแผน\n                            "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            [
+                              _c("b-table", {
+                                attrs: { hover: "", items: _vm.items },
+                                scopedSlots: _vm._u([
+                                  {
+                                    key: "html",
+                                    fn: function(data) {
+                                      return _c("span", {
+                                        domProps: {
+                                          innerHTML: _vm._s(data.value)
+                                        }
+                                      })
+                                    }
+                                  }
+                                ])
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        2
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        { attrs: { title: "งานวิเคราะห์งบประมาณ" } },
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-paperclip" }),
+                            _vm._v(
+                              " งานวิเคราะห์งบประมาณ\n                            "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(
+                            "I'm the second tab content\n                        "
+                          )
+                        ],
+                        2
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        { attrs: { title: "งานติดตามและประเมินผล" } },
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-paperclip" }),
+                            _vm._v(
+                              " งานติดตามและประเมินผล\n                            "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v("Disabled tab!\n                        ")
+                        ],
+                        2
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        { attrs: { title: "เอกสารเผยแพร่" } },
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-list-alt" }),
+                            _vm._v(
+                              " เอกสารเผยแพร่\n                            "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v("Disabled tab!\n                        ")
+                        ],
+                        2
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-card-group",
+        { staticClass: "mb-4", attrs: { deck: "" } },
+        [
+          _c(
+            "b-card",
+            {
+              staticClass: "text-left",
+              attrs: {
+                "header-bg-variant": "warning",
+                header: "Download แบบฟอร์ม"
+              }
+            },
+            [
+              _c("p", { staticClass: "card-text" }, [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                )
+              ])
+            ]
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-6d41418a", module.exports)
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7f6edbc2\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -53030,19 +53627,21 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
-    { staticStyle: { "padding-top": "15px" }, attrs: { fluid: "" } },
+    { staticStyle: { "margin-bottom": "20px" }, attrs: { fluid: "" } },
     [
       _c(
         "b-row",
-        { attrs: { fluid: "" } },
+        { staticClass: "row-fluid" },
         [
           _c(
-            "b-card-group",
-            { staticClass: "mb-3", attrs: { deck: "" } },
+            "b-col",
             [
               _c(
                 "b-card",
-                { attrs: { "no-body": "" } },
+                {
+                  staticStyle: { "margin-bottom": "20px" },
+                  attrs: { "no-body": "" }
+                },
                 [
                   _c("b-card-header", [_vm._v("ประมวลภาพกิจกรรม")]),
                   _vm._v(" "),
@@ -53615,6 +54214,432 @@ var render = function() {
               )
             ],
             1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            [
+              _c(
+                "b-card",
+                {
+                  staticStyle: { "margin-bottom": "20px" },
+                  attrs: { "no-body": "" }
+                },
+                [
+                  _c("b-card-header", [_vm._v("ข่าวประชาสัมพันธ์")]),
+                  _vm._v(" "),
+                  _c("b-card-body", [
+                    _c(
+                      "table",
+                      {
+                        attrs: {
+                          height: "36",
+                          border: "0",
+                          cellpadding: "0",
+                          cellspacing: "0"
+                        }
+                      },
+                      [
+                        _c("tbody", [
+                          _c("tr", [
+                            _c(
+                              "td",
+                              { attrs: { height: "36", align: "center" } },
+                              [_vm._v(" ")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              { attrs: { valign: "top" } },
+                              [
+                                _c("font", { attrs: { color: "#666666" } }),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "contentboxx" },
+                                  [
+                                    _c(
+                                      "p",
+                                      [
+                                        _c(
+                                          "font",
+                                          { attrs: { color: "#666666" } },
+                                          [
+                                            _c(
+                                              "font",
+                                              { attrs: { color: "#666666" } },
+                                              [
+                                                _vm._v(
+                                                  "\n                                    "
+                                                ),
+                                                _c("i", {
+                                                  staticClass:
+                                                    "fa fa-thumb-tack "
+                                                }),
+                                                _vm._v(
+                                                  " รหัสงบประมาณและรหัสกิจกรรมหลัก (GFMIS) งบประมาณแผ่นดิน สำหรับงบประมาณ พ.ศ.2561 สามารถดาวน์โหลดได้ที่เมนู Download > งานวิเคราะห์งบประมาณ   \t  "
+                                                )
+                                              ]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _c(
+                                      "font",
+                                      { attrs: { color: "#666666" } },
+                                      [
+                                        _c(
+                                          "p",
+                                          [
+                                            _c("font", {
+                                              attrs: { color: "#666666" }
+                                            })
+                                          ],
+                                          1
+                                        ),
+                                        _c(
+                                          "div",
+                                          { attrs: { align: "right" } },
+                                          [
+                                            _c(
+                                              "font",
+                                              { attrs: { color: "#666666" } },
+                                              [
+                                                _c("i", {
+                                                  staticClass: "fa fa-calendar",
+                                                  staticStyle: {
+                                                    color: "#666666"
+                                                  }
+                                                }),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "font",
+                                                  { attrs: { color: "#999" } },
+                                                  [_vm._v("11 ตุลาคม 2560")]
+                                                )
+                                              ],
+                                              1
+                                            )
+                                          ],
+                                          1
+                                        ),
+                                        _c(
+                                          "font",
+                                          { attrs: { color: "#666666" } },
+                                          [
+                                            _c("br"),
+                                            _vm._v(" "),
+                                            _c("p"),
+                                            _vm._v(" "),
+                                            _c("hr")
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("tr", [
+                            _c(
+                              "td",
+                              { attrs: { height: "36", align: "center" } },
+                              [_vm._v(" ")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "td",
+                              { attrs: { valign: "top" } },
+                              [
+                                _c("font", { attrs: { color: "#666666" } }),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  { staticClass: "contentboxx" },
+                                  [
+                                    _c(
+                                      "p",
+                                      [
+                                        _c(
+                                          "font",
+                                          { attrs: { color: "#666666" } },
+                                          [
+                                            _c(
+                                              "font",
+                                              { attrs: { color: "#666666" } },
+                                              [
+                                                _vm._v(
+                                                  "\n                                    "
+                                                ),
+                                                _c("i", {
+                                                  staticClass:
+                                                    "fa fa-thumb-tack "
+                                                }),
+                                                _vm._v(
+                                                  " แบบฟอร์มรายงานผลการดำเนินงานตามแผนปฏิบัติการ ประจำปีงบประมาณ พ.ศ. 2560 รอบระยะเวลา 12 เดือน (1 ตุลาคม 2559 - 30 กันยายน 2560) สามารถดาวน์โหลดได้โดยเลือกเมนู Download > งานติดตามและประเมินผล\n\n\n\n                    "
+                                                )
+                                              ]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _c(
+                                      "div",
+                                      { staticStyle: { display: "none" } },
+                                      [
+                                        _c(
+                                          "font",
+                                          { attrs: { color: "#666666" } },
+                                          [
+                                            _c(
+                                              "font",
+                                              { attrs: { color: "#666666" } },
+                                              [
+                                                _c(
+                                                  "a",
+                                                  {
+                                                    attrs: {
+                                                      href:
+                                                        "http://www.mersinaciltaksi.com/"
+                                                    }
+                                                  },
+                                                  [_vm._v("mersin escort")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  {
+                                                    attrs: {
+                                                      href:
+                                                        "http://www.e-korsemodelleri.com/"
+                                                    }
+                                                  },
+                                                  [_vm._v("korse modelleri")]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  {
+                                                    attrs: {
+                                                      href:
+                                                        "https://www.erogluotomasyon.com/"
+                                                    }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "sürgülü kapı motoru"
+                                                    )
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  {
+                                                    attrs: {
+                                                      href:
+                                                        "http://www.otokiralamatrabzon.org/"
+                                                    }
+                                                  },
+                                                  [
+                                                    _vm._v(
+                                                      "trabzon oto kiralama"
+                                                    )
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  {
+                                                    attrs: {
+                                                      href:
+                                                        "http://www.gaziantepspothali.com/"
+                                                    }
+                                                  },
+                                                  [_vm._v("gaziantep escort")]
+                                                )
+                                              ]
+                                            )
+                                          ],
+                                          1
+                                        )
+                                      ],
+                                      1
+                                    ),
+                                    _c(
+                                      "font",
+                                      { attrs: { color: "#666666" } },
+                                      [
+                                        _c("font", {
+                                          attrs: { color: "#666666" }
+                                        }),
+                                        _c("p"),
+                                        _vm._v(" "),
+                                        _c(
+                                          "p",
+                                          [
+                                            _c("font", {
+                                              attrs: { color: "#666666" }
+                                            })
+                                          ],
+                                          1
+                                        ),
+                                        _c(
+                                          "div",
+                                          { attrs: { align: "right" } },
+                                          [
+                                            _c(
+                                              "font",
+                                              { attrs: { color: "#666666" } },
+                                              [
+                                                _c("i", {
+                                                  staticClass: "fa fa-calendar",
+                                                  staticStyle: {
+                                                    color: "#666666"
+                                                  }
+                                                }),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "font",
+                                                  { attrs: { color: "#999" } },
+                                                  [_vm._v("05 ตุลาคม 2560")]
+                                                )
+                                              ],
+                                              1
+                                            )
+                                          ],
+                                          1
+                                        ),
+                                        _c(
+                                          "font",
+                                          { attrs: { color: "#666666" } },
+                                          [
+                                            _c("br"),
+                                            _vm._v(" "),
+                                            _c("p"),
+                                            _vm._v(" "),
+                                            _c("hr")
+                                          ]
+                                        )
+                                      ],
+                                      1
+                                    )
+                                  ],
+                                  1
+                                )
+                              ],
+                              1
+                            )
+                          ])
+                        ])
+                      ]
+                    )
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "b-card",
+                {
+                  staticStyle: { "margin-bottom": "20px" },
+                  attrs: { "no-body": "" }
+                },
+                [
+                  _c("b-card-header", [_vm._v("Plan Application")]),
+                  _vm._v(" "),
+                  _c("b-card-body", [
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "http://planning.crru.ac.th/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src:
+                              "http://plan.crru.ac.th/web_planning/img/699297-icon-68-document-file-app-512.png",
+                            width: "40",
+                            height: "40"
+                          }
+                        }),
+                        _vm._v("  CRRU E-Budgeting")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("br"),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "http://planning.crru.ac.th/monitoring/",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("img", {
+                          attrs: {
+                            src:
+                              "http://plan.crru.ac.th/web_planning/img/699297-icon-68-document-file-app-512.png",
+                            width: "40",
+                            height: "40"
+                          }
+                        }),
+                        _vm._v("  Plan Monitoring System")
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-card-footer", [
+                    _c("span", { staticClass: "pull-left" }, [
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "plan_gallery/show_all.php",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("View All")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        attrs: {
+                          href: "plan_gallery/show_all.php",
+                          target: "_blank"
+                        }
+                      },
+                      [
+                        _c("span", { staticClass: "pull-right" }, [
+                          _c("i", { staticClass: "fa fa-arrow-circle-right" })
+                        ])
+                      ]
+                    )
+                  ])
+                ],
+                1
+              )
+            ],
+            1
           )
         ],
         1
@@ -53635,6 +54660,994 @@ if (false) {
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-d01c0b0a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    { staticStyle: { "background-color": "#666" }, attrs: { fluid: "" } },
+    [
+      _c(
+        "b-row",
+        { staticClass: "row-fluid", attrs: { "align-h": "" } },
+        [
+          _c("b-col", { attrs: { cols: "1" } }),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { cols: "11", md: "11" } },
+            [
+              _c("br"),
+              _vm._v(" "),
+              _c("b-row", [
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-3",
+                    staticStyle: { "text-align": "left" }
+                  },
+                  [
+                    _c(
+                      "h5",
+                      [
+                        _c("font", { attrs: { color: "#FFFFFF" } }, [
+                          _c("i", {
+                            staticClass: "glyphicon glyphicon-education"
+                          }),
+                          _vm._v(" หน่วยงานด้านจัดการศึกษา")
+                        ])
+                      ],
+                      1
+                    ),
+                    _vm._v(" "),
+                    _c("font", { attrs: { color: "#CCCCCC", size: "2" } }, [
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://www.crru.ac.th/v2/th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("มหาวิทยาลัยราชภัฏเชียงราย")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://www.edu.crru.ac.th/pop/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("คณะครุศาสตร์")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://www.ms-crru.com/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("คณะวิทยาการจัดการ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://human.crru.ac.th/human2015/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("คณะมนุษยศาสตร์")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://science.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("คณะวิทยาศาสตร์และเทคโนโลยี")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://www.ind.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("คณะเทคโนโลยีอุตสาหกรรม")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://stam.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("วิทยาลัยการแพทย์พื้นบ้านฯ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://icmr.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("วิทยาลัยนานาชาติภูมิภาคลุ่มน้ำโขง")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "https://social.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชาสังคม")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://accounting.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชาบัญชี")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://law.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชานิติศาสตร์")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://tourismhotel.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชาการท่องเที่ยว")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://scit.crru.ac.th/2016/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชาคอมพิวเตอร์ฯ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://www.hs.crru.ac.th/newhs2015/intro/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชาวิทยาศาสตร์สุขภาพ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "https://pub.crru.ac.th//",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิชาบริหารรัฐกิจ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                         "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://orasis.crru.ac.th/gds_crru/main/home",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("บัณฑิตวิทยาลัย")]
+                      ),
+                      _c("br")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-3",
+                    staticStyle: { "text-align": "left", "margin-left": "0px" }
+                  },
+                  [
+                    _c(
+                      "h5",
+                      [
+                        _c("font", { attrs: { color: "#FFFFFF" } }, [
+                          _c("i", { staticClass: "fa fa-gear" }),
+                          _vm._v(" หน่วยงานสนับสนุนด้านการจัดการศึกษา")
+                        ])
+                      ],
+                      1
+                    ),
+                    _c("font", { attrs: { color: "#FFFFFF" } }),
+                    _vm._v(" "),
+                    _c("font", { attrs: { color: "#CCCCCC", size: "2" } }, [
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://general.crru.ac.th/caad_crru/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองกลาง")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://gfmis.crru.ac.th/2013/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองคลัง")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://personnel.crru.ac.th/psn_site/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองบริหารงานบุคคล")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href:
+                              "http://crruinter.crru.ac.th/inter_2014/site/inter2015",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองวิเทศสัมพันธ์")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://snk.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองพัฒนานักศึกษา")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://plan.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองนโยบายและแผน")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://bvd.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองอาคารและสถานที่่")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://research.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("กองมาตรฐานและประกันคุณภาพ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://general.crru.ac.th/caad_crru/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สถาบันวิจัยและพัฒนา")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://aritc.crru.ac.th/aritc/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักวิทยบริการฯ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://ctc.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักศิลปวัฒนธรรม")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://reg2.crru.ac.th/reg_web/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักส่งเสริมวิชาการ")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://oceas.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("สำนักการศึกษาต่อเนื่อง")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://reg2.crru.ac.th/admission_web/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("หน่วยรับนักศึกษา")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://satit.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("โรงเรียนสาธิต")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://www.lcrru.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("ศูนย์ภาษา")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://yei.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("ศูนย์บ่มเพาะฯ")]
+                      ),
+                      _c("br")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-3",
+                    staticStyle: { "text-align": "left" }
+                  },
+                  [
+                    _c(
+                      "h5",
+                      [
+                        _c("font", { attrs: { color: "#FFFFFF" } }, [
+                          _c("i", { staticClass: "fa fa-link" }),
+                          _vm._v(" ระบบสารสนเทศ")
+                        ])
+                      ],
+                      1
+                    ),
+                    _c("font", { attrs: { color: "#FFFFFF" } }),
+                    _vm._v(" "),
+                    _c("font", { attrs: { color: "#CCCCCC", size: "2" } }, [
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-list-alt fa-3x" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://planning.crru.ac.th/monitoring/",
+                            target: "_blank"
+                          }
+                        },
+                        [
+                          _c("br"),
+                          _vm._v("     Plan Monitoring System"),
+                          _c("br"),
+                          _vm._v("      ระบบตรวจสอบสถานะเอกสารการขออนุมัติ")
+                        ]
+                      ),
+                      _c("br"),
+                      _c("br"),
+                      _vm._v("\n\n                                 "),
+                      _c("i", { staticClass: "fa fa-tasks fa-3x" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://qas.crru.ac.th/sps/",
+                            target: "_blank"
+                          }
+                        },
+                        [
+                          _c("br"),
+                          _vm._v("     Strategic Planning and Quality"),
+                          _c("br"),
+                          _vm._v("     Assurance System"),
+                          _c("br"),
+                          _vm._v("      ระบบแผนจัดการเชิงกลยุทธ์"),
+                          _c("br"),
+                          _vm._v("     และประกันคุณภาพ")
+                        ]
+                      ),
+                      _c("br"),
+                      _c("br"),
+                      _vm._v("\n\n                                 "),
+                      _c("i", { staticClass: "fa fa-calendar-o fa-3x" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://planning.crru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [
+                          _c("br"),
+                          _vm._v(
+                            "\n                                 CRRU E-Budgeting\n                            "
+                          )
+                        ]
+                      ),
+                      _c("br"),
+                      _c("br")
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "col-3",
+                    staticStyle: { "text-align": "left" }
+                  },
+                  [
+                    _c("b-row", [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "col-12",
+                          staticStyle: { "text-align": "left" }
+                        },
+                        [
+                          _c(
+                            "h5",
+                            [
+                              _c("font", { attrs: { color: "#FFFFFF" } }, [
+                                _c("i", { staticClass: "fa fa-phone-square" }),
+                                _vm._v(" CONTACT US")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "font",
+                            { attrs: { color: "#FFFFFF", size: "2" } },
+                            [
+                              _vm._v(
+                                "\n                                    \n                                กองนโยบายและแผน สำนักงานอธิการบดี"
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "\n                                     80 ม.9 ถนนพหลโยธิน ต.บ้านดู่"
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "     อ.เมือง จ.เชียงราย 57100\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v("     โทรศัพท์ 0-5377-6035,0-5377-6000 "),
+                              _c("br"),
+                              _vm._v(
+                                "     โทรสาร 0-5377-6035\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "      E-mail: planning.crru@gmail.com\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "      Website : plan.crru.ac.th\n                            "
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "col-12",
+                          staticStyle: { "text-align": "left" }
+                        },
+                        [
+                          _c("br"),
+                          _vm._v(" "),
+                          _c(
+                            "h5",
+                            [
+                              _c("font", { attrs: { color: "#FFFFFF" } }, [
+                                _c("i", { staticClass: "fa fa-rss" }),
+                                _vm._v(" STATICS")
+                              ])
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "table",
+                            {
+                              attrs: {
+                                width: "133",
+                                border: "0",
+                                cellpadding: "0",
+                                cellspacing: "0"
+                              }
+                            },
+                            [
+                              _c("tbody", [
+                                _c("tr", [
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        width: "70",
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        { staticClass: "t12" },
+                                        [
+                                          _c(
+                                            "font",
+                                            { attrs: { color: "#FFFFFF" } },
+                                            [_vm._v("วันนี้")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        width: "63",
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        { staticClass: "t12" },
+                                        [
+                                          _c(
+                                            "font",
+                                            { attrs: { color: "#FFFFFF" } },
+                                            [_vm._v("31")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("tr", [
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        { staticClass: "t12" },
+                                        [
+                                          _c(
+                                            "font",
+                                            { attrs: { color: "#FFFFFF" } },
+                                            [_vm._v("เดือนนีั")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        { staticClass: "t12" },
+                                        [
+                                          _c(
+                                            "font",
+                                            { attrs: { color: "#FFFFFF" } },
+                                            [_vm._v("313")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("tr", [
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        { staticClass: "t12" },
+                                        [
+                                          _c(
+                                            "font",
+                                            { attrs: { color: "#FFFFFF" } },
+                                            [_vm._v("ปีนี้")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        { staticClass: "t12" },
+                                        [
+                                          _c(
+                                            "font",
+                                            { attrs: { color: "#FFFFFF" } },
+                                            [_vm._v("4,091")]
+                                          )
+                                        ],
+                                        1
+                                      )
+                                    ]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("tr", [
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [_vm._v(" ")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [_vm._v(" ")]
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("tr", [
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [_vm._v(" ")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "td",
+                                    {
+                                      attrs: {
+                                        height: "23",
+                                        align: "right",
+                                        bgcolor: "#666666"
+                                      }
+                                    },
+                                    [_vm._v(" ")]
+                                  )
+                                ])
+                              ])
+                            ]
+                          )
+                        ]
+                      )
+                    ])
+                  ],
+                  1
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "row-fluid",
+          staticStyle: { "background-color": "#666" }
+        },
+        [
+          _c("div", { staticClass: "col-2" }),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-12" },
+            [
+              _c("hr"),
+              _vm._v(" "),
+              _c("font", { attrs: { color: "#CCCCCC" } }, [
+                _vm._v(
+                  "© 2018 POLICY AND PLANNING DIVISION PCRU. : ALL RIGHTS RESERVED"
+                )
+              ]),
+              _c("br")
+            ],
+            1
+          )
+        ]
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-d01c0b0a", module.exports)
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dec788fe\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -53644,11 +55657,11 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
-    { staticStyle: { "padding-top": "15px" }, attrs: { fluid: "" } },
+    { staticStyle: { "margin-bottom": "20px" }, attrs: { fluid: "" } },
     [
       _c(
         "b-row",
-        { attrs: { fluid: "" } },
+        { staticClass: "row-fluid" },
         [
           _c(
             "b-col",
@@ -53796,6 +55809,296 @@ if (false) {
     require("vue-hot-reload-api")      .rerender("data-v-dec788fe", module.exports)
   }
 }
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("77cec010", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/lib/addStylesClient.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+  Modified by Evan You @yyx990803
+*/
+
+var hasDocument = typeof document !== 'undefined'
+
+if (typeof DEBUG !== 'undefined' && DEBUG) {
+  if (!hasDocument) {
+    throw new Error(
+    'vue-style-loader cannot be used in a non-browser environment. ' +
+    "Use { target: 'node' } in your Webpack config to indicate a server-rendering environment."
+  ) }
+}
+
+var listToStyles = __webpack_require__("./node_modules/vue-style-loader/lib/listToStyles.js")
+
+/*
+type StyleObject = {
+  id: number;
+  parts: Array<StyleObjectPart>
+}
+
+type StyleObjectPart = {
+  css: string;
+  media: string;
+  sourceMap: ?string
+}
+*/
+
+var stylesInDom = {/*
+  [id: number]: {
+    id: number,
+    refs: number,
+    parts: Array<(obj?: StyleObjectPart) => void>
+  }
+*/}
+
+var head = hasDocument && (document.head || document.getElementsByTagName('head')[0])
+var singletonElement = null
+var singletonCounter = 0
+var isProduction = false
+var noop = function () {}
+var options = null
+var ssrIdKey = 'data-vue-ssr-id'
+
+// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+// tags it will allow on a page
+var isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\b/.test(navigator.userAgent.toLowerCase())
+
+module.exports = function (parentId, list, _isProduction, _options) {
+  isProduction = _isProduction
+
+  options = _options || {}
+
+  var styles = listToStyles(parentId, list)
+  addStylesToDom(styles)
+
+  return function update (newList) {
+    var mayRemove = []
+    for (var i = 0; i < styles.length; i++) {
+      var item = styles[i]
+      var domStyle = stylesInDom[item.id]
+      domStyle.refs--
+      mayRemove.push(domStyle)
+    }
+    if (newList) {
+      styles = listToStyles(parentId, newList)
+      addStylesToDom(styles)
+    } else {
+      styles = []
+    }
+    for (var i = 0; i < mayRemove.length; i++) {
+      var domStyle = mayRemove[i]
+      if (domStyle.refs === 0) {
+        for (var j = 0; j < domStyle.parts.length; j++) {
+          domStyle.parts[j]()
+        }
+        delete stylesInDom[domStyle.id]
+      }
+    }
+  }
+}
+
+function addStylesToDom (styles /* Array<StyleObject> */) {
+  for (var i = 0; i < styles.length; i++) {
+    var item = styles[i]
+    var domStyle = stylesInDom[item.id]
+    if (domStyle) {
+      domStyle.refs++
+      for (var j = 0; j < domStyle.parts.length; j++) {
+        domStyle.parts[j](item.parts[j])
+      }
+      for (; j < item.parts.length; j++) {
+        domStyle.parts.push(addStyle(item.parts[j]))
+      }
+      if (domStyle.parts.length > item.parts.length) {
+        domStyle.parts.length = item.parts.length
+      }
+    } else {
+      var parts = []
+      for (var j = 0; j < item.parts.length; j++) {
+        parts.push(addStyle(item.parts[j]))
+      }
+      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }
+    }
+  }
+}
+
+function createStyleElement () {
+  var styleElement = document.createElement('style')
+  styleElement.type = 'text/css'
+  head.appendChild(styleElement)
+  return styleElement
+}
+
+function addStyle (obj /* StyleObjectPart */) {
+  var update, remove
+  var styleElement = document.querySelector('style[' + ssrIdKey + '~="' + obj.id + '"]')
+
+  if (styleElement) {
+    if (isProduction) {
+      // has SSR styles and in production mode.
+      // simply do nothing.
+      return noop
+    } else {
+      // has SSR styles but in dev mode.
+      // for some reason Chrome can't handle source map in server-rendered
+      // style tags - source maps in <style> only works if the style tag is
+      // created and inserted dynamically. So we remove the server rendered
+      // styles and inject new ones.
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  if (isOldIE) {
+    // use singleton mode for IE9.
+    var styleIndex = singletonCounter++
+    styleElement = singletonElement || (singletonElement = createStyleElement())
+    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)
+    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)
+  } else {
+    // use multi-style-tag mode in all other cases
+    styleElement = createStyleElement()
+    update = applyToTag.bind(null, styleElement)
+    remove = function () {
+      styleElement.parentNode.removeChild(styleElement)
+    }
+  }
+
+  update(obj)
+
+  return function updateStyle (newObj /* StyleObjectPart */) {
+    if (newObj) {
+      if (newObj.css === obj.css &&
+          newObj.media === obj.media &&
+          newObj.sourceMap === obj.sourceMap) {
+        return
+      }
+      update(obj = newObj)
+    } else {
+      remove()
+    }
+  }
+}
+
+var replaceText = (function () {
+  var textStore = []
+
+  return function (index, replacement) {
+    textStore[index] = replacement
+    return textStore.filter(Boolean).join('\n')
+  }
+})()
+
+function applyToSingletonTag (styleElement, index, remove, obj) {
+  var css = remove ? '' : obj.css
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = replaceText(index, css)
+  } else {
+    var cssNode = document.createTextNode(css)
+    var childNodes = styleElement.childNodes
+    if (childNodes[index]) styleElement.removeChild(childNodes[index])
+    if (childNodes.length) {
+      styleElement.insertBefore(cssNode, childNodes[index])
+    } else {
+      styleElement.appendChild(cssNode)
+    }
+  }
+}
+
+function applyToTag (styleElement, obj) {
+  var css = obj.css
+  var media = obj.media
+  var sourceMap = obj.sourceMap
+
+  if (media) {
+    styleElement.setAttribute('media', media)
+  }
+  if (options.ssrId) {
+    styleElement.setAttribute(ssrIdKey, obj.id)
+  }
+
+  if (sourceMap) {
+    // https://developer.chrome.com/devtools/docs/javascript-debugging
+    // this makes source maps inside style tags work properly in Chrome
+    css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */'
+    // http://stackoverflow.com/a/26603875
+    css += '\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'
+  }
+
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild)
+    }
+    styleElement.appendChild(document.createTextNode(css))
+  }
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/lib/listToStyles.js":
+/***/ (function(module, exports) {
+
+/**
+ * Translates the list format produced by css-loader into something
+ * easier to manipulate.
+ */
+module.exports = function listToStyles (parentId, list) {
+  var styles = []
+  var newStyles = {}
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i]
+    var id = item[0]
+    var css = item[1]
+    var media = item[2]
+    var sourceMap = item[3]
+    var part = {
+      id: parentId + ':' + i,
+      css: css,
+      media: media,
+      sourceMap: sourceMap
+    }
+    if (!newStyles[id]) {
+      styles.push(newStyles[id] = { id: id, parts: [part] })
+    } else {
+      newStyles[id].parts.push(part)
+    }
+  }
+  return styles
+}
+
 
 /***/ }),
 
@@ -64826,7 +67129,6 @@ module.exports = function(module) {
 /***/ "./resources/assets/js/app.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -64848,6 +67150,9 @@ window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
 Vue.component('navbar-component', __webpack_require__("./resources/assets/js/components/NavbarComponent.vue"));
 Vue.component('photo-slider-component', __webpack_require__("./resources/assets/js/components/PhotoSliderComponent.vue"));
 Vue.component('gallery-component', __webpack_require__("./resources/assets/js/components/GalleryComponent.vue"));
+Vue.component('info-component', __webpack_require__("./resources/assets/js/components/InfoComponent.vue"));
+Vue.component('form-download-component', __webpack_require__("./resources/assets/js/components/FormDownloadComponent.vue"));
+Vue.component('footer-component', __webpack_require__("./resources/assets/js/components/FooterComponent.vue"));
 
 var app = new Vue({
   el: '#app'
@@ -64917,6 +67222,106 @@ if (token) {
 
 /***/ }),
 
+/***/ "./resources/assets/js/components/FooterComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue")
+}
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/FooterComponent.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-d01c0b0a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FooterComponent.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\FooterComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-d01c0b0a", Component.options)
+  } else {
+    hotAPI.reload("data-v-d01c0b0a", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/FormDownloadComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/FormDownloadComponent.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6d41418a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FormDownloadComponent.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\FormDownloadComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-6d41418a", Component.options)
+  } else {
+    hotAPI.reload("data-v-6d41418a", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
 /***/ "./resources/assets/js/components/GalleryComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -64954,6 +67359,54 @@ if (false) {(function () {
     hotAPI.createRecord("data-v-7f6edbc2", Component.options)
   } else {
     hotAPI.reload("data-v-7f6edbc2", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
+/***/ "./resources/assets/js/components/InfoComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/InfoComponent.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-24f37e88\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/InfoComponent.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\InfoComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-24f37e88", Component.options)
+  } else {
+    hotAPI.reload("data-v-24f37e88", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true

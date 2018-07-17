@@ -1,6 +1,6 @@
 <template>
-    <b-container fluid style="padding-top: 15px;">
-        <b-row fluid>
+    <b-container fluid style="margin-bottom: 20px;">
+        <b-row class="row-fluid">
             <b-col cols="12" md="8" sm="12">
                 <!--
                 <vue-flux
@@ -94,14 +94,30 @@
 
 <script>
     import { Layout } from 'bootstrap-vue/es/components';
-    //import { VueFlux, Transitions } from 'vue-flux';
-    //import 'vue-flux/dist/vue-flux.css';
-
     Vue.use(Layout);
 
     import { Carousel } from 'bootstrap-vue/es/components';
     Vue.use(Carousel);
 
+    export default {
+        data () {
+            return {
+            slide: 0,
+            sliding: null
+            }
+        },
+        methods: {
+            onSlideStart (slide) {
+            this.sliding = true
+            },
+            onSlideEnd (slide) {
+            this.sliding = false
+            }
+        }
+    }
+
+    //import { VueFlux, Transitions } from 'vue-flux';
+    //import 'vue-flux/dist/vue-flux.css';
     /*export default {
     components: {
         'vue-flux': VueFlux
@@ -121,20 +137,4 @@
         }
     })
     }*/
-    export default {
-        data () {
-            return {
-            slide: 0,
-            sliding: null
-            }
-        },
-        methods: {
-            onSlideStart (slide) {
-            this.sliding = true
-            },
-            onSlideEnd (slide) {
-            this.sliding = false
-            }
-        }
-    }
 </script>

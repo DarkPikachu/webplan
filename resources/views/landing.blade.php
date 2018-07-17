@@ -16,10 +16,14 @@
     <body>
         <div id="app">
             <b-container fluid>
-                <b-row fluid><navbar-component></navbar-component></b-row>
-                <b-row fluid><photo-slider-component></photo-slider-component></b-row>
-                <b-row fluid><gallery-component></gallery-component></b-row>
+                <b-row class="row-fluid"><navbar-component></navbar-component></b-row>
+                <b-row class="row-fluid"><photo-slider-component></photo-slider-component></b-row>
+                <b-row class="row-fluid"><gallery-component></gallery-component></b-row>
+                <b-row class="row-fluid"><info-component></info-component></b-row>
+                <b-row class="row-fluid"><form-download-component></form-download-component></b-row>
+                <b-row class="row-fluid"><footer-component></footer-component></b-row>
             </b-container>
+
         </div>
 
         <!--script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script-->
