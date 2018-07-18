@@ -174,8 +174,10 @@
                 </b-card-body>
 
                 <b-card-footer>
-                    <span class="pull-left"><a href="plan_gallery/show_all.php" target="_blank">View All</a></span>
-                    <a href="plan_gallery/show_all.php" target="_blank"> <span class="pull-right"><i class="fa fa-arrow-circle-right"></i> </span></a>
+                    <span class="text-muted">
+                        <span class="pull-left"><a href="plan_gallery/show_all.php" target="_blank">View All</a></span>
+                        <a href="plan_gallery/show_all.php" target="_blank"> <span class="pull-right"><i class="fa fa-arrow-circle-right"></i> </span></a>
+                    </span>
                 </b-card-footer>
             </b-card>
         </b-col>
@@ -278,8 +280,10 @@
                 </b-card-body>
 
                 <b-card-footer>
-                    <span class="pull-left"><a href="plan_gallery/show_all.php" target="_blank">View All</a></span>
-                    <a href="plan_gallery/show_all.php" target="_blank"> <span class="pull-right"><i class="fa fa-arrow-circle-right"></i> </span></a>
+                    <span class="text-muted">
+                        <span class="pull-left"><a href="plan_gallery/show_all.php" target="_blank">View All</a></span>
+                        <a href="plan_gallery/show_all.php" target="_blank"> <span class="pull-right"><i class="fa fa-arrow-circle-right"></i> </span></a>
+                    </span>
                 </b-card-footer>
             </b-card>
         </b-col>

@@ -2162,6 +2162,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
@@ -2176,6 +2180,70 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -53199,64 +53267,462 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
+    { attrs: { fluid: "" } },
     [
       _c(
         "b-card-group",
-        { staticClass: "mb-4", attrs: { deck: "" } },
+        { staticClass: "mb-4 lg-4 lx-4", attrs: { deck: "" } },
         [
-          _c(
-            "b-card",
-            {
-              staticClass: "text-left",
-              attrs: {
-                "bg-variant": "primary",
-                "text-variant": "white",
-                header: "นโยบายรัฐบาล"
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          _c("b-card", { staticClass: "text-left" }, [
+            _c(
+              "div",
+              { attrs: { slot: "header" }, slot: "header" },
+              [
+                _c("big", { staticClass: "caption" }, [
+                  _c("i", { staticClass: "fa fa-th-large" }),
+                  _vm._v(" นโยบายรัฐบาล")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel-body" }, [
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/001.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v(
+                      "  ร่างกรอบยุทธศาสตร์ชาติ ระยะ 20 ปี (2560 - 2579) \n                "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/002.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v(
+                      "  ร่างแผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ \n                "
+                    ),
+                    _c("br"),
+                    _vm._v("   ฉบับที่12 (พ.ศ. 2560 - 2579) ")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/003.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  นโยบายด้านความมั่นคงแห่งชาติ (พ.ศ. 2558 - 2564)")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/004.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  นโยบายสำคัญของรัฐบาล")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/005.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  กรอบทิศทางการศึกษาแห่งชาติ (พ.ศ. 2560 - 2574)")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/006.pptx",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  นโยบายการปฏิรูปการศึกษา")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/007.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  นโยบาย รมต.ว่าการกระทรงศึกษาธิการ")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/008.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v(
+                      "  การมอบนโยบายการปฏิรูปการศึกษาแก่ผู้บริหารระดับสูง"
+                    ),
+                    _c("br"),
+                    _vm._v("   ของสถาบันอุดมศึกษา")
+                  ]
                 )
               ])
-            ]
-          ),
+            ])
+          ]),
+          _vm._v(" "),
+          _c("b-card", { staticClass: "text-left" }, [
+            _c(
+              "div",
+              { attrs: { slot: "header" }, slot: "header" },
+              [
+                _c("big", { staticClass: "caption" }, [
+                  _c("i", { staticClass: "fa fa-th-large" }),
+                  _vm._v(" ข้อมลพื้นฐานมหาวิทยาลัย")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "panel-body" }, [
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/120761.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  (ร่าง) แผนการดำเนินงาน (Action Plan) "),
+                    _c("br"),
+                    _vm._v(
+                      "  \n                ตามแผนยุทธศาสตร์การพัฒนามหาวิทยาลัยราชภัฏเชียงราย"
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "  \n                ระยะ 5 ปี (พ.ศ. 2560 - 2564) ฉบับทบทวนและปรับปรุง พ.ศ.2561"
+                    ),
+                    _c("br"),
+                    _vm._v("   ( New Update 12/07/61 )"),
+                    _c("br")
+                  ]
+                )
+              ]),
+              _c("a", {
+                attrs: {
+                  href: "download_plan/plan_infor_univ/120761.pdf",
+                  target: "_blank"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/re_60.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  รายงานผล "),
+                    _c("br"),
+                    _vm._v(
+                      "  \n                ต้นทุนผลผลิต ประจำปีงบประมมาณ พ.ศ.2560 "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  \n                มหาวิทยาลัยราชภัฏเชียงราย (New)\n                "
+                    )
+                  ]
+                )
+              ]),
+              _c("a", {
+                attrs: {
+                  href: "download_plan/plan_infor_univ/re_60.pdf",
+                  target: "_blank"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/plan_u_110661.zip",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v(
+                      " (ร่าง) แผนยุทธศาตร์การพัฒนามหาวิทยาลัยราชภัฏเชียงราย "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "  \n                ระยะ 5 ปี (พ.ศ. 2560-2564) ฉบับทบทวนและปรับปรุง พ.ศ. 2561"
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/stat_53-60.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v(
+                      " สถิติงบประมาณประจำปี 2553-2560 มหาวิทยาลัยราชภัฏเชียงรายa>"
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c("i", { staticClass: "fa fa-caret-right" }),
+                _vm._v("  แผนยุทธศาตร์การพัฒนามหาวิทยาลัยราชภัฏเชียงราย "),
+                _c("br"),
+                _vm._v(
+                  "  \n                ระยะ 5 ปี (พ.ศ. 2560-2564)\n                "
+                ),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/plan_u_60-64.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("(.pdf)")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/plan_u_60-64.rar",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("(.zip)")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "download_plan/plan_infor_univ/re_.pdf",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  รายงานผล "),
+                    _c("br"),
+                    _vm._v(
+                      "  \n                ต้นทุนผลผลิต ประจำปีงบประมมาณ พ.ศ.2559 "
+                    ),
+                    _c("br"),
+                    _vm._v(
+                      "\n                  \n                มหาวิทยาลัยราชภัฏเชียงราย (New)\n                "
+                    )
+                  ]
+                )
+              ]),
+              _c("a", {
+                attrs: {
+                  href: "download_plan/plan_infor_univ/re_.pdf",
+                  target: "_blank"
+                }
+              }),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "plan_infor_univ/show_all_nw.php",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v(" สารสนเทศประจำปี มหาวิทยาลัยราชภัฏเชียงราย")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "plan_infor_univ/show_all_nw.php",
+                      target: "_blank"
+                    }
+                  },
+                  [
+                    _c("i", { staticClass: "fa fa-caret-right" }),
+                    _vm._v("  รายงานประจำปี มหาวิทยาลัยราชภัฏเชียงราย")
+                  ]
+                )
+              ])
+            ])
+          ]),
           _vm._v(" "),
           _c(
             "b-card",
             {
               staticClass: "text-left",
-              attrs: {
-                "bg-variant": "secondary",
-                "text-variant": "white",
-                header: "ข้อมลพื้นฐานมหาวิทยาลัย"
-              }
+              attrs: { header: "ข้อมลพื้นฐานกองนโยบายและแผน" }
             },
             [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                )
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "b-card",
-            {
-              staticClass: "text-left",
-              attrs: {
-                "bg-variant": "success",
-                "text-variant": "white",
-                header: "ข้อมลพื้นฐานกองนโยบายและแผน"
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                )
+              _c(
+                "div",
+                { attrs: { slot: "header" }, slot: "header" },
+                [
+                  _c("big", { staticClass: "caption" }, [
+                    _c("i", { staticClass: "fa fa-th" }),
+                    _vm._v(" ข้อมลพื้นฐานกองนโยบายและแผน")
+                  ])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "panel-body" }, [
+                _c("p", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "plan_infor_plan/show_all_nw.php",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v("   นโยบายด้านความมั่นคงแห่งชาติ "),
+                      _c("br"),
+                      _vm._v("   (พ.ศ. 2558 - 2564)")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "plan_infor_plan/show_all_nw.php",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v("  รายงานประจำปี กองนโยบายและแผน")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "plan_quality/show_all_nw.php",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" เอกสารการประกันคุณภาพ")
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("p", [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "plan_jn/show_all_nw.php",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" เอกสารกองนโยบายและแผน")
+                    ]
+                  )
+                ])
               ])
             ]
           )
@@ -54358,7 +54824,20 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("b-card-footer", [
-                    _c("span", { staticClass: "pull-left" }, [
+                    _c("span", { staticClass: "text-muted" }, [
+                      _c("span", { staticClass: "pull-left" }, [
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              href: "plan_gallery/show_all.php",
+                              target: "_blank"
+                            }
+                          },
+                          [_vm._v("View All")]
+                        )
+                      ]),
+                      _vm._v(" "),
                       _c(
                         "a",
                         {
@@ -54367,24 +54846,13 @@ var render = function() {
                             target: "_blank"
                           }
                         },
-                        [_vm._v("View All")]
+                        [
+                          _c("span", { staticClass: "pull-right" }, [
+                            _c("i", { staticClass: "fa fa-arrow-circle-right" })
+                          ])
+                        ]
                       )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "plan_gallery/show_all.php",
-                          target: "_blank"
-                        }
-                      },
-                      [
-                        _c("span", { staticClass: "pull-right" }, [
-                          _c("i", { staticClass: "fa fa-arrow-circle-right" })
-                        ])
-                      ]
-                    )
+                    ])
                   ])
                 ],
                 1
@@ -54792,7 +55260,20 @@ var render = function() {
                   ]),
                   _vm._v(" "),
                   _c("b-card-footer", [
-                    _c("span", { staticClass: "pull-left" }, [
+                    _c("span", { staticClass: "text-muted" }, [
+                      _c("span", { staticClass: "pull-left" }, [
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              href: "plan_gallery/show_all.php",
+                              target: "_blank"
+                            }
+                          },
+                          [_vm._v("View All")]
+                        )
+                      ]),
+                      _vm._v(" "),
                       _c(
                         "a",
                         {
@@ -54801,24 +55282,13 @@ var render = function() {
                             target: "_blank"
                           }
                         },
-                        [_vm._v("View All")]
+                        [
+                          _c("span", { staticClass: "pull-right" }, [
+                            _c("i", { staticClass: "fa fa-arrow-circle-right" })
+                          ])
+                        ]
                       )
-                    ]),
-                    _vm._v(" "),
-                    _c(
-                      "a",
-                      {
-                        attrs: {
-                          href: "plan_gallery/show_all.php",
-                          target: "_blank"
-                        }
-                      },
-                      [
-                        _c("span", { staticClass: "pull-right" }, [
-                          _c("i", { staticClass: "fa fa-arrow-circle-right" })
-                        ])
-                      ]
-                    )
+                    ])
                   ])
                 ],
                 1
