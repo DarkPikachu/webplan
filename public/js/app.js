@@ -1860,7 +1860,8 @@ var items2 = [{ date: '2018-01-04', title: 'แบบฟอร์มรายง
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      items: items
+      items: items,
+      items2: items2
     };
   }
 });
@@ -2351,14 +2352,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -2366,7 +2359,22 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["c" /* Navbar */]);
 Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
-/* harmony default export */ __webpack_exports__["default"] = ({});
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            urlLink: {}
+        };
+    },
+
+    //props: ['urlhome', 'urlabout','url'],
+    props: ['url'],
+    mounted: function mounted() {
+        // Do something useful with the data in the template
+        //console.log(this.url)
+        this.urlLink = JSON.parse(this.url);
+        //console.log(this.urlLink)
+    }
+});
 
 /***/ }),
 
@@ -53838,146 +53846,271 @@ var render = function() {
                       }
                     },
                     [
-                      _c(
-                        "b-navbar-nav",
-                        [
-                          _c("b-nav-item", { attrs: { href: "#" } }, [
-                            _c("i", { staticClass: "fa fa-home" }),
-                            _vm._v(" Home")
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item-dropdown",
-                            {
-                              attrs: {
-                                text: "<i class='fa fa-th-lis'></i> เมนูหลัก",
-                                left: ""
-                              }
-                            },
+                      _vm.urlLink.main_menu && _vm.urlLink.info_menu
+                        ? _c(
+                            "b-navbar-nav",
                             [
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" เกี่ยวกับหน่วยงาน")
+                              _c(
+                                "b-nav-item",
+                                { attrs: { href: _vm.urlLink.home } },
+                                [
+                                  _c("i", { staticClass: "fa fa-home" }),
+                                  _vm._v(" Home")
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                {
+                                  attrs: {
+                                    text:
+                                      "<i class='fa fa-th-lis'></i> เมนูหลัก",
+                                    left: ""
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.main_menu.about
+                                      }
+                                    },
+                                    [_vm._v(" เกี่ยวกับหน่วยงาน")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.main_menu.org_chart
+                                      }
+                                    },
+                                    [_vm._v(" โครงสร้างหน่วยงาน")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.main_menu.personnel
+                                      }
+                                    },
+                                    [_vm._v(" บุคลากร")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.main_menu.gallery
+                                      }
+                                    },
+                                    [_vm._v(" ประมวลภาพกิจกรรมหน่วยงาน")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.main_menu.sitemap
+                                      }
+                                    },
+                                    [_vm._v(" แผนผังเว็บไซต์")]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                { attrs: { text: "ข้อมูลพิ้นฐาน" } },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.info_menu.home
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี "
+                                      ),
+                                      _c("br"),
+                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.info_menu.home1
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี"
+                                      ),
+                                      _c("br"),
+                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.info_menu.home2
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(" สารสนเทศ/รายงานประจำปี "),
+                                      _c("br"),
+                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.info_menu.home3
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี "
+                                      ),
+                                      _c("br"),
+                                      _vm._v("       กองนโยบายและแผน")
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.info_menu.home4
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 2+5"),
+                                      _c("br"),
+                                      _vm._v("       กองนโยบายและแผน")
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: this.urlLink.info_menu.home5
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(" แผนปฏิบัติการ/รายงานประจำปี "),
+                                      _c("br"),
+                                      _vm._v("       กองนโยบายและแผน")
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                { attrs: { text: "Download" } },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" ประกาศ/คำสั่ง")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" เอกสารเผยแพร่")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [
+                                      _vm._v(
+                                        " แบบฟอร์มงานวิเคราะห์นโยบายและแผน"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" แบบฟอร์มงานติดตามและประเมินผล")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", {
+                                    attrs: { href: "#" }
+                                  })
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-nav-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-phone" }),
+                                _vm._v(" เบอร์โทรติดต่อ")
                               ]),
                               _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" โครงสร้างหน่วยงาน")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" บุคลากร")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" ประมวลภาพกิจกรรมหน่วยงาน")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" แผนผังเว็บไซต์")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item-dropdown",
-                            { attrs: { text: "ข้อมูลพิ้นฐาน" } },
-                            [
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-caret-right" }),
-                                _vm._v(" กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี "),
-                                _c("br"),
-                                _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-caret-right" }),
-                                _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี"),
-                                _c("br"),
-                                _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-caret-right" }),
-                                _vm._v(" สารสนเทศ/รายงานประจำปี "),
-                                _c("br"),
-                                _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-caret-right" }),
-                                _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี "),
-                                _c("br"),
-                                _vm._v("       กองนโยบายและแผน")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-caret-right" }),
-                                _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 2+5"),
-                                _c("br"),
-                                _vm._v("       กองนโยบายและแผน")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-caret-right" }),
-                                _vm._v(" แผนปฏิบัติการ/รายงานประจำปี "),
-                                _c("br"),
-                                _vm._v("       กองนโยบายและแผน")
-                              ])
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item-dropdown",
-                            { attrs: { text: "Download" } },
-                            [
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" ประกาศ/คำสั่ง")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" เอกสารเผยแพร่")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" แบบฟอร์มงานวิเคราะห์นโยบายและแผน")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v(" แบบฟอร์มงานติดตามและประเมินผล")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c("b-nav-item", { attrs: { href: "#" } }, [
-                            _c("i", { staticClass: "fa fa-phone" }),
-                            _vm._v(" เบอร์โทรติดต่อ")
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "b-nav-item-dropdown",
-                            { attrs: { text: "Plan Application", right: "" } },
-                            [
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v("Account")
-                              ]),
-                              _vm._v(" "),
-                              _c("b-dropdown-item", { attrs: { href: "#" } }, [
-                                _vm._v("Settings")
-                              ])
+                              _c(
+                                "b-nav-item-dropdown",
+                                {
+                                  attrs: { text: "Plan Application", right: "" }
+                                },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Account")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Settings")]
+                                  )
+                                ],
+                                1
+                              )
                             ],
                             1
                           )
-                        ],
-                        1
-                      )
+                        : _vm._e()
                     ],
                     1
                   )
@@ -54391,7 +54524,7 @@ var render = function() {
                                               {
                                                 attrs: {
                                                   href:
-                                                    "plan_gallery/notice_file/280661000000/lb/index.html",
+                                                    "http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/280661000000/lb/index.html",
                                                   target: "_blank"
                                                 }
                                               },
@@ -54435,7 +54568,7 @@ var render = function() {
                                                 {
                                                   attrs: {
                                                     href:
-                                                      "plan_gallery/notice_file/280661000000/lb/index.html",
+                                                      "http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/280661000000/lb/index.html",
                                                     target: "_blank"
                                                   }
                                                 },
@@ -54512,7 +54645,7 @@ var render = function() {
                                                   staticClass: "img-thumbnail",
                                                   attrs: {
                                                     src:
-                                                      "plan_gallery/notice_file/120661000000/120661000000.jpg",
+                                                      "http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/120661000000/120661000000.jpg",
                                                     width: "200"
                                                   }
                                                 })
@@ -54689,7 +54822,7 @@ var render = function() {
                                                   staticClass: "img-thumbnail",
                                                   attrs: {
                                                     src:
-                                                      "plan_gallery/notice_file/040561000000/040561000000.jpg",
+                                                      "http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/040561000000/040561000000.jpg",
                                                     width: "200"
                                                   }
                                                 })
@@ -55328,7 +55461,7 @@ var render = function() {
     [
       _c(
         "b-row",
-        { staticClass: "row-fluid", attrs: { "align-h": "" } },
+        { staticClass: "row-fluid" },
         [
           _c("b-col", { attrs: { cols: "1" } }),
           _vm._v(" "),
@@ -67802,6 +67935,7 @@ window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
 
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 //Vue.component('header-component', require('./components/HeaderComponent.vue'));
+//Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
 Vue.component('navbar-component', __webpack_require__("./resources/assets/js/components/NavbarComponent.vue"));
 Vue.component('photo-slider-component', __webpack_require__("./resources/assets/js/components/PhotoSliderComponent.vue"));
 Vue.component('gallery-component', __webpack_require__("./resources/assets/js/components/GalleryComponent.vue"));

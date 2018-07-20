@@ -12,16 +12,18 @@ $fa-font-path: '/webplan/public/fonts/vendor/font-awesome';
 // Bulma
 //@import '~bulma/bulma';
 .navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
 body {
-  font-family: 'Kanit', sans-serif; //font-family: 'Pattaya', sans-serif;
-  //font-family: 'Athiti', sans-serif;
-  //font-family: 'Chonburi', cursive;
+    font-family: 'Kanit', sans-serif; //font-family: 'Pattaya', sans-serif;
+    //font-family: 'Athiti', sans-serif;
+    //font-family: 'Chonburi', cursive;
 }
 
+
+/*
 * {
   box-sizing: border-box;
 }
@@ -39,4 +41,4 @@ a:visited {
 }
 a:active {
   text-decoration: none;
-}
+}*/

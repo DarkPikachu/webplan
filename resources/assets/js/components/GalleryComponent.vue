@@ -38,7 +38,7 @@
                                                 <td valign="top">
                                                     <p>&nbsp;</p>
                                                     <p>
-                                                        <a href="plan_gallery/notice_file/280661000000/lb/index.html" target="_blank">
+                                                        <a href="http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/280661000000/lb/index.html" target="_blank">
                                                             <font color="#666666">&nbsp; &nbsp; &nbsp; กองนโยบายและแผน จัดการประชุมชี้แจงการใช้งานระบบ CRRU E-Budgeting (สำหรับหัวหน้าหน่วยงาน) วันที่ 28 มิถุนายน 2561 ณ ห้องประชุมเอื้องมัจฉา อาคารยุพราชวิทยมงคล มหาวิทยาลัยราชภัฏเชียงราย</font>
                                                         </a>
                                                     </p>
@@ -50,7 +50,7 @@
                                                 <td height="20"></td>
                                                 <td align="right">
                                                     <p><i class="fa fa-calendar"></i>&nbsp;
-                                                        <a href="plan_gallery/notice_file/280661000000/lb/index.html" target="_blank">
+                                                        <a href="http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/280661000000/lb/index.html" target="_blank">
                                                             <font color="#666666">28 มิถุนายน 2561</font>
                                                         </a>
                                                     </p>
@@ -68,7 +68,7 @@
                                             <tr>
                                                 <td align="center">
                                                     <a href="plan_gallery/notice_file/120661000000/lb/index.html" target="_blank">
-                                                        <img src="plan_gallery/notice_file/120661000000/120661000000.jpg" width="200" class="img-thumbnail">
+                                                        <img src="http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/120661000000/120661000000.jpg" width="200" class="img-thumbnail">
                                                     </a>
                                                 </td>
                                             </tr>
@@ -122,8 +122,8 @@
                                             <tr>
                                                 <td align="center">
                                                     <a href="plan_gallery/notice_file/040561000000/lb/index.html" target="_blank">
-                                <img src="plan_gallery/notice_file/040561000000/040561000000.jpg" width="200" class="img-thumbnail">
-                                </a>
+                                                        <img src="http://plan.crru.ac.th/web_planning/plan_gallery/notice_file/040561000000/040561000000.jpg" width="200" class="img-thumbnail">
+                                                    </a>
                                                 </td>
                                             </tr>
                                         </tbody>

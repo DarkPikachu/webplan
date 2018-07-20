@@ -93,7 +93,8 @@ const items2 = [
 export default {
   data () {
     return {
-      items: items
+      items: items,
+      items2: items2
     }
   }
 }

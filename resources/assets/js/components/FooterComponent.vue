@@ -1,6 +1,6 @@
 <template>
     <b-container fluid style="background-color:#666">
-        <b-row class="row-fluid" align-h>
+        <b-row class="row-fluid">
             <b-col cols="1"></b-col>
             <b-col cols="11" md="11">
                 <br>
