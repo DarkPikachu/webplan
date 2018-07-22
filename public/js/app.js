@@ -53968,7 +53968,8 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu.home2
+                                        href: this.urlLink.info_menu
+                                          .annual_info_university
                                       }
                                     },
                                     [
@@ -54021,7 +54022,8 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu.home5
+                                        href: this.urlLink.info_menu
+                                          .annual_info_plan
                                       }
                                     },
                                     [

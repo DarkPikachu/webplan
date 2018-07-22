@@ -33,10 +33,10 @@
                         <b-nav-item-dropdown text="ข้อมูลพิ้นฐาน">
                             <b-dropdown-item v-bind:href="this.urlLink.info_menu.home"> <i class="fa fa-caret-right"></i> กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
                             <b-dropdown-item v-bind:href="this.urlLink.info_menu.home1"> <i class="fa fa-caret-right"></i> แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.home2"> <i class="fa fa-caret-right"></i> สารสนเทศ/รายงานประจำปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.annual_info_university"> <i class="fa fa-caret-right"></i> สารสนเทศ/รายงานประจำปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
                             <b-dropdown-item v-bind:href="this.urlLink.info_menu.home3 "> <i class="fa fa-caret-right"></i> แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
                             <b-dropdown-item v-bind:href="this.urlLink.info_menu.home4"> <i class="fa fa-caret-right"></i> แผนยุทธศาสตร์การพัฒนา ระยะ 2+5<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.home5"> <i class="fa fa-caret-right"></i> แผนปฏิบัติการ/รายงานประจำปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.annual_info_plan"> <i class="fa fa-caret-right"></i> แผนปฏิบัติการ/รายงานประจำปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
                         </b-nav-item-dropdown>
 
                         <!-- Navbar dropdowns -->

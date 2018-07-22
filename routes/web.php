@@ -42,3 +42,23 @@ Route::get('gallery', function () {
 Route::get('sitemap', function () {
     return view('about');
 });
+
+Route::get('annual_info_university', function () {
+    return view('annual_info_university');
+});
+
+Route::get('annual_info_plan', function () {
+    return view('annual_info_plan');
+});
+
+Route::prefix('download')->group(function () {
+    Route::get('users', function () {
+        // Matches The "/admin/users" URL
+    });
+});
+
+Route::prefix('backoffice')->group(function () {
+    Route::get('login', function () {
+        // Matches The "/admin/users" URL
+    });
+});
