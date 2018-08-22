@@ -17,7 +17,6 @@ window.Vue = require('vue');
 
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 //Vue.component('header-component', require('./components/HeaderComponent.vue'));
-//Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
 Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
 Vue.component('photo-slider-component', require('./components/PhotoSliderComponent.vue'));
 Vue.component('gallery-component', require('./components/GalleryComponent.vue'));
