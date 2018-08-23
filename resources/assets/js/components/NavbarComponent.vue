@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <b-row fluid style="background-color:#ccc; height:50px;">
         <b-col class="text-right">
-            <b-navbar toggleable type="light" variant="faded" right>
+            <b-navbar toggleable type="light" variant="faded" size="lg" right>
                 <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
                 <b-collapse is-nav id="nav_dropdown_collapse" order="*">
                     <b-navbar-nav v-if="urlLink.main_menu && urlLink.info_menu">

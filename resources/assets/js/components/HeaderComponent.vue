@@ -3,15 +3,16 @@
     <div class="row-fluid">
       <div class="span1"></div>
       <div class="span5" align="left" style="margin-left:0px"><br><img src="img/head_logo02.png"></div>
-      <div class="span6" align="right" style="margin-left:0px"><br><a href="http://www.crru.ac.th" target="_blank"><img src="img/crru.png"> </a> <a href="https://www.facebook.com/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%9C%E0%B8%99-%E0%B8%A1%E0%B8%A3%E0%B8%8A%E0%B8%A3-1128441437167082/" target="_blank"><img src="img/fb.png"></a></div>
+      <div class="span6" align="right" style="margin-left:0px"><br><a href="http://www.pcru.ac.th" target="_blank"><img src="img/crru.png"> </a> <a href="https://www.facebook.com/%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B9%82%E0%B8%A2%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%81%E0%B8%9C%E0%B8%99-%E0%B8%A1%E0%B8%A3%E0%B8%8A%E0%B8%A3-1128441437167082/" target="_blank"><img src="img/fb.png"></a></div>
     </div>
+    
     <div class="row" style="background-color:#ccc; height:50px; margin-top:1px;">
       <div class="span12" style="background-color:#ccc;">
       <!-- MenuBar -->
         <div class="row-fluid" style="background-color:#ccc; height:50px;" id="top-menu">
           <div class="span1"></div>
           <div class="span11" style="text-align:right; margin-right:0px; background-color:#ccc;">
-            <ul class="nav navbar-top-links navbar-right">
+            <ul class="nav navbar-top-links navbar-right navbar-expand-lg">
                   <li class="dropdown">
                     <a href="index.php"> <i class="fa fa-home"></i> HOME </a> 
                   </li>

@@ -12,7 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css')
-   .copy('node_modules/font-awesome/fonts/', 'public/fonts')
-   .sass('node_modules/font-awesome/scss/font-awesome.scss', 'public/css')
-   .version();
+    .js('resources/assets/js/circular.js', 'public/js')
+    .sass('resources/assets/sass/app.scss', 'public/css')
+    .copy('node_modules/font-awesome/fonts/', 'public/fonts')
+    .sass('node_modules/font-awesome/scss/font-awesome.scss', 'public/css')
+    .version();

@@ -62,3 +62,7 @@ Route::prefix('backoffice')->group(function () {
         // Matches The "/admin/users" URL
     });
 });
+
+Route::get('circular', function () {
+    return view('circular');
+});

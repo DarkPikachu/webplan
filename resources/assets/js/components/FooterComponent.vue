@@ -72,10 +72,10 @@
                             <font color="#FFFFFF" size="2">
                                 &nbsp;&nbsp;&nbsp;&nbsp;
                                 กองนโยบายและแผน สำนักงานอธิการบดี<br>
-                                &nbsp;&nbsp;&nbsp;&nbsp; 80 ม.9 ถนนพหลโยธิน ต.บ้านดู่<br>&nbsp;&nbsp;&nbsp;&nbsp; อ.เมือง จ.เชียงราย 57100
+                                &nbsp;&nbsp;&nbsp;&nbsp; 83 ม.11 ถนนสระบุรี-หล่มสัก ต.สะเดียง<br>&nbsp;&nbsp;&nbsp;&nbsp; อ.เมือง จ.เพชรบูรณ์ 67000
                                 <br>&nbsp;&nbsp;&nbsp;&nbsp; โทรศัพท์ 0-5377-6035,0-5377-6000 <br>&nbsp;&nbsp;&nbsp;&nbsp; โทรสาร 0-5377-6035
-                                <br>&nbsp;&nbsp;&nbsp;&nbsp;  E-mail: planning.crru@gmail.com
-                                <br> &nbsp;&nbsp;&nbsp;&nbsp; Website : plan.crru.ac.th
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;  E-mail: plan_pcru@hotmail.com
+                                <br> &nbsp;&nbsp;&nbsp;&nbsp; Website : plan.pcru.ac.th
                             </font>
                         </div>
                         
