@@ -22,25 +22,26 @@
 
                         <!-- Navbar dropdowns -->
                         <b-nav-item-dropdown text="<i class='fa fa-th-lis'></i> เมนูหลัก" left>
-                            <b-dropdown-item v-bind:href="this.urlLink.main_menu.about"> เกี่ยวกับหน่วยงาน</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.main_menu.org_chart"> โครงสร้างหน่วยงาน</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.main_menu.personnel"> บุคลากร</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.main_menu.gallery"> ประมวลภาพกิจกรรมหน่วยงาน</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.main_menu.sitemap"> แผนผังเว็บไซต์</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.main_menu.about.url"> {{ urlLink.main_menu.about.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.main_menu.org_chart.url"> {{ urlLink.main_menu.org_chart.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.main_menu.personnel.url"> {{ urlLink.main_menu.personnel.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.main_menu.gallery.url"> {{ urlLink.main_menu.gallery.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.main_menu.sitemap.url"> {{ urlLink.main_menu.sitemap.label }}</b-dropdown-item>
                         </b-nav-item-dropdown>
 
                         <!-- Navbar dropdowns -->
                         <b-nav-item-dropdown text="ข้อมูลพิ้นฐาน">
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.home"> <i class="fa fa-caret-right"></i> กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.home1"> <i class="fa fa-caret-right"></i> แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.annual_info_university"> <i class="fa fa-caret-right"></i> สารสนเทศ/รายงานประจำปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มหาวิทยาลัยราชภัฏเชียงราย</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.home3 "> <i class="fa fa-caret-right"></i> แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.home4"> <i class="fa fa-caret-right"></i> แผนยุทธศาสตร์การพัฒนา ระยะ 2+5<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
-                            <b-dropdown-item v-bind:href="this.urlLink.info_menu.annual_info_plan"> <i class="fa fa-caret-right"></i> แผนปฏิบัติการ/รายงานประจำปี <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;กองนโยบายและแผน</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.info_menu.home.url" v-html="urlLink.info_menu.home.label"> <i class="fa fa-caret-right"></i> {{ urlLink.info_menu.home.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.info_menu.home1.url" v-html="urlLink.info_menu.home1.label"> <i class="fa fa-caret-right"></i> {{ urlLink.info_menu.home1.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.info_menu.annual_info_university.url" v-html="urlLink.info_menu.annual_info_university.label"> <i class="fa fa-caret-right"></i> {{ urlLink.info_menu.annual_info_university.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.info_menu.home3.url" v-html="urlLink.info_menu.home3.label"> <i class="fa fa-caret-right"></i> {{ urlLink.info_menu.home3.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.info_menu.home4.url" v-html="urlLink.info_menu.home4.label"> <i class="fa fa-caret-right"></i> {{ urlLink.info_menu.home4.label }}</b-dropdown-item>
+                            <b-dropdown-item v-bind:href="urlLink.info_menu.annual_info_plan.url" v-html="urlLink.info_menu.annual_info_plan.label"> <i class="fa fa-caret-right"></i> {{ urlLink.info_menu.annual_info_plan.label }}</b-dropdown-item>
                         </b-nav-item-dropdown>
 
                         <!-- Navbar dropdowns -->
                         <b-nav-item-dropdown text="Download">
+                            <b-dropdown-item v-bind:href="urlLink.download_menu.circular.url"> {{ urlLink.download_menu.circular.label }}</b-dropdown-item>
                             <b-dropdown-item href="#"> ประกาศ/คำสั่ง</b-dropdown-item>
                             <b-dropdown-item href="#"> เอกสารเผยแพร่</b-dropdown-item>
                             <b-dropdown-item href="#"> แบบฟอร์มงานวิเคราะห์นโยบายและแผน</b-dropdown-item>

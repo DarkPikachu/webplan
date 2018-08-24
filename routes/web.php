@@ -19,20 +19,20 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('about', function () {
-    return view('about');
+Route::prefix('division')->group(function () {
+    Route::get('about', function () {
+        return view('about');
+    });
+    
+    Route::get('org_chart', function () {
+        return view('org_chart');
+    });
+
+
+    Route::get('personnel', function () {
+        return view('personnel');
+    });
 });
-
-
-Route::get('org_chart', function () {
-    return view('org_chart');
-});
-
-
-Route::get('personnel', function () {
-    return view('personnel');
-});
-
 
 Route::get('gallery', function () {
     return view('gallery');
@@ -55,14 +55,16 @@ Route::prefix('download')->group(function () {
     Route::get('users', function () {
         // Matches The "/admin/users" URL
     });
+
+    Route::get('circular', function () {
+        return view('circular');
+    });
 });
+
+
 
 Route::prefix('backoffice')->group(function () {
     Route::get('login', function () {
         // Matches The "/admin/users" URL
     });
-});
-
-Route::get('circular', function () {
-    return view('circular');
 });

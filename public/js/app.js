@@ -2357,6 +2357,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 
@@ -53879,50 +53880,89 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.main_menu.about
+                                        href: _vm.urlLink.main_menu.about.url
                                       }
                                     },
-                                    [_vm._v(" เกี่ยวกับหน่วยงาน")]
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.about.label
+                                          )
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.main_menu.org_chart
+                                        href:
+                                          _vm.urlLink.main_menu.org_chart.url
                                       }
                                     },
-                                    [_vm._v(" โครงสร้างหน่วยงาน")]
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.org_chart
+                                              .label
+                                          )
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.main_menu.personnel
+                                        href:
+                                          _vm.urlLink.main_menu.personnel.url
                                       }
                                     },
-                                    [_vm._v(" บุคลากร")]
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.personnel
+                                              .label
+                                          )
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.main_menu.gallery
+                                        href: _vm.urlLink.main_menu.gallery.url
                                       }
                                     },
-                                    [_vm._v(" ประมวลภาพกิจกรรมหน่วยงาน")]
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.gallery.label
+                                          )
+                                      )
+                                    ]
                                   ),
                                   _vm._v(" "),
                                   _c(
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.main_menu.sitemap
+                                        href: _vm.urlLink.main_menu.sitemap.url
                                       }
                                     },
-                                    [_vm._v(" แผนผังเว็บไซต์")]
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.sitemap.label
+                                          )
+                                      )
+                                    ]
                                   )
                                 ],
                                 1
@@ -53936,7 +53976,12 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu.home
+                                        href: _vm.urlLink.info_menu.home.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home.label
+                                        )
                                       }
                                     },
                                     [
@@ -53944,10 +53989,11 @@ var render = function() {
                                         staticClass: "fa fa-caret-right"
                                       }),
                                       _vm._v(
-                                        " กรอบแผนยุทธศาสตร์การพัฒนา 13 ปี "
-                                      ),
-                                      _c("br"),
-                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home.label
+                                          )
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -53955,7 +54001,12 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu.home1
+                                        href: _vm.urlLink.info_menu.home1.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home1.label
+                                        )
                                       }
                                     },
                                     [
@@ -53963,10 +54014,11 @@ var render = function() {
                                         staticClass: "fa fa-caret-right"
                                       }),
                                       _vm._v(
-                                        " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี"
-                                      ),
-                                      _c("br"),
-                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home1.label
+                                          )
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -53974,25 +54026,15 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu
-                                          .annual_info_university
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(" สารสนเทศ/รายงานประจำปี "),
-                                      _c("br"),
-                                      _vm._v("       มหาวิทยาลัยราชภัฏเชียงราย")
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: this.urlLink.info_menu.home3
+                                        href:
+                                          _vm.urlLink.info_menu
+                                            .annual_info_university.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu
+                                            .annual_info_university.label
+                                        )
                                       }
                                     },
                                     [
@@ -54000,10 +54042,12 @@ var render = function() {
                                         staticClass: "fa fa-caret-right"
                                       }),
                                       _vm._v(
-                                        " แผนยุทธศาสตร์การพัฒนา ระยะ 4 ปี "
-                                      ),
-                                      _c("br"),
-                                      _vm._v("       กองนโยบายและแผน")
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu
+                                              .annual_info_university.label
+                                          )
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -54011,16 +54055,24 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu.home4
+                                        href: _vm.urlLink.info_menu.home3.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home3.label
+                                        )
                                       }
                                     },
                                     [
                                       _c("i", {
                                         staticClass: "fa fa-caret-right"
                                       }),
-                                      _vm._v(" แผนยุทธศาสตร์การพัฒนา ระยะ 2+5"),
-                                      _c("br"),
-                                      _vm._v("       กองนโยบายและแผน")
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home3.label
+                                          )
+                                      )
                                     ]
                                   ),
                                   _vm._v(" "),
@@ -54028,17 +54080,53 @@ var render = function() {
                                     "b-dropdown-item",
                                     {
                                       attrs: {
-                                        href: this.urlLink.info_menu
-                                          .annual_info_plan
+                                        href: _vm.urlLink.info_menu.home4.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home4.label
+                                        )
                                       }
                                     },
                                     [
                                       _c("i", {
                                         staticClass: "fa fa-caret-right"
                                       }),
-                                      _vm._v(" แผนปฏิบัติการ/รายงานประจำปี "),
-                                      _c("br"),
-                                      _vm._v("       กองนโยบายและแผน")
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home4.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.info_menu.annual_info_plan
+                                            .url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.annual_info_plan
+                                            .label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu
+                                              .annual_info_plan.label
+                                          )
+                                      )
                                     ]
                                   )
                                 ],
@@ -54049,6 +54137,25 @@ var render = function() {
                                 "b-nav-item-dropdown",
                                 { attrs: { text: "Download" } },
                                 [
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.download_menu.circular.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.download_menu.circular
+                                              .label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
                                   _c(
                                     "b-dropdown-item",
                                     { attrs: { href: "#" } },

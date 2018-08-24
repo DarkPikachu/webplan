@@ -1,25 +1,16 @@
 <template>
-    <b-container fluid>
-        <row>
-            <b-breadcrumb :items="items"/>
-        </row>
-        <row>
-            <b-card></b-card>
-        </row>
-        <row>
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="card card-default">
-                        <div class="card-header">Example Component</div>
+    <b-container fluid class="">
+        <b-breadcrumb :items="items"/>
+        <b-row class="row-fluid justify-content-center">
+            <b-card>
 
-                        <div class="card-body">
-                            I'm an example component.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </row>
-    </b-container >
+            </b-card>
+        </b-row>
+
+        <b-row>
+
+        </b-row>
+    </b-container>
 </template>
 
 <script>
