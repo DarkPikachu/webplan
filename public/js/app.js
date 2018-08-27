@@ -1766,7 +1766,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["d" /* Layout */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -2174,7 +2174,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["d" /* Layout */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -2279,7 +2279,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["d" /* Layout */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -2362,8 +2362,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["e" /* Navbar */]);
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["d" /* Layout */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["c" /* Navbar */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
@@ -2486,10 +2486,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["d" /* Layout */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["c" /* Carousel */]);
+Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["a" /* Carousel */]);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
@@ -2990,7 +2990,7 @@ var VuePlugin = {
 
 Object(__WEBPACK_IMPORTED_MODULE_3__utils_plugins__["c" /* vueUse */])(VuePlugin);
 
-/* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
+/* unused harmony default export */ var _unused_webpack_default_export = (VuePlugin);
 
 /***/ }),
 
@@ -3855,7 +3855,7 @@ var VuePlugin = {
 
 Object(__WEBPACK_IMPORTED_MODULE_6__utils_plugins__["c" /* vueUse */])(VuePlugin);
 
-/* harmony default export */ __webpack_exports__["a"] = (VuePlugin);
+/* unused harmony default export */ var _unused_webpack_default_export = (VuePlugin);
 
 /***/ }),
 
@@ -7489,12 +7489,12 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils_plugins__["c" /* vueUse */])(VuePlugin
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__tooltip__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/tooltip/index.js");
 /* unused harmony reexport Alert */
 /* unused harmony reexport Badge */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__breadcrumb__["a"]; });
+/* unused harmony reexport Breadcrumb */
 /* unused harmony reexport Button */
 /* unused harmony reexport ButtonToolbar */
 /* unused harmony reexport ButtonGroup */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__card__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_8__carousel__["a"]; });
+/* unused harmony reexport Card */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_8__carousel__["a"]; });
 /* unused harmony reexport Collapse */
 /* unused harmony reexport Dropdown */
 /* unused harmony reexport Embed */
@@ -7509,13 +7509,13 @@ Object(__WEBPACK_IMPORTED_MODULE_2__utils_plugins__["c" /* vueUse */])(VuePlugin
 /* unused harmony reexport Image */
 /* unused harmony reexport InputGroup */
 /* unused harmony reexport Jumbotron */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_9__layout__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_9__layout__["a"]; });
 /* unused harmony reexport Link */
 /* unused harmony reexport ListGroup */
 /* unused harmony reexport Media */
 /* unused harmony reexport Modal */
 /* unused harmony reexport Nav */
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_28__navbar__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_28__navbar__["a"]; });
 /* unused harmony reexport Pagination */
 /* unused harmony reexport PaginationNav */
 /* unused harmony reexport Popover */
@@ -16556,7 +16556,7 @@ function warn(message) {
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-  * Bootstrap v4.1.2 (https://getbootstrap.com/)
+  * Bootstrap v4.1.3 (https://getbootstrap.com/)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
@@ -16627,7 +16627,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): util.js
+   * Bootstrap (v4.1.3): util.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -16759,7 +16759,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): alert.js
+   * Bootstrap (v4.1.3): alert.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -16771,7 +16771,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'alert';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.alert';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -16934,7 +16934,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): button.js
+   * Bootstrap (v4.1.3): button.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -16946,7 +16946,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'button';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.button';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -17098,7 +17098,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): carousel.js
+   * Bootstrap (v4.1.3): carousel.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -17110,7 +17110,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'carousel';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.carousel';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -17602,7 +17602,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): collapse.js
+   * Bootstrap (v4.1.3): collapse.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -17614,7 +17614,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'collapse';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.collapse';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -17970,7 +17970,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): dropdown.js
+   * Bootstrap (v4.1.3): dropdown.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -17982,7 +17982,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'dropdown';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.dropdown';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -18458,7 +18458,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): modal.js
+   * Bootstrap (v4.1.3): modal.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -18470,7 +18470,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'modal';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.modal';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -19029,7 +19029,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): tooltip.js
+   * Bootstrap (v4.1.3): tooltip.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -19041,7 +19041,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'tooltip';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.tooltip';
     var EVENT_KEY = "." + DATA_KEY;
     var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -19699,7 +19699,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): popover.js
+   * Bootstrap (v4.1.3): popover.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -19711,7 +19711,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'popover';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.popover';
     var EVENT_KEY = "." + DATA_KEY;
     var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -19896,7 +19896,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): scrollspy.js
+   * Bootstrap (v4.1.3): scrollspy.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -19908,7 +19908,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'scrollspy';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.scrollspy';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -20212,7 +20212,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): tab.js
+   * Bootstrap (v4.1.3): tab.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -20224,7 +20224,7 @@ function warn(message) {
      * ------------------------------------------------------------------------
      */
     var NAME = 'tab';
-    var VERSION = '4.1.2';
+    var VERSION = '4.1.3';
     var DATA_KEY = 'bs.tab';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -20461,7 +20461,7 @@ function warn(message) {
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.2): index.js
+   * Bootstrap (v4.1.3): index.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -20563,7 +20563,7 @@ exports.push([module.i, "/* Add support for fixed layout table */\r\ntable.b-tab
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
@@ -49716,7 +49716,7 @@ module.exports = startCase;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function(global) {/**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.14.3
+ * @version 1.14.4
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -50053,10 +50053,10 @@ function getBordersSize(styles, axis) {
 }
 
 function getSize(axis, body, html, computedStyle) {
-  return Math.max(body['offset' + axis], body['scroll' + axis], html['client' + axis], html['offset' + axis], html['scroll' + axis], isIE(10) ? html['offset' + axis] + computedStyle['margin' + (axis === 'Height' ? 'Top' : 'Left')] + computedStyle['margin' + (axis === 'Height' ? 'Bottom' : 'Right')] : 0);
+  return Math.max(body['offset' + axis], body['scroll' + axis], html['client' + axis], html['offset' + axis], html['scroll' + axis], isIE(10) ? parseInt(html['offset' + axis]) + parseInt(computedStyle['margin' + (axis === 'Height' ? 'Top' : 'Left')]) + parseInt(computedStyle['margin' + (axis === 'Height' ? 'Bottom' : 'Right')]) : 0);
 }
 
-function getWindowSizes() {
+function getWindowSizes(document) {
   var body = document.body;
   var html = document.documentElement;
   var computedStyle = isIE(10) && getComputedStyle(html);
@@ -50173,7 +50173,7 @@ function getBoundingClientRect(element) {
   };
 
   // subtract scrollbar size from sizes
-  var sizes = element.nodeName === 'HTML' ? getWindowSizes() : {};
+  var sizes = element.nodeName === 'HTML' ? getWindowSizes(element.ownerDocument) : {};
   var width = sizes.width || element.clientWidth || result.right - result.left;
   var height = sizes.height || element.clientHeight || result.bottom - result.top;
 
@@ -50208,7 +50208,7 @@ function getOffsetRectRelativeToArbitraryNode(children, parent) {
   var borderLeftWidth = parseFloat(styles.borderLeftWidth, 10);
 
   // In cases where the parent is fixed, we must ignore negative scroll in offset calc
-  if (fixedPosition && parent.nodeName === 'HTML') {
+  if (fixedPosition && isHTML) {
     parentRect.top = Math.max(parentRect.top, 0);
     parentRect.left = Math.max(parentRect.left, 0);
   }
@@ -50346,7 +50346,7 @@ function getBoundaries(popper, reference, padding, boundariesElement) {
 
     // In case of HTML, we need a different computation
     if (boundariesNode.nodeName === 'HTML' && !isFixed(offsetParent)) {
-      var _getWindowSizes = getWindowSizes(),
+      var _getWindowSizes = getWindowSizes(popper.ownerDocument),
           height = _getWindowSizes.height,
           width = _getWindowSizes.width;
 
@@ -50361,10 +50361,12 @@ function getBoundaries(popper, reference, padding, boundariesElement) {
   }
 
   // Add paddings
-  boundaries.left += padding;
-  boundaries.top += padding;
-  boundaries.right -= padding;
-  boundaries.bottom -= padding;
+  padding = padding || 0;
+  var isPaddingNumber = typeof padding === 'number';
+  boundaries.left += isPaddingNumber ? padding : padding.left || 0;
+  boundaries.top += isPaddingNumber ? padding : padding.top || 0;
+  boundaries.right -= isPaddingNumber ? padding : padding.right || 0;
+  boundaries.bottom -= isPaddingNumber ? padding : padding.bottom || 0;
 
   return boundaries;
 }
@@ -50689,7 +50691,7 @@ function getSupportedPropertyName(property) {
 }
 
 /**
- * Destroy the popper
+ * Destroys the popper.
  * @method
  * @memberof Popper
  */
@@ -50796,7 +50798,7 @@ function removeEventListeners(reference, state) {
 
 /**
  * It will remove resize/scroll events and won't recalculate popper position
- * when they are triggered. It also won't trigger onUpdate callback anymore,
+ * when they are triggered. It also won't trigger `onUpdate` callback anymore,
  * unless you call `update` method manually.
  * @method
  * @memberof Popper
@@ -50973,12 +50975,22 @@ function computeStyle(data, options) {
   var left = void 0,
       top = void 0;
   if (sideA === 'bottom') {
-    top = -offsetParentRect.height + offsets.bottom;
+    // when offsetParent is <html> the positioning is relative to the bottom of the screen (excluding the scrollbar)
+    // and not the bottom of the html element
+    if (offsetParent.nodeName === 'HTML') {
+      top = -offsetParent.clientHeight + offsets.bottom;
+    } else {
+      top = -offsetParentRect.height + offsets.bottom;
+    }
   } else {
     top = offsets.top;
   }
   if (sideB === 'right') {
-    left = -offsetParentRect.width + offsets.right;
+    if (offsetParent.nodeName === 'HTML') {
+      left = -offsetParent.clientWidth + offsets.right;
+    } else {
+      left = -offsetParentRect.width + offsets.right;
+    }
   } else {
     left = offsets.left;
   }
@@ -51087,7 +51099,7 @@ function arrow(data, options) {
 
   //
   // extends keepTogether behavior making sure the popper and its
-  // reference have enough pixels in conjuction
+  // reference have enough pixels in conjunction
   //
 
   // top/left side
@@ -51157,7 +51169,7 @@ function getOppositeVariation(variation) {
  * - `top-end` (on top of reference, right aligned)
  * - `right-start` (on right of reference, top aligned)
  * - `bottom` (on bottom, centered)
- * - `auto-right` (on the side with more space available, alignment depends by placement)
+ * - `auto-end` (on the side with more space available, alignment depends by placement)
  *
  * @static
  * @type {Array}
@@ -51699,7 +51711,7 @@ var modifiers = {
    * The `offset` modifier can shift your popper on both its axis.
    *
    * It accepts the following units:
-   * - `px` or unitless, interpreted as pixels
+   * - `px` or unit-less, interpreted as pixels
    * - `%` or `%r`, percentage relative to the length of the reference element
    * - `%p`, percentage relative to the length of the popper element
    * - `vw`, CSS viewport width unit
@@ -51707,7 +51719,7 @@ var modifiers = {
    *
    * For length is intended the main axis relative to the placement of the popper.<br />
    * This means that if the placement is `top` or `bottom`, the length will be the
-   * `width`. In case of `left` or `right`, it will be the height.
+   * `width`. In case of `left` or `right`, it will be the `height`.
    *
    * You can provide a single value (as `Number` or `String`), or a pair of values
    * as `String` divided by a comma or one (or more) white spaces.<br />
@@ -51728,7 +51740,7 @@ var modifiers = {
    * ```
    * > **NB**: If you desire to apply offsets to your poppers in a way that may make them overlap
    * > with their reference element, unfortunately, you will have to disable the `flip` modifier.
-   * > More on this [reading this issue](https://github.com/FezVrasta/popper.js/issues/373)
+   * > You can read more on this at this [issue](https://github.com/FezVrasta/popper.js/issues/373).
    *
    * @memberof modifiers
    * @inner
@@ -51749,7 +51761,7 @@ var modifiers = {
   /**
    * Modifier used to prevent the popper from being positioned outside the boundary.
    *
-   * An scenario exists where the reference itself is not within the boundaries.<br />
+   * A scenario exists where the reference itself is not within the boundaries.<br />
    * We can say it has "escaped the boundaries" — or just "escaped".<br />
    * In this case we need to decide whether the popper should either:
    *
@@ -51779,23 +51791,23 @@ var modifiers = {
     /**
      * @prop {number} padding=5
      * Amount of pixel used to define a minimum distance between the boundaries
-     * and the popper this makes sure the popper has always a little padding
+     * and the popper. This makes sure the popper always has a little padding
      * between the edges of its container
      */
     padding: 5,
     /**
      * @prop {String|HTMLElement} boundariesElement='scrollParent'
-     * Boundaries used by the modifier, can be `scrollParent`, `window`,
+     * Boundaries used by the modifier. Can be `scrollParent`, `window`,
      * `viewport` or any DOM element.
      */
     boundariesElement: 'scrollParent'
   },
 
   /**
-   * Modifier used to make sure the reference and its popper stay near eachothers
-   * without leaving any gap between the two. Expecially useful when the arrow is
-   * enabled and you want to assure it to point to its reference element.
-   * It cares only about the first axis, you can still have poppers with margin
+   * Modifier used to make sure the reference and its popper stay near each other
+   * without leaving any gap between the two. Especially useful when the arrow is
+   * enabled and you want to ensure that it points to its reference element.
+   * It cares only about the first axis. You can still have poppers with margin
    * between the popper and its reference element.
    * @memberof modifiers
    * @inner
@@ -51813,7 +51825,7 @@ var modifiers = {
    * This modifier is used to move the `arrowElement` of the popper to make
    * sure it is positioned between the reference element and its popper element.
    * It will read the outer size of the `arrowElement` node to detect how many
-   * pixels of conjuction are needed.
+   * pixels of conjunction are needed.
    *
    * It has no effect if no `arrowElement` is provided.
    * @memberof modifiers
@@ -51852,7 +51864,7 @@ var modifiers = {
      * @prop {String|Array} behavior='flip'
      * The behavior used to change the popper's placement. It can be one of
      * `flip`, `clockwise`, `counterclockwise` or an array with a list of valid
-     * placements (with optional variations).
+     * placements (with optional variations)
      */
     behavior: 'flip',
     /**
@@ -51862,9 +51874,9 @@ var modifiers = {
     padding: 5,
     /**
      * @prop {String|HTMLElement} boundariesElement='viewport'
-     * The element which will define the boundaries of the popper position,
-     * the popper will never be placed outside of the defined boundaries
-     * (except if keepTogether is enabled)
+     * The element which will define the boundaries of the popper position.
+     * The popper will never be placed outside of the defined boundaries
+     * (except if `keepTogether` is enabled)
      */
     boundariesElement: 'viewport'
   },
@@ -51928,8 +51940,8 @@ var modifiers = {
     fn: computeStyle,
     /**
      * @prop {Boolean} gpuAcceleration=true
-     * If true, it uses the CSS 3d transformation to position the popper.
-     * Otherwise, it will use the `top` and `left` properties.
+     * If true, it uses the CSS 3D transformation to position the popper.
+     * Otherwise, it will use the `top` and `left` properties
      */
     gpuAcceleration: true,
     /**
@@ -51956,7 +51968,7 @@ var modifiers = {
    * Note that if you disable this modifier, you must make sure the popper element
    * has its position set to `absolute` before Popper.js can do its work!
    *
-   * Just disable this modifier and define you own to achieve the desired effect.
+   * Just disable this modifier and define your own to achieve the desired effect.
    *
    * @memberof modifiers
    * @inner
@@ -51973,27 +51985,27 @@ var modifiers = {
     /**
      * @deprecated since version 1.10.0, the property moved to `computeStyle` modifier
      * @prop {Boolean} gpuAcceleration=true
-     * If true, it uses the CSS 3d transformation to position the popper.
-     * Otherwise, it will use the `top` and `left` properties.
+     * If true, it uses the CSS 3D transformation to position the popper.
+     * Otherwise, it will use the `top` and `left` properties
      */
     gpuAcceleration: undefined
   }
 };
 
 /**
- * The `dataObject` is an object containing all the informations used by Popper.js
- * this object get passed to modifiers and to the `onCreate` and `onUpdate` callbacks.
+ * The `dataObject` is an object containing all the information used by Popper.js.
+ * This object is passed to modifiers and to the `onCreate` and `onUpdate` callbacks.
  * @name dataObject
  * @property {Object} data.instance The Popper.js instance
  * @property {String} data.placement Placement applied to popper
  * @property {String} data.originalPlacement Placement originally defined on init
  * @property {Boolean} data.flipped True if popper has been flipped by flip modifier
- * @property {Boolean} data.hide True if the reference element is out of boundaries, useful to know when to hide the popper.
+ * @property {Boolean} data.hide True if the reference element is out of boundaries, useful to know when to hide the popper
  * @property {HTMLElement} data.arrowElement Node used as arrow by arrow modifier
- * @property {Object} data.styles Any CSS property defined here will be applied to the popper, it expects the JavaScript nomenclature (eg. `marginBottom`)
- * @property {Object} data.arrowStyles Any CSS property defined here will be applied to the popper arrow, it expects the JavaScript nomenclature (eg. `marginBottom`)
+ * @property {Object} data.styles Any CSS property defined here will be applied to the popper. It expects the JavaScript nomenclature (eg. `marginBottom`)
+ * @property {Object} data.arrowStyles Any CSS property defined here will be applied to the popper arrow. It expects the JavaScript nomenclature (eg. `marginBottom`)
  * @property {Object} data.boundaries Offsets of the popper boundaries
- * @property {Object} data.offsets The measurements of popper, reference and arrow elements.
+ * @property {Object} data.offsets The measurements of popper, reference and arrow elements
  * @property {Object} data.offsets.popper `top`, `left`, `width`, `height` values
  * @property {Object} data.offsets.reference `top`, `left`, `width`, `height` values
  * @property {Object} data.offsets.arrow] `top` and `left` offsets, only one of them will be different from 0
@@ -52001,9 +52013,9 @@ var modifiers = {
 
 /**
  * Default options provided to Popper.js constructor.<br />
- * These can be overriden using the `options` argument of Popper.js.<br />
- * To override an option, simply pass as 3rd argument an object with the same
- * structure of this object, example:
+ * These can be overridden using the `options` argument of Popper.js.<br />
+ * To override an option, simply pass an object with the same
+ * structure of the `options` object, as the 3rd argument. For example:
  * ```
  * new Popper(ref, pop, {
  *   modifiers: {
@@ -52017,7 +52029,7 @@ var modifiers = {
  */
 var Defaults = {
   /**
-   * Popper's placement
+   * Popper's placement.
    * @prop {Popper.placements} placement='bottom'
    */
   placement: 'bottom',
@@ -52029,7 +52041,7 @@ var Defaults = {
   positionFixed: false,
 
   /**
-   * Whether events (resize, scroll) are initially enabled
+   * Whether events (resize, scroll) are initially enabled.
    * @prop {Boolean} eventsEnabled=true
    */
   eventsEnabled: true,
@@ -52043,17 +52055,17 @@ var Defaults = {
 
   /**
    * Callback called when the popper is created.<br />
-   * By default, is set to no-op.<br />
+   * By default, it is set to no-op.<br />
    * Access Popper.js instance with `data.instance`.
    * @prop {onCreate}
    */
   onCreate: function onCreate() {},
 
   /**
-   * Callback called when the popper is updated, this callback is not called
+   * Callback called when the popper is updated. This callback is not called
    * on the initialization/creation of the popper, but only on subsequent
    * updates.<br />
-   * By default, is set to no-op.<br />
+   * By default, it is set to no-op.<br />
    * Access Popper.js instance with `data.instance`.
    * @prop {onUpdate}
    */
@@ -52061,7 +52073,7 @@ var Defaults = {
 
   /**
    * List of modifiers used to modify the offsets before they are applied to the popper.
-   * They provide most of the functionalities of Popper.js
+   * They provide most of the functionalities of Popper.js.
    * @prop {modifiers}
    */
   modifiers: modifiers
@@ -52081,10 +52093,10 @@ var Defaults = {
 // Methods
 var Popper = function () {
   /**
-   * Create a new Popper.js instance
+   * Creates a new Popper.js instance.
    * @class Popper
    * @param {HTMLElement|referenceObject} reference - The reference element used to position the popper
-   * @param {HTMLElement} popper - The HTML element used as popper.
+   * @param {HTMLElement} popper - The HTML element used as the popper
    * @param {Object} options - Your custom options to override the ones defined in [Defaults](#defaults)
    * @return {Object} instance - The generated Popper.js instance
    */
@@ -52180,7 +52192,7 @@ var Popper = function () {
     }
 
     /**
-     * Schedule an update, it will run on the next UI update available
+     * Schedules an update. It will run on the next UI update available.
      * @method scheduleUpdate
      * @memberof Popper
      */
@@ -52217,7 +52229,7 @@ var Popper = function () {
  * new Popper(referenceObject, popperNode);
  * ```
  *
- * NB: This feature isn't supported in Internet Explorer 10
+ * NB: This feature isn't supported in Internet Explorer 10.
  * @name referenceObject
  * @property {Function} data.getBoundingClientRect
  * A function that returns a set of coordinates compatible with the native `getBoundingClientRect` method.
@@ -53272,7 +53284,7 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-24f37e88\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/InfoComponent.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-0e9ce3c8\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/InfoComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53753,755 +53765,13 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-24f37e88", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-0e9ce3c8", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-36407a26\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-container",
-    {
-      staticStyle: { "padding-top": "20px", "margin-bottom": "20px" },
-      attrs: { fluid: "" }
-    },
-    [
-      _c(
-        "b-row",
-        { attrs: { fluid: "" } },
-        [
-          _c("b-col", { attrs: { cols: "1", md: "1" } }),
-          _vm._v(" "),
-          _c("b-col", { attrs: { cols: "5", md: "5" } }, [
-            _c("img", {
-              attrs: {
-                src: "http://plan.crru.ac.th/web_planning/img/head_logo02.png"
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            {
-              staticClass: "text-right",
-              staticStyle: { "padding-right": "30px" },
-              attrs: { cols: "6", md: "6", "align-v": "center" }
-            },
-            [
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("img", {
-                  attrs: {
-                    src: "http://plan.crru.ac.th/web_planning/img/crru.png"
-                  }
-                })
-              ]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "#", target: "_blank" } }, [
-                _c("img", {
-                  attrs: {
-                    src: "http://plan.crru.ac.th/web_planning/img/fb.png"
-                  }
-                })
-              ])
-            ]
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-row",
-        {
-          staticStyle: { "background-color": "#ccc", height: "50px" },
-          attrs: { fluid: "" }
-        },
-        [
-          _c(
-            "b-col",
-            { staticClass: "text-right" },
-            [
-              _c(
-                "b-navbar",
-                {
-                  attrs: {
-                    toggleable: "",
-                    type: "light",
-                    variant: "faded",
-                    size: "lg",
-                    right: ""
-                  }
-                },
-                [
-                  _c("b-navbar-toggle", {
-                    attrs: { target: "nav_dropdown_collapse" }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "b-collapse",
-                    {
-                      attrs: {
-                        "is-nav": "",
-                        id: "nav_dropdown_collapse",
-                        order: "*"
-                      }
-                    },
-                    [
-                      _vm.urlLink.main_menu && _vm.urlLink.info_menu
-                        ? _c(
-                            "b-navbar-nav",
-                            [
-                              _c(
-                                "b-nav-item",
-                                { attrs: { href: _vm.urlLink.home } },
-                                [
-                                  _c("i", { staticClass: "fa fa-home" }),
-                                  _vm._v(" Home")
-                                ]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                {
-                                  attrs: {
-                                    text:
-                                      "<i class='fa fa-th-lis'></i> เมนูหลัก",
-                                    left: ""
-                                  }
-                                },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.main_menu.about.url
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.main_menu.about.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href:
-                                          _vm.urlLink.main_menu.org_chart.url
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.main_menu.org_chart
-                                              .label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href:
-                                          _vm.urlLink.main_menu.personnel.url
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.main_menu.personnel
-                                              .label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.main_menu.gallery.url
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.main_menu.gallery.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.main_menu.sitemap.url
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.main_menu.sitemap.label
-                                          )
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                { attrs: { text: "ข้อมูลพิ้นฐาน" } },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.info_menu.home.url
-                                      },
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.urlLink.info_menu.home.label
-                                        )
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.info_menu.home.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.info_menu.home1.url
-                                      },
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.urlLink.info_menu.home1.label
-                                        )
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.info_menu.home1.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href:
-                                          _vm.urlLink.info_menu
-                                            .annual_info_university.url
-                                      },
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.urlLink.info_menu
-                                            .annual_info_university.label
-                                        )
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.info_menu
-                                              .annual_info_university.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.info_menu.home3.url
-                                      },
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.urlLink.info_menu.home3.label
-                                        )
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.info_menu.home3.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href: _vm.urlLink.info_menu.home4.url
-                                      },
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.urlLink.info_menu.home4.label
-                                        )
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.info_menu.home4.label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href:
-                                          _vm.urlLink.info_menu.annual_info_plan
-                                            .url
-                                      },
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.urlLink.info_menu.annual_info_plan
-                                            .label
-                                        )
-                                      }
-                                    },
-                                    [
-                                      _c("i", {
-                                        staticClass: "fa fa-caret-right"
-                                      }),
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.info_menu
-                                              .annual_info_plan.label
-                                          )
-                                      )
-                                    ]
-                                  )
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                { attrs: { text: "Download" } },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    {
-                                      attrs: {
-                                        href:
-                                          _vm.urlLink.download_menu.circular.url
-                                      }
-                                    },
-                                    [
-                                      _vm._v(
-                                        " " +
-                                          _vm._s(
-                                            _vm.urlLink.download_menu.circular
-                                              .label
-                                          )
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" ประกาศ/คำสั่ง")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" เอกสารเผยแพร่")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [
-                                      _vm._v(
-                                        " แบบฟอร์มงานวิเคราะห์นโยบายและแผน"
-                                      )
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v(" แบบฟอร์มงานติดตามและประเมินผล")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("b-dropdown-item", {
-                                    attrs: { href: "#" }
-                                  })
-                                ],
-                                1
-                              ),
-                              _vm._v(" "),
-                              _c("b-nav-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-phone" }),
-                                _vm._v(" เบอร์โทรติดต่อ")
-                              ]),
-                              _vm._v(" "),
-                              _c(
-                                "b-nav-item-dropdown",
-                                {
-                                  attrs: { text: "Plan Application", right: "" }
-                                },
-                                [
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v("Account")]
-                                  ),
-                                  _vm._v(" "),
-                                  _c(
-                                    "b-dropdown-item",
-                                    { attrs: { href: "#" } },
-                                    [_vm._v("Settings")]
-                                  )
-                                ],
-                                1
-                              )
-                            ],
-                            1
-                          )
-                        : _vm._e()
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c("b-row", {
-        staticStyle: { "background-color": "#666", height: "5px" },
-        attrs: { fluid: "" }
-      })
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-36407a26", module.exports)
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6d41418a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FormDownloadComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-container",
-    [
-      _c(
-        "b-card-group",
-        { staticClass: "mb-4", attrs: { deck: "" } },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "text-left ",
-              attrs: {
-                "header-bg-variant": "warning",
-                header: "เอกสาร/แบบฟอร์ม"
-              }
-            },
-            [
-              _c(
-                "b-card-body",
-                [
-                  _c(
-                    "b-tabs",
-                    [
-                      _c(
-                        "b-tab",
-                        { attrs: { active: "" } },
-                        [
-                          _c("template", { slot: "title" }, [
-                            _c("i", { staticClass: "fa fa-paperclip" }),
-                            _vm._v(
-                              " งานวิเคราะห์นโบบายและแผน\n                        "
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            [
-                              _c("b-table", {
-                                attrs: { hover: "", items: _vm.items },
-                                scopedSlots: _vm._u([
-                                  {
-                                    key: "HEAD_name",
-                                    fn: function(data) {
-                                      return [
-                                        _c("em", [_vm._v(_vm._s(data.label))])
-                                      ]
-                                    }
-                                  },
-                                  {
-                                    key: "FOOT_name",
-                                    fn: function(data) {
-                                      return [
-                                        _c("strong", [
-                                          _vm._v(_vm._s(data.label))
-                                        ])
-                                      ]
-                                    }
-                                  },
-                                  {
-                                    key: "date",
-                                    fn: function(data) {
-                                      return [
-                                        _vm._v(
-                                          "\n                                    " +
-                                            _vm._s(data.value) +
-                                            "\n                                "
-                                        )
-                                      ]
-                                    }
-                                  },
-                                  {
-                                    key: "title",
-                                    fn: function(data) {
-                                      return [
-                                        _c("i", {
-                                          staticClass: "fa fa-thumb-tack",
-                                          attrs: { "aria-hidden": "true" }
-                                        }),
-                                        _vm._v(
-                                          " " +
-                                            _vm._s(data.value) +
-                                            "\n                                "
-                                        )
-                                      ]
-                                    }
-                                  }
-                                ])
-                              })
-                            ],
-                            1
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "div",
-                            [
-                              _c("b-table", {
-                                attrs: { hover: "", items: _vm.items2 },
-                                scopedSlots: _vm._u([
-                                  {
-                                    key: "date",
-                                    fn: function(data) {
-                                      return [
-                                        _vm._v(
-                                          "\n                                    " +
-                                            _vm._s(data.value) +
-                                            "\n                                "
-                                        )
-                                      ]
-                                    }
-                                  },
-                                  {
-                                    key: "title",
-                                    fn: function(data) {
-                                      return [
-                                        _c("i", {
-                                          staticClass: "fa fa-thumb-tack",
-                                          attrs: { "aria-hidden": "true" }
-                                        }),
-                                        _vm._v(
-                                          " " +
-                                            _vm._s(data.value) +
-                                            "\n                                "
-                                        )
-                                      ]
-                                    }
-                                  }
-                                ])
-                              })
-                            ],
-                            1
-                          )
-                        ],
-                        2
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-tab",
-                        [
-                          _c("template", { slot: "title" }, [
-                            _c("i", { staticClass: "fa fa-paperclip" }),
-                            _vm._v(
-                              " งานวิเคราะห์งบประมาณ\n                        "
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v(
-                            "I'm the second tab content\n                    "
-                          )
-                        ],
-                        2
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-tab",
-                        [
-                          _c("template", { slot: "title" }, [
-                            _c("i", { staticClass: "fa fa-paperclip" }),
-                            _vm._v(
-                              " งานติดตามและประเมินผล\n                        "
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v("Disabled tab!\n                    ")
-                        ],
-                        2
-                      ),
-                      _vm._v(" "),
-                      _c(
-                        "b-tab",
-                        [
-                          _c("template", { slot: "title" }, [
-                            _c("i", { staticClass: "fa fa-list-alt" }),
-                            _vm._v(" เอกสารเผยแพร่\n                        ")
-                          ]),
-                          _vm._v(" "),
-                          _c("br"),
-                          _vm._v("Disabled tab!\n                    ")
-                        ],
-                        2
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-card-group",
-        { staticClass: "mb-4", attrs: { deck: "" } },
-        [
-          _c(
-            "b-card",
-            {
-              staticClass: "text-left",
-              attrs: {
-                "header-bg-variant": "warning",
-                header: "Download แบบฟอร์ม"
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                )
-              ])
-            ]
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-6d41418a", module.exports)
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7f6edbc2\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-11a722fc\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55555,13 +54825,677 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-7f6edbc2", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-11a722fc", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-d01c0b0a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-145b237e\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    { staticStyle: { "margin-bottom": "20px" }, attrs: { fluid: "" } },
+    [
+      _c(
+        "b-row",
+        { staticClass: "row-fluid" },
+        [
+          _c(
+            "b-col",
+            { attrs: { cols: "12", md: "8", sm: "12" } },
+            [
+              _c(
+                "b-carousel",
+                {
+                  staticStyle: { "text-shadow": "1px 1px 2px #333" },
+                  attrs: {
+                    id: "carousel1",
+                    controls: "",
+                    indicators: "",
+                    background: "#ababab",
+                    interval: 4000,
+                    "img-width": "1024",
+                    "img-height": "480"
+                  },
+                  on: {
+                    "sliding-start": _vm.onSlideStart,
+                    "sliding-end": _vm.onSlideEnd
+                  },
+                  model: {
+                    value: _vm.slide,
+                    callback: function($$v) {
+                      _vm.slide = $$v
+                    },
+                    expression: "slide"
+                  }
+                },
+                [
+                  _c("b-carousel-slide", {
+                    attrs: {
+                      caption: "First slide",
+                      text:
+                        "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+                      "img-src": "https://picsum.photos/1024/480/?image=52"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "b-carousel-slide",
+                    {
+                      attrs: {
+                        "img-src": "https://picsum.photos/1024/480/?image=54"
+                      }
+                    },
+                    [_c("h1", [_vm._v("Hello world!")])]
+                  ),
+                  _vm._v(" "),
+                  _c("b-carousel-slide", {
+                    attrs: {
+                      "img-src": "https://picsum.photos/1024/480/?image=58"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-carousel-slide", [
+                    _c("img", {
+                      staticClass: "d-block img-fluid w-100",
+                      attrs: {
+                        slot: "img",
+                        width: "1024",
+                        height: "480",
+                        src: "https://picsum.photos/1024/480/?image=55",
+                        alt: "image slot"
+                      },
+                      slot: "img"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-carousel-slide",
+                    {
+                      attrs: {
+                        caption: "Blank Image",
+                        "img-blank": "",
+                        "img-alt": "Blank image"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse\n                    eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque\n                    ut lacus vel interdum.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { cols: "12", md: "4", sm: "*" } },
+            [
+              _c(
+                "b-card",
+                {
+                  attrs: {
+                    header: "สายตรงผู้อำนวยการ",
+                    "header-tag": "header",
+                    "header-bg-variant": "primary",
+                    "header-text-variant": "white",
+                    "header-class": "",
+                    footer:
+                      "นางใกล้รุ่ง เกตวันดี<br>ผู้อำนวยการกองนโยบายและแผน",
+                    "footer-tag": "footer",
+                    "footer-class": "text-right",
+                    title: ""
+                  }
+                },
+                [
+                  _c("b-img", {
+                    attrs: {
+                      src:
+                        "http://plan.crru.ac.th/web_planning/img/direeee.png",
+                      width: "250",
+                      right: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "1", md: "1" } })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-145b237e", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-5b258f66\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    {
+      staticStyle: { "padding-top": "20px", "margin-bottom": "20px" },
+      attrs: { fluid: "" }
+    },
+    [
+      _c(
+        "b-row",
+        { attrs: { fluid: "" } },
+        [
+          _c("b-col", { attrs: { cols: "1", md: "1" } }),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "5", md: "5" } }, [
+            _c("img", {
+              attrs: {
+                src: "http://plan.crru.ac.th/web_planning/img/head_logo02.png"
+              }
+            })
+          ]),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            {
+              staticClass: "text-right",
+              staticStyle: { "padding-right": "30px" },
+              attrs: { cols: "6", md: "6", "align-v": "center" }
+            },
+            [
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("img", {
+                  attrs: {
+                    src: "http://plan.crru.ac.th/web_planning/img/crru.png"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "#", target: "_blank" } }, [
+                _c("img", {
+                  attrs: {
+                    src: "http://plan.crru.ac.th/web_planning/img/fb.png"
+                  }
+                })
+              ])
+            ]
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        {
+          staticStyle: { "background-color": "#ccc", height: "50px" },
+          attrs: { fluid: "" }
+        },
+        [
+          _c(
+            "b-col",
+            { staticClass: "text-right" },
+            [
+              _c(
+                "b-navbar",
+                {
+                  attrs: {
+                    toggleable: "",
+                    type: "light",
+                    variant: "faded",
+                    size: "lg",
+                    right: ""
+                  }
+                },
+                [
+                  _c("b-navbar-toggle", {
+                    attrs: { target: "nav_dropdown_collapse" }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "b-collapse",
+                    {
+                      attrs: {
+                        "is-nav": "",
+                        id: "nav_dropdown_collapse",
+                        order: "*"
+                      }
+                    },
+                    [
+                      _vm.urlLink.main_menu && _vm.urlLink.info_menu
+                        ? _c(
+                            "b-navbar-nav",
+                            [
+                              _c(
+                                "b-nav-item",
+                                { attrs: { href: _vm.urlLink.home } },
+                                [
+                                  _c("i", { staticClass: "fa fa-home" }),
+                                  _vm._v(" Home")
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                {
+                                  attrs: {
+                                    text:
+                                      "<i class='fa fa-th-lis'></i> เมนูหลัก",
+                                    left: ""
+                                  }
+                                },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.main_menu.about.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.about.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.main_menu.org_chart.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.org_chart
+                                              .label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.main_menu.personnel.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.personnel
+                                              .label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.main_menu.gallery.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.gallery.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.main_menu.sitemap.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.main_menu.sitemap.label
+                                          )
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                { attrs: { text: "ข้อมูลพิ้นฐาน" } },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.info_menu.home.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home.label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.info_menu.home1.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home1.label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home1.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.info_menu
+                                            .annual_info_university.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu
+                                            .annual_info_university.label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu
+                                              .annual_info_university.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.info_menu.home3.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home3.label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home3.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href: _vm.urlLink.info_menu.home4.url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.home4.label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu.home4.label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.info_menu.annual_info_plan
+                                            .url
+                                      },
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.urlLink.info_menu.annual_info_plan
+                                            .label
+                                        )
+                                      }
+                                    },
+                                    [
+                                      _c("i", {
+                                        staticClass: "fa fa-caret-right"
+                                      }),
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.info_menu
+                                              .annual_info_plan.label
+                                          )
+                                      )
+                                    ]
+                                  )
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                { attrs: { text: "Download" } },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    {
+                                      attrs: {
+                                        href:
+                                          _vm.urlLink.download_menu.circular.url
+                                      }
+                                    },
+                                    [
+                                      _vm._v(
+                                        " " +
+                                          _vm._s(
+                                            _vm.urlLink.download_menu.circular
+                                              .label
+                                          )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" ประกาศ/คำสั่ง")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" เอกสารเผยแพร่")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [
+                                      _vm._v(
+                                        " แบบฟอร์มงานวิเคราะห์นโยบายและแผน"
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" แบบฟอร์มงานวิเคราะห์งบประมาณ")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v(" แบบฟอร์มงานติดตามและประเมินผล")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("b-dropdown-item", {
+                                    attrs: { href: "#" }
+                                  })
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c("b-nav-item", { attrs: { href: "#" } }, [
+                                _c("i", { staticClass: "fa fa-phone" }),
+                                _vm._v(" เบอร์โทรติดต่อ")
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "b-nav-item-dropdown",
+                                {
+                                  attrs: { text: "Plan Application", right: "" }
+                                },
+                                [
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Account")]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "b-dropdown-item",
+                                    { attrs: { href: "#" } },
+                                    [_vm._v("Settings")]
+                                  )
+                                ],
+                                1
+                              )
+                            ],
+                            1
+                          )
+                        : _vm._e()
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c("b-row", {
+        staticStyle: { "background-color": "#666", height: "5px" },
+        attrs: { fluid: "" }
+      })
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-5b258f66", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-8651e08a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FooterComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -56543,13 +56477,13 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-d01c0b0a", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-8651e08a", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dec788fe\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-a25d326c\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FormDownloadComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -56558,142 +56492,220 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
-    { staticStyle: { "margin-bottom": "20px" }, attrs: { fluid: "" } },
     [
       _c(
-        "b-row",
-        { staticClass: "row-fluid" },
+        "b-card-group",
+        { staticClass: "mb-4", attrs: { deck: "" } },
         [
           _c(
-            "b-col",
-            { attrs: { cols: "12", md: "8", sm: "12" } },
+            "b-card",
+            {
+              staticClass: "text-left ",
+              attrs: {
+                "header-bg-variant": "warning",
+                header: "เอกสาร/แบบฟอร์ม"
+              }
+            },
             [
               _c(
-                "b-carousel",
-                {
-                  staticStyle: { "text-shadow": "1px 1px 2px #333" },
-                  attrs: {
-                    id: "carousel1",
-                    controls: "",
-                    indicators: "",
-                    background: "#ababab",
-                    interval: 4000,
-                    "img-width": "1024",
-                    "img-height": "480"
-                  },
-                  on: {
-                    "sliding-start": _vm.onSlideStart,
-                    "sliding-end": _vm.onSlideEnd
-                  },
-                  model: {
-                    value: _vm.slide,
-                    callback: function($$v) {
-                      _vm.slide = $$v
-                    },
-                    expression: "slide"
-                  }
-                },
+                "b-card-body",
                 [
-                  _c("b-carousel-slide", {
-                    attrs: {
-                      caption: "First slide",
-                      text:
-                        "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-                      "img-src": "https://picsum.photos/1024/480/?image=52"
-                    }
-                  }),
-                  _vm._v(" "),
                   _c(
-                    "b-carousel-slide",
-                    {
-                      attrs: {
-                        "img-src": "https://picsum.photos/1024/480/?image=54"
-                      }
-                    },
-                    [_c("h1", [_vm._v("Hello world!")])]
-                  ),
-                  _vm._v(" "),
-                  _c("b-carousel-slide", {
-                    attrs: {
-                      "img-src": "https://picsum.photos/1024/480/?image=58"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-carousel-slide", [
-                    _c("img", {
-                      staticClass: "d-block img-fluid w-100",
-                      attrs: {
-                        slot: "img",
-                        width: "1024",
-                        height: "480",
-                        src: "https://picsum.photos/1024/480/?image=55",
-                        alt: "image slot"
-                      },
-                      slot: "img"
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "b-carousel-slide",
-                    {
-                      attrs: {
-                        caption: "Blank Image",
-                        "img-blank": "",
-                        "img-alt": "Blank image"
-                      }
-                    },
+                    "b-tabs",
                     [
-                      _c("p", [
-                        _vm._v(
-                          "\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse\n                    eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque\n                    ut lacus vel interdum.\n                    "
-                        )
-                      ])
-                    ]
+                      _c(
+                        "b-tab",
+                        { attrs: { active: "" } },
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-paperclip" }),
+                            _vm._v(
+                              " งานวิเคราะห์นโบบายและแผน\n                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            [
+                              _c("b-table", {
+                                attrs: { hover: "", items: _vm.items },
+                                scopedSlots: _vm._u([
+                                  {
+                                    key: "HEAD_name",
+                                    fn: function(data) {
+                                      return [
+                                        _c("em", [_vm._v(_vm._s(data.label))])
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    key: "FOOT_name",
+                                    fn: function(data) {
+                                      return [
+                                        _c("strong", [
+                                          _vm._v(_vm._s(data.label))
+                                        ])
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    key: "date",
+                                    fn: function(data) {
+                                      return [
+                                        _vm._v(
+                                          "\n                                    " +
+                                            _vm._s(data.value) +
+                                            "\n                                "
+                                        )
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    key: "title",
+                                    fn: function(data) {
+                                      return [
+                                        _c("i", {
+                                          staticClass: "fa fa-thumb-tack",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _vm._v(
+                                          " " +
+                                            _vm._s(data.value) +
+                                            "\n                                "
+                                        )
+                                      ]
+                                    }
+                                  }
+                                ])
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            [
+                              _c("b-table", {
+                                attrs: { hover: "", items: _vm.items2 },
+                                scopedSlots: _vm._u([
+                                  {
+                                    key: "date",
+                                    fn: function(data) {
+                                      return [
+                                        _vm._v(
+                                          "\n                                    " +
+                                            _vm._s(data.value) +
+                                            "\n                                "
+                                        )
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    key: "title",
+                                    fn: function(data) {
+                                      return [
+                                        _c("i", {
+                                          staticClass: "fa fa-thumb-tack",
+                                          attrs: { "aria-hidden": "true" }
+                                        }),
+                                        _vm._v(
+                                          " " +
+                                            _vm._s(data.value) +
+                                            "\n                                "
+                                        )
+                                      ]
+                                    }
+                                  }
+                                ])
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        2
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-paperclip" }),
+                            _vm._v(
+                              " งานวิเคราะห์งบประมาณ\n                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v(
+                            "I'm the second tab content\n                    "
+                          )
+                        ],
+                        2
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-paperclip" }),
+                            _vm._v(
+                              " งานติดตามและประเมินผล\n                        "
+                            )
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v("Disabled tab!\n                    ")
+                        ],
+                        2
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "b-tab",
+                        [
+                          _c("template", { slot: "title" }, [
+                            _c("i", { staticClass: "fa fa-list-alt" }),
+                            _vm._v(" เอกสารเผยแพร่\n                        ")
+                          ]),
+                          _vm._v(" "),
+                          _c("br"),
+                          _vm._v("Disabled tab!\n                    ")
+                        ],
+                        2
+                      )
+                    ],
+                    1
                   )
                 ],
                 1
               )
             ],
             1
-          ),
-          _vm._v(" "),
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-card-group",
+        { staticClass: "mb-4", attrs: { deck: "" } },
+        [
           _c(
-            "b-col",
-            { attrs: { cols: "12", md: "4", sm: "*" } },
+            "b-card",
+            {
+              staticClass: "text-left",
+              attrs: {
+                "header-bg-variant": "warning",
+                header: "Download แบบฟอร์ม"
+              }
+            },
             [
-              _c(
-                "b-card",
-                {
-                  attrs: {
-                    header: "สายตรงผู้อำนวยการ",
-                    "header-tag": "header",
-                    "header-bg-variant": "primary",
-                    "header-text-variant": "white",
-                    "header-class": "",
-                    footer:
-                      "นางใกล้รุ่ง เกตวันดี<br>ผู้อำนวยการกองนโยบายและแผน",
-                    "footer-tag": "footer",
-                    "footer-class": "text-right",
-                    title: ""
-                  }
-                },
-                [
-                  _c("b-img", {
-                    attrs: {
-                      src:
-                        "http://plan.crru.ac.th/web_planning/img/direeee.png",
-                      width: "250",
-                      right: ""
-                    }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-col", { attrs: { cols: "1", md: "1" } })
+              _c("p", { staticClass: "card-text" }, [
+                _vm._v(
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                )
+              ])
+            ]
+          )
         ],
         1
       )
@@ -56707,29 +56719,29 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-dec788fe", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-a25d326c", module.exports)
   }
 }
 
 /***/ }),
 
-/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue");
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue");
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("77cec010", content, false, {});
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("870f8236", content, false, {});
 // Hot Module Replacement
 if(false) {
  // When the styles change, update the <style> tags
  if(!content.locals) {
-   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue", function() {
-     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue");
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -57008,7 +57020,7 @@ module.exports = function listToStyles (parentId, list) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global, setImmediate) {/*!
- * Vue.js v2.5.16
+ * Vue.js v2.5.17
  * (c) 2014-2018 Evan You
  * Released under the MIT License.
  */
@@ -62097,7 +62109,7 @@ Object.defineProperty(Vue, 'FunctionalRenderContext', {
   value: FunctionalRenderContext
 });
 
-Vue.version = '2.5.16';
+Vue.version = '2.5.17';
 
 /*  */
 
@@ -68129,13 +68141,13 @@ if (token) {
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-d01c0b0a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue")
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue")
 }
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/FooterComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-d01c0b0a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FooterComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-8651e08a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FooterComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68152,7 +68164,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\FooterComponent.vue"
+Component.options.__file = "resources/assets/js/components/FooterComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68161,9 +68173,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-d01c0b0a", Component.options)
+    hotAPI.createRecord("data-v-8651e08a", Component.options)
   } else {
-    hotAPI.reload("data-v-d01c0b0a", Component.options)
+    hotAPI.reload("data-v-8651e08a", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -68183,7 +68195,7 @@ var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/comp
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/FormDownloadComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-6d41418a\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FormDownloadComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-a25d326c\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/FormDownloadComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68200,7 +68212,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\FormDownloadComponent.vue"
+Component.options.__file = "resources/assets/js/components/FormDownloadComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68209,9 +68221,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6d41418a", Component.options)
+    hotAPI.createRecord("data-v-a25d326c", Component.options)
   } else {
-    hotAPI.reload("data-v-6d41418a", Component.options)
+    hotAPI.reload("data-v-a25d326c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -68231,7 +68243,7 @@ var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/comp
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7f6edbc2\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-11a722fc\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68248,7 +68260,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\GalleryComponent.vue"
+Component.options.__file = "resources/assets/js/components/GalleryComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68257,9 +68269,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-7f6edbc2", Component.options)
+    hotAPI.createRecord("data-v-11a722fc", Component.options)
   } else {
-    hotAPI.reload("data-v-7f6edbc2", Component.options)
+    hotAPI.reload("data-v-11a722fc", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -68279,7 +68291,7 @@ var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/comp
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/InfoComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-24f37e88\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/InfoComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-0e9ce3c8\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/InfoComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68296,7 +68308,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\InfoComponent.vue"
+Component.options.__file = "resources/assets/js/components/InfoComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68305,9 +68317,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-24f37e88", Component.options)
+    hotAPI.createRecord("data-v-0e9ce3c8", Component.options)
   } else {
-    hotAPI.reload("data-v-24f37e88", Component.options)
+    hotAPI.reload("data-v-0e9ce3c8", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -68327,7 +68339,7 @@ var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/comp
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/NavbarComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-36407a26\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-5b258f66\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68344,7 +68356,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\NavbarComponent.vue"
+Component.options.__file = "resources/assets/js/components/NavbarComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68353,9 +68365,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-36407a26", Component.options)
+    hotAPI.createRecord("data-v-5b258f66", Component.options)
   } else {
-    hotAPI.reload("data-v-36407a26", Component.options)
+    hotAPI.reload("data-v-5b258f66", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -68375,7 +68387,7 @@ var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/comp
 /* script */
 var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/PhotoSliderComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dec788fe\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-145b237e\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68392,7 +68404,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\components\\PhotoSliderComponent.vue"
+Component.options.__file = "resources/assets/js/components/PhotoSliderComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68401,9 +68413,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-dec788fe", Component.options)
+    hotAPI.createRecord("data-v-145b237e", Component.options)
   } else {
-    hotAPI.reload("data-v-dec788fe", Component.options)
+    hotAPI.reload("data-v-145b237e", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
