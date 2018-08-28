@@ -18,10 +18,7 @@ window.Vue = require('vue');
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 //Vue.component('header-component', require('./components/HeaderComponent.vue'));
 Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
-Vue.component('photo-slider-component', require('./components/PhotoSliderComponent.vue'));
-Vue.component('gallery-news-component', require('./components/GalleryAndNewsComponent.vue'));
-Vue.component('info-component', require('./components/InfoComponent.vue'));
-Vue.component('form-download-component', require('./components/FormDownloadComponent.vue'));
+Vue.component('gallery-component', require('./components/GalleryComponent.vue'));
 Vue.component('footer-component', require('./components/FooterComponent.vue'));
 
 const app = new Vue({

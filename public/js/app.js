@@ -1873,7 +1873,7 @@ var items2 = [{ date: '2018-01-04', title: 'แบบฟอร์มรายง
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue":
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryAndNewsComponent.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2173,8 +2173,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout */]);
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -53771,7 +53769,171 @@ if (false) {
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-11a722fc\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue":
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-145b237e\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    { staticStyle: { "margin-bottom": "20px" }, attrs: { fluid: "" } },
+    [
+      _c(
+        "b-row",
+        { staticClass: "row-fluid" },
+        [
+          _c(
+            "b-col",
+            { attrs: { cols: "12", md: "8", sm: "12" } },
+            [
+              _c(
+                "b-carousel",
+                {
+                  staticStyle: { "text-shadow": "1px 1px 2px #333" },
+                  attrs: {
+                    id: "carousel1",
+                    controls: "",
+                    indicators: "",
+                    background: "#ababab",
+                    interval: 4000,
+                    "img-width": "1024",
+                    "img-height": "480"
+                  },
+                  on: {
+                    "sliding-start": _vm.onSlideStart,
+                    "sliding-end": _vm.onSlideEnd
+                  },
+                  model: {
+                    value: _vm.slide,
+                    callback: function($$v) {
+                      _vm.slide = $$v
+                    },
+                    expression: "slide"
+                  }
+                },
+                [
+                  _c("b-carousel-slide", {
+                    attrs: {
+                      caption: "First slide",
+                      text:
+                        "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+                      "img-src": "https://picsum.photos/1024/480/?image=52"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "b-carousel-slide",
+                    {
+                      attrs: {
+                        "img-src": "https://picsum.photos/1024/480/?image=54"
+                      }
+                    },
+                    [_c("h1", [_vm._v("Hello world!")])]
+                  ),
+                  _vm._v(" "),
+                  _c("b-carousel-slide", {
+                    attrs: {
+                      "img-src": "https://picsum.photos/1024/480/?image=58"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("b-carousel-slide", [
+                    _c("img", {
+                      staticClass: "d-block img-fluid w-100",
+                      attrs: {
+                        slot: "img",
+                        width: "1024",
+                        height: "480",
+                        src: "https://picsum.photos/1024/480/?image=55",
+                        alt: "image slot"
+                      },
+                      slot: "img"
+                    })
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-carousel-slide",
+                    {
+                      attrs: {
+                        caption: "Blank Image",
+                        "img-blank": "",
+                        "img-alt": "Blank image"
+                      }
+                    },
+                    [
+                      _c("p", [
+                        _vm._v(
+                          "\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse\n                    eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque\n                    ut lacus vel interdum.\n                    "
+                        )
+                      ])
+                    ]
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "b-col",
+            { attrs: { cols: "12", md: "4", sm: "*" } },
+            [
+              _c(
+                "b-card",
+                {
+                  attrs: {
+                    header: "สายตรงผู้อำนวยการ",
+                    "header-tag": "header",
+                    "header-bg-variant": "primary",
+                    "header-text-variant": "white",
+                    "header-class": "",
+                    footer:
+                      "นางใกล้รุ่ง เกตวันดี<br>ผู้อำนวยการกองนโยบายและแผน",
+                    "footer-tag": "footer",
+                    "footer-class": "text-right",
+                    title: ""
+                  }
+                },
+                [
+                  _c("b-img", {
+                    attrs: {
+                      src:
+                        "http://plan.crru.ac.th/web_planning/img/direeee.png",
+                      width: "250",
+                      right: ""
+                    }
+                  })
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "1", md: "1" } })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-145b237e", module.exports)
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-59e401de\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryAndNewsComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54825,171 +54987,7 @@ module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-11a722fc", module.exports)
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-145b237e\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/PhotoSliderComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-container",
-    { staticStyle: { "margin-bottom": "20px" }, attrs: { fluid: "" } },
-    [
-      _c(
-        "b-row",
-        { staticClass: "row-fluid" },
-        [
-          _c(
-            "b-col",
-            { attrs: { cols: "12", md: "8", sm: "12" } },
-            [
-              _c(
-                "b-carousel",
-                {
-                  staticStyle: { "text-shadow": "1px 1px 2px #333" },
-                  attrs: {
-                    id: "carousel1",
-                    controls: "",
-                    indicators: "",
-                    background: "#ababab",
-                    interval: 4000,
-                    "img-width": "1024",
-                    "img-height": "480"
-                  },
-                  on: {
-                    "sliding-start": _vm.onSlideStart,
-                    "sliding-end": _vm.onSlideEnd
-                  },
-                  model: {
-                    value: _vm.slide,
-                    callback: function($$v) {
-                      _vm.slide = $$v
-                    },
-                    expression: "slide"
-                  }
-                },
-                [
-                  _c("b-carousel-slide", {
-                    attrs: {
-                      caption: "First slide",
-                      text:
-                        "Nulla vitae elit libero, a pharetra augue mollis interdum.",
-                      "img-src": "https://picsum.photos/1024/480/?image=52"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c(
-                    "b-carousel-slide",
-                    {
-                      attrs: {
-                        "img-src": "https://picsum.photos/1024/480/?image=54"
-                      }
-                    },
-                    [_c("h1", [_vm._v("Hello world!")])]
-                  ),
-                  _vm._v(" "),
-                  _c("b-carousel-slide", {
-                    attrs: {
-                      "img-src": "https://picsum.photos/1024/480/?image=58"
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("b-carousel-slide", [
-                    _c("img", {
-                      staticClass: "d-block img-fluid w-100",
-                      attrs: {
-                        slot: "img",
-                        width: "1024",
-                        height: "480",
-                        src: "https://picsum.photos/1024/480/?image=55",
-                        alt: "image slot"
-                      },
-                      slot: "img"
-                    })
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "b-carousel-slide",
-                    {
-                      attrs: {
-                        caption: "Blank Image",
-                        "img-blank": "",
-                        "img-alt": "Blank image"
-                      }
-                    },
-                    [
-                      _c("p", [
-                        _vm._v(
-                          "\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse\n                    eros felis, tincidunt a tincidunt eget, convallis vel est. Ut pellentesque\n                    ut lacus vel interdum.\n                    "
-                        )
-                      ])
-                    ]
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { cols: "12", md: "4", sm: "*" } },
-            [
-              _c(
-                "b-card",
-                {
-                  attrs: {
-                    header: "สายตรงผู้อำนวยการ",
-                    "header-tag": "header",
-                    "header-bg-variant": "primary",
-                    "header-text-variant": "white",
-                    "header-class": "",
-                    footer:
-                      "นางใกล้รุ่ง เกตวันดี<br>ผู้อำนวยการกองนโยบายและแผน",
-                    "footer-tag": "footer",
-                    "footer-class": "text-right",
-                    title: ""
-                  }
-                },
-                [
-                  _c("b-img", {
-                    attrs: {
-                      src:
-                        "http://plan.crru.ac.th/web_planning/img/direeee.png",
-                      width: "250",
-                      right: ""
-                    }
-                  })
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("b-col", { attrs: { cols: "1", md: "1" } })
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-145b237e", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-59e401de", module.exports)
   }
 }
 
@@ -68062,7 +68060,7 @@ window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
 //Vue.component('header-component', require('./components/HeaderComponent.vue'));
 Vue.component('navbar-component', __webpack_require__("./resources/assets/js/components/NavbarComponent.vue"));
 Vue.component('photo-slider-component', __webpack_require__("./resources/assets/js/components/PhotoSliderComponent.vue"));
-Vue.component('gallery-component', __webpack_require__("./resources/assets/js/components/GalleryComponent.vue"));
+Vue.component('gallery-news-component', __webpack_require__("./resources/assets/js/components/GalleryAndNewsComponent.vue"));
 Vue.component('info-component', __webpack_require__("./resources/assets/js/components/InfoComponent.vue"));
 Vue.component('form-download-component', __webpack_require__("./resources/assets/js/components/FormDownloadComponent.vue"));
 Vue.component('footer-component', __webpack_require__("./resources/assets/js/components/FooterComponent.vue"));
@@ -68235,15 +68233,15 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ "./resources/assets/js/components/GalleryComponent.vue":
+/***/ "./resources/assets/js/components/GalleryAndNewsComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue")
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryAndNewsComponent.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-11a722fc\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue")
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-59e401de\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryAndNewsComponent.vue")
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -68260,7 +68258,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources/assets/js/components/GalleryComponent.vue"
+Component.options.__file = "resources/assets/js/components/GalleryAndNewsComponent.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68269,9 +68267,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-11a722fc", Component.options)
+    hotAPI.createRecord("data-v-59e401de", Component.options)
   } else {
-    hotAPI.reload("data-v-11a722fc", Component.options)
+    hotAPI.reload("data-v-59e401de", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true

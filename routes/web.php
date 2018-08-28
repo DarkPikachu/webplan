@@ -34,8 +34,17 @@ Route::prefix('division')->group(function () {
     });
 });
 
-Route::get('gallery', function () {
-    return view('gallery');
+
+Route::prefix('gallery')->group(function () {
+    Route::get('/', function () {
+        return view('gallery');
+    });
+
+    Route::get('/{gallery_id}', function () {
+        return view('gallery');
+    });
+
+    Route::get('thumbnail/{album}', 'GalleryController@getThumbnail');
 });
 
 

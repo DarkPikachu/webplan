@@ -1,6 +1,10 @@
 {
-    "/js/circular.js": "/js/circular.js?id=d157a1860acba647449c",
-    "/js/app.js": "/js/app.js?id=72f358b546220fc8c1df",
+    "/js/circular.js": "/js/circular.js?id=6b0a9d06cc151d6bf12f",
+    "/js/app.js": "/js/app.js?id=985ac27633d4fb6a0060",
     "/css/app.css": "/css/app.css?id=d624c42df625a525255c",
-    "/css/font-awesome.css": "/css/font-awesome.css?id=617f8b7556f9f5c84b15"
+    "/css/font-awesome.css": "/css/font-awesome.css?id=617f8b7556f9f5c84b15",
+    "/js/personnel.js": "/js/personnel.js?id=1b90a27596788df66a58",
+    "/js/org_chart.js": "/js/org_chart.js?id=a61852f5f117dadfe4bb",
+    "/js/gallery.js": "/js/gallery.js?id=8bd5553a23f81a50dd91",
+    "/js/about_us.js": "/js/about_us.js?id=691a13495b0f44819ccd"
 }
