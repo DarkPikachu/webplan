@@ -31,14 +31,14 @@
                     <h5><font color="#FFFFFF"><i class="fa fa-gear"></i> หน่วยงานสนับสนุนด้านการจัดการศึกษา</font></h5><font color="#FFFFFF">
                     </font>
                         <font color="#CCCCCC" size="2">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://general.crru.ac.th/caad_crru/" target="_blank">กองกลาง</a><br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://gfmis.crru.ac.th/2013/" target="_blank">กองคลัง</a><br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://personnel.crru.ac.th/psn_site/" target="_blank">กองบริหารงานบุคคล</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://central.pcru.ac.th/" target="_blank">กองกลาง</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://dsd.pcru.ac.th/" target="_blank">กองพัฒนานักศึกษา</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://finance.pcru.ac.th/" target="_blank">งานคลัง</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://person.pcru.ac.th/" target="_blank">งานการเจ้าหน้าที่</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://crruinter.crru.ac.th/inter_2014/site/inter2015" target="_blank">กองวิเทศสัมพันธ์</a><br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://snk.crru.ac.th/" target="_blank">กองพัฒนานักศึกษา</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://plan.crru.ac.th/" target="_blank">กองนโยบายและแผน</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://bvd.crru.ac.th/" target="_blank">กองอาคารและสถานที่่</a><br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://research.crru.ac.th/" target="_blank">กองมาตรฐานและประกันคุณภาพ</a><br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://eqa.pcru.ac.th/" target="_blank">งานประกันคุณภาพและมาตรฐานการศึกษา</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://general.crru.ac.th/caad_crru/" target="_blank">สถาบันวิจัยและพัฒนา</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://aritc.crru.ac.th/aritc/" target="_blank">สำนักวิทยบริการฯ</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://ctc.crru.ac.th/" target="_blank">สำนักศิลปวัฒนธรรม</a><br>
@@ -47,7 +47,7 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://reg2.crru.ac.th/admission_web/" target="_blank">หน่วยรับนักศึกษา</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://satit.crru.ac.th/" target="_blank">โรงเรียนสาธิต</a><br>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://www.lcrru.crru.ac.th/" target="_blank">ศูนย์ภาษา</a><br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://yei.crru.ac.th/" target="_blank">ศูนย์บ่มเพาะฯ</a><br>                
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i> <a href="http://research.pcru.ac.th/pcrubi/" target="_blank">ศูนย์บ่มเพาะฯ</a><br>                
                     </font>
                 </div>            
                 

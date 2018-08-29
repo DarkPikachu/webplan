@@ -52708,6 +52708,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
+    { attrs: { fluid: "" } },
     [
       _c("b-breadcrumb", { attrs: { items: _vm.breadcrumb_items } }),
       _vm._v(" "),
@@ -52733,9 +52734,16 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _c("b-button", { attrs: { href: "#", variant: "primary" } }, [
-                _vm._v("Go somewhere")
-              ]),
+              _c(
+                "b-button",
+                {
+                  attrs: {
+                    href: "https://localhost/webplan/public/gallery/123",
+                    variant: "primary"
+                  }
+                },
+                [_vm._v("Go somewhere")]
+              ),
               _vm._v(" "),
               _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
                 _c("small", { staticClass: "text-muted" }, [
@@ -52765,9 +52773,16 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _c("b-button", { attrs: { href: "#", variant: "primary" } }, [
-                _vm._v("Go somewhere")
-              ]),
+              _c(
+                "b-button",
+                {
+                  attrs: {
+                    href: "https://localhost/webplan/public/gallery/122",
+                    variant: "primary"
+                  }
+                },
+                [_vm._v("Go somewhere")]
+              ),
               _vm._v(" "),
               _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
                 _c("small", { staticClass: "text-muted" }, [
@@ -52796,9 +52811,16 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _c("b-button", { attrs: { href: "#", variant: "primary" } }, [
-                _vm._v("Go somewhere")
-              ]),
+              _c(
+                "b-button",
+                {
+                  attrs: {
+                    href: "https://localhost/webplan/public/gallery/121",
+                    variant: "primary"
+                  }
+                },
+                [_vm._v("Go somewhere")]
+              ),
               _vm._v(" "),
               _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
                 _c("small", { staticClass: "text-muted" }, [
@@ -52835,9 +52857,16 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _c("b-button", { attrs: { href: "#", variant: "primary" } }, [
-                _vm._v("Go somewhere")
-              ]),
+              _c(
+                "b-button",
+                {
+                  attrs: {
+                    href: "https://localhost/webplan/public/gallery/121",
+                    variant: "primary"
+                  }
+                },
+                [_vm._v("Go somewhere")]
+              ),
               _vm._v(" "),
               _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
                 _c("small", { staticClass: "text-muted" }, [
@@ -53667,7 +53696,7 @@ var render = function() {
                         "a",
                         {
                           attrs: {
-                            href: "http://general.crru.ac.th/caad_crru/",
+                            href: "http://central.pcru.ac.th/",
                             target: "_blank"
                           }
                         },
@@ -53681,11 +53710,11 @@ var render = function() {
                         "a",
                         {
                           attrs: {
-                            href: "http://gfmis.crru.ac.th/2013/",
+                            href: "http://dsd.pcru.ac.th/",
                             target: "_blank"
                           }
                         },
-                        [_vm._v("กองคลัง")]
+                        [_vm._v("กองพัฒนานักศึกษา")]
                       ),
                       _c("br"),
                       _vm._v("\n                                 "),
@@ -53695,11 +53724,25 @@ var render = function() {
                         "a",
                         {
                           attrs: {
-                            href: "http://personnel.crru.ac.th/psn_site/",
+                            href: "http://finance.pcru.ac.th/",
                             target: "_blank"
                           }
                         },
-                        [_vm._v("กองบริหารงานบุคคล")]
+                        [_vm._v("งานคลัง")]
+                      ),
+                      _c("br"),
+                      _vm._v("\n                                 "),
+                      _c("i", { staticClass: "fa fa-caret-right" }),
+                      _vm._v(" "),
+                      _c(
+                        "a",
+                        {
+                          attrs: {
+                            href: "http://person.pcru.ac.th/",
+                            target: "_blank"
+                          }
+                        },
+                        [_vm._v("งานการเจ้าหน้าที่")]
                       ),
                       _c("br"),
                       _vm._v("\n                                 "),
@@ -53715,20 +53758,6 @@ var render = function() {
                           }
                         },
                         [_vm._v("กองวิเทศสัมพันธ์")]
-                      ),
-                      _c("br"),
-                      _vm._v("\n                                 "),
-                      _c("i", { staticClass: "fa fa-caret-right" }),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          attrs: {
-                            href: "http://snk.crru.ac.th/",
-                            target: "_blank"
-                          }
-                        },
-                        [_vm._v("กองพัฒนานักศึกษา")]
                       ),
                       _c("br"),
                       _vm._v("\n                                 "),
@@ -53766,11 +53795,11 @@ var render = function() {
                         "a",
                         {
                           attrs: {
-                            href: "http://research.crru.ac.th/",
+                            href: "http://eqa.pcru.ac.th/",
                             target: "_blank"
                           }
                         },
-                        [_vm._v("กองมาตรฐานและประกันคุณภาพ")]
+                        [_vm._v("งานประกันคุณภาพและมาตรฐานการศึกษา")]
                       ),
                       _c("br"),
                       _vm._v("\n                                 "),
@@ -53892,7 +53921,7 @@ var render = function() {
                         "a",
                         {
                           attrs: {
-                            href: "http://yei.crru.ac.th/",
+                            href: "http://research.pcru.ac.th/pcrubi/",
                             target: "_blank"
                           }
                         },

@@ -20,6 +20,7 @@ Route::get('/', function () {
 });
 
 Route::prefix('division')->group(function () {
+
     Route::get('about', function () {
         return view('about');
     });
@@ -28,7 +29,6 @@ Route::prefix('division')->group(function () {
         return view('org_chart');
     });
 
-
     Route::get('personnel', function () {
         return view('personnel');
     });
@@ -36,15 +36,20 @@ Route::prefix('division')->group(function () {
 
 
 Route::prefix('gallery')->group(function () {
+
     Route::get('/', function () {
         return view('gallery');
     });
 
-    Route::get('/{gallery_id}', function () {
-        return view('gallery');
+    Route::get('/{album_id}', function () {
+        return view('gallery_view_album');
     });
 
-    Route::get('thumbnail/{album}', 'GalleryController@getThumbnail');
+    Route::get('/thumbnail/{album_id}', 'GalleryController@getThumbnail');
+
+    Route::get('/thumbnail/{album_id}/{photo_name}', 'GalleryController@getThumbnailPhoto');
+
+    Route::get('/photo/{album_id}/{photo_name}', 'GalleryController@getPhoto');
 });
 
 

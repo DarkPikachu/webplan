@@ -7,7 +7,7 @@
 @section('content')
     <b-container fluid>
         <b-row class="row-fluid"><navbar-component url="{{ $url->getJsonUrl() }}"></navbar-component></b-row>
-        
+        <b-row class="row-fluid"></b-row>
         <b-row class="row-fluid"><footer-component></footer-component></b-row>
     </b-container>
 @endsection

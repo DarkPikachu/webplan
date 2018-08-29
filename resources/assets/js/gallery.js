@@ -23,4 +23,5 @@ Vue.component('footer-component', require('./components/FooterComponent.vue'));
 
 const app = new Vue({
     el: '#app',
+
 });
