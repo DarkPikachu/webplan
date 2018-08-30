@@ -7,11 +7,11 @@
 @section('content')
     <b-container fluid>
         <b-row class="row-fluid"><navbar-component url="{{ $url->getJsonUrl() }}"></navbar-component></b-row>
-
+        <b-row class="row-fluid"><orgchart-component></orgchart-component></b-row>
         <b-row class="row-fluid"><footer-component></footer-component></b-row>
     </b-container>
 @endsection
 
 @section('script')
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/org_chart.js') }}"></script>
 @endsection

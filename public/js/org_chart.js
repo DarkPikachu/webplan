@@ -1772,91 +1772,6 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-    data: function data() {
-        return {
-            breadcrumb_items: [{
-                text: 'หน้าหลัก',
-                href: '/'
-            }, {
-                text: 'ประมวลภาพกิจกรรมหน่วยงาน',
-                href: '#'
-            }]
-        };
-    }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/NavbarComponent.vue":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1951,6 +1866,70 @@ Vue.use(__WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__["b" /* Layout 
         //console.log(this.url)
         this.urlLink = JSON.parse(this.url);
         //console.log(this.urlLink)
+    }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/OrgChartComponent.vue":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap_vue_es_components__ = __webpack_require__("./node_modules/bootstrap-vue/es/components/index.js");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            breadcrumb_items: [{
+                text: 'หน้าหลัก',
+                href: 'https://localhost/webplan/public'
+            }, {
+                text: 'โครงสร้างหน่วยงาน',
+                href: 'https://localhost/webplan/public/gallery'
+            }]
+        };
     }
 });
 
@@ -19994,6 +19973,21 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 // module
 exports.push([module.i, "\na:hover {\n    color: #FFF;\n    text-decoration: none;\n}\na:link {\n    text-decoration: none;\n    color: #CCC;\n}\na:visited {\n    text-decoration: none;\n}\na:active {\n    text-decoration: none;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-dbf45fc8\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/OrgChartComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n/*Now the CSS*/\n* {margin: 0; padding: 0;\n}\n.tree ul {\r\n    padding-top: 20px; position: relative;\r\n\t\r\n\ttransition: all 0.5s;\r\n\t-webkit-transition: all 0.5s;\r\n\t-moz-transition: all 0.5s;\n}\n.tree li {\r\n\tfloat: left; text-align: center;\r\n\tlist-style-type: none;\r\n\tposition: relative;\r\n\tpadding: 20px 5px 0 5px;\r\n\t\r\n\ttransition: all 0.5s;\r\n\t-webkit-transition: all 0.5s;\r\n\t-moz-transition: all 0.5s;\n}\r\n\r\n/*We will use ::before and ::after to draw the connectors*/\n.tree li::before, .tree li::after{\r\n\tcontent: '';\r\n\tposition: absolute; top: 0; right: 50%;\r\n\tborder-top: 1px solid #ccc;\r\n\twidth: 50%; height: 20px;\n}\n.tree li::after{\r\n\tright: auto; left: 50%;\r\n\tborder-left: 1px solid #ccc;\n}\r\n\r\n/*We need to remove left-right connectors from elements without \r\nany siblings*/\n.tree li:only-child::after, .tree li:only-child::before {\r\n\tdisplay: none;\n}\r\n\r\n/*Remove space from the top of single children*/\n.tree li:only-child{ padding-top: 0;\n}\r\n\r\n/*Remove left connector from first child and \r\nright connector from last child*/\n.tree li:first-child::before, .tree li:last-child::after{\r\n\tborder: 0 none;\n}\r\n/*Adding back the vertical connector to the last nodes*/\n.tree li:last-child::before{\r\n\tborder-right: 1px solid #ccc;\r\n\tborder-radius: 0 5px 0 0;\r\n\t-webkit-border-radius: 0 5px 0 0;\r\n\t-moz-border-radius: 0 5px 0 0;\n}\n.tree li:first-child::after{\r\n\tborder-radius: 5px 0 0 0;\r\n\t-webkit-border-radius: 5px 0 0 0;\r\n\t-moz-border-radius: 5px 0 0 0;\n}\r\n\r\n/*Time to add downward connectors from parents*/\n.tree ul ul::before{\r\n\tcontent: '';\r\n\tposition: absolute; top: 0; left: 50%;\r\n\tborder-left: 1px solid #ccc;\r\n\twidth: 0; height: 20px;\n}\n.tree li a{\r\n\tborder: 1px solid #ccc;\r\n\tpadding: 5px 10px;\r\n\ttext-decoration: none;\r\n\tcolor: #666;\r\n\tfont-family: arial, verdana, tahoma;\r\n\tfont-size: 14px;\r\n\tdisplay: inline-block;\r\n\t\r\n\tborder-radius: 5px;\r\n\t-webkit-border-radius: 5px;\r\n\t-moz-border-radius: 5px;\r\n\t\r\n\ttransition: all 0.5s;\r\n\t-webkit-transition: all 0.5s;\r\n\t-moz-transition: all 0.5s;\n}\r\n\r\n/*Time for some hover effects*/\r\n/*We will apply the hover effect the the lineage of the element also*/\n.tree li a:hover, .tree li a:hover+ul li a {\r\n\tbackground: #c8e4f8; color: #000; border: 1px solid #94a0b4;\n}\r\n/*Connector styles on hover*/\n.tree li a:hover+ul li::after, \r\n.tree li a:hover+ul li::before, \r\n.tree li a:hover+ul::before, \r\n.tree li a:hover+ul ul::before{\r\n\tborder-color:  #94a0b4;\n}\r\n\r\n/*Thats all. I hope you enjoyed it.\r\nThanks :)*/\r\n", ""]);
 
 // exports
 
@@ -52699,202 +52693,6 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-11a722fc\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "b-container",
-    { attrs: { fluid: "" } },
-    [
-      _c("b-breadcrumb", { attrs: { items: _vm.breadcrumb_items } }),
-      _vm._v(" "),
-      _c(
-        "b-card-group",
-        { staticClass: "mb-3", attrs: { deck: "" } },
-        [
-          _c(
-            "b-card",
-            {
-              attrs: {
-                title: "ศึกษาดูงาน กองนโยบายและแผน มหาวิทยาลัยราชภัฏรำไพพรรณี",
-                "img-src":
-                  "https://localhost/webplan/public/gallery/thumbnail/123",
-                "img-alt": "Img",
-                "img-top": ""
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "\n                    วันที่ 4 พฤษภาคม 2561 กองนโยบายและแผน นำโดย อาจารย์ ดร. ศิรินภา พรหมคำ รองอธิการบดีฝ่ายวางแผนและพัฒนา พร้อมบุคลากรกองนโยบายและแผน เดินทางเข้าศึกษาดูงานแนวทางการปฏิบัติงานที่ดี กองนโยบายและแผนมหาวิทยาลัยราชภัฏรำไพพรรณี จังหวัดจันทบุรี โดยมี อาจารย์นคร เผือกนำผล รองอธิการบดีฝ่ายกิจการสภามหาวิทยาลัย ผู้ช่วยศาสตราจารย์ ดร. ปรียนันท์ สิทธิจินดา รองอธิการบดีฝ่ายวางแผนและพัฒนา และบุคลากรกองนโยบายและแผน ให้การต้อนรับ\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  attrs: {
-                    href: "https://localhost/webplan/public/gallery/123",
-                    variant: "primary"
-                  }
-                },
-                [_vm._v("Go somewhere")]
-              ),
-              _vm._v(" "),
-              _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("4 พฤษภาคม 2561")
-                ])
-              ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-card",
-            {
-              attrs: {
-                title:
-                  "ศึกษาดูงาน กองนโยบายและแผน มหาวิทยาลัยราชภัฏราชนครินทร์",
-                "img-src":
-                  "https://localhost/webplan/public/gallery/thumbnail/122",
-                "img-alt": "Img",
-                "img-top": ""
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "\n                    วันที่ 3 พฤษภาคม 2561 กองนโยบายและแผน นำโดย อาจารย์ ดร. ศิรินภา พรหมคำ รองอธิการบดีฝ่ายวางแผนและพัฒนา พร้อมบุคลากรกองนโยบายและแผน เข้าศึกษาดูงาน กองนโยบายและแผน มหาวิทยาลัยราชภัฏราชนครินทร์ จังหวัดฉะเชิงเทรา โดยมี อาจารย์ ดร. สมศักดิ์ เอี่ยมคงสี รองอธิการบดีวางแผน และทีมงานแผน ต้อนรับอย่างอบอุ่น\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  attrs: {
-                    href: "https://localhost/webplan/public/gallery/122",
-                    variant: "primary"
-                  }
-                },
-                [_vm._v("Go somewhere")]
-              ),
-              _vm._v(" "),
-              _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("3 พฤษภาคม 2561")
-                ])
-              ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "b-card",
-            {
-              attrs: {
-                title: "การจัดทำแผนยุทธศาสตร์มหาวิทยาลัยฯ",
-                "img-src":
-                  "https://localhost/webplan/public/gallery/thumbnail/121",
-                "img-alt": "Img",
-                "img-top": ""
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "\n                    เมื่อวันที่ 2 – 3 เมษายน 2561 กองนโยบายและแผน ได้จัดโครงการประชุมเชิงปฏิบัติการ การจัดทำแผนยุทธศาสตร์ ระยะ 5 ปี มหาวิทยาลัยราชภัฏเพชรบูรณ์ (พ.ศ. 2561 – 2565 ) ณ ห้องประชุมศรีชมภู อาคารสำนักงานอธิการบดี มหาวิทยาลัยราชภัฏเพชรบูรณ์ \n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  attrs: {
-                    href: "https://localhost/webplan/public/gallery/121",
-                    variant: "primary"
-                  }
-                },
-                [_vm._v("Go somewhere")]
-              ),
-              _vm._v(" "),
-              _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v(" 2 – 3 เมษายน 2561")
-                ])
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      ),
-      _vm._v(" "),
-      _c(
-        "b-card-group",
-        { staticClass: "mb-3", attrs: { deck: "" } },
-        [
-          _c(
-            "b-card",
-            {
-              attrs: {
-                title:
-                  "กองนโยบายและแผนประชุมเตรียมความพร้อมการจัดทำงบประมาณรายจ่าย ประจำปีงบประมาณ 2562 มรภ.พช.",
-                "img-src":
-                  "https://localhost/webplan/public/gallery/thumbnail/120",
-                "img-alt": "Img",
-                "img-top": ""
-              }
-            },
-            [
-              _c("p", { staticClass: "card-text" }, [
-                _vm._v(
-                  "\n                    วันที่ 5 กันยายน 2560 เวลา 09.00 น. ที่ห้องประชุมศรีชมพู อาคารสำนักงานอธิการบดี อาจารย์ ดร.ศิรินภา พรหมคำ รองอธิการบดีฝ่ายวางแผนและนโยบาย มรภ.พช. เป็นประธานเปิดโครงการประชุมเตรียมความพร้อมการจัดทำงบประมาณรายจ่าย ประจำปีงบประมาณ 2562 มรภ.พช.\nรองอธิการบดีฝ่ายวางแผนและนโยบาย มรภ.พช. กล่าวว่า การประชุมครั้งนี้ เพื่อให้บุคลากรของมหาวิทยาลัยฯ ได้มีความเข้าใจถึงยุทธศาสตร์การจัดสรรงบประมาณและปฏิทินงบประมาณรายจ่าย ประจำปีงบประมาณ 2560 ที่ให้ส่วนราชการ จัดทำข้อเสนองบประมาณ เบื้องต้น ต่อสำนักงบประมาณพิจารณาภายในเดือนตุลาคม 2560\n                "
-                )
-              ]),
-              _vm._v(" "),
-              _c(
-                "b-button",
-                {
-                  attrs: {
-                    href: "https://localhost/webplan/public/gallery/121",
-                    variant: "primary"
-                  }
-                },
-                [_vm._v("Go somewhere")]
-              ),
-              _vm._v(" "),
-              _c("div", { attrs: { slot: "footer" }, slot: "footer" }, [
-                _c("small", { staticClass: "text-muted" }, [
-                  _vm._v("5 กันยายน 2560")
-                ])
-              ])
-            ],
-            1
-          )
-        ],
-        1
-      )
-    ],
-    1
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-11a722fc", module.exports)
-  }
-}
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-5b258f66\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/NavbarComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -54391,6 +54189,86 @@ if (false) {
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dbf45fc8\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/OrgChartComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "b-container",
+    { attrs: { fluid: "" } },
+    [
+      _c("b-breadcrumb", { attrs: { items: _vm.breadcrumb_items } }),
+      _vm._v(" "),
+      _c("b-row", { staticClass: "justify-content-center" }, [
+        _c("div", { staticClass: "tree justify-content-center" }, [
+          _c("ul", [
+            _c("li", [
+              _c("a", { attrs: { href: "#" } }, [_vm._v("สำนักงานอธิการบดี")]),
+              _vm._v(" "),
+              _c("ul", [
+                _c("li", [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("กองนโยบายและแผน")
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", [
+                    _c("li", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("งานบริหารและธุรการ")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("งานวิเทศสัมพันธ์และบริการภาษาต่างประเทศ")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("งานวิเคราะห์แผนและงบประมาณ")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("งานวิจัยสถาบันและสารสนเทศ")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("a", { attrs: { href: "#" } }, [
+                        _vm._v("งานผังแม่บทและออกแบบก่อสร้าง")
+                      ])
+                    ])
+                  ])
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("b-row", [_c("b-col", { staticStyle: { height: "100px" } })], 1)
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-dbf45fc8", module.exports)
+  }
+}
+
+/***/ }),
+
 /***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/FooterComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -54408,6 +54286,33 @@ if(false) {
  if(!content.locals) {
    module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue", function() {
      var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-8651e08a\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./FooterComponent.vue");
+     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+     update(newContent);
+   });
+ }
+ // When the module is disposed, remove the <style> tags
+ module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+
+/***/ "./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-dbf45fc8\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/OrgChartComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-dbf45fc8\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/OrgChartComponent.vue");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("./node_modules/vue-style-loader/lib/addStylesClient.js")("70d3542e", content, false, {});
+// Hot Module Replacement
+if(false) {
+ // When the styles change, update the <style> tags
+ if(!content.locals) {
+   module.hot.accept("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-dbf45fc8\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./OrgChartComponent.vue", function() {
+     var newContent = require("!!../../../../node_modules/css-loader/index.js!../../../../node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-dbf45fc8\",\"scoped\":false,\"hasInlineConfig\":true}!../../../../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./OrgChartComponent.vue");
      if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
      update(newContent);
    });
@@ -65819,54 +65724,6 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ "./resources/assets/js/components/GalleryComponent.vue":
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
-/* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/GalleryComponent.vue")
-/* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-11a722fc\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/GalleryComponent.vue")
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "resources/assets/js/components/GalleryComponent.vue"
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-11a722fc", Component.options)
-  } else {
-    hotAPI.reload("data-v-11a722fc", Component.options)
-  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-
 /***/ "./resources/assets/js/components/NavbarComponent.vue":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -65915,6 +65772,58 @@ module.exports = Component.exports
 
 /***/ }),
 
+/***/ "./resources/assets/js/components/OrgChartComponent.vue":
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__("./node_modules/vue-style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/style-compiler/index.js?{\"vue\":true,\"id\":\"data-v-dbf45fc8\",\"scoped\":false,\"hasInlineConfig\":true}!./node_modules/vue-loader/lib/selector.js?type=styles&index=0!./resources/assets/js/components/OrgChartComponent.vue")
+}
+var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
+/* script */
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\",[\"transform-runtime\",{\"polyfill\":false,\"helpers\":false}]]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./resources/assets/js/components/OrgChartComponent.vue")
+/* template */
+var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-dbf45fc8\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./resources/assets/js/components/OrgChartComponent.vue")
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/OrgChartComponent.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-dbf45fc8", Component.options)
+  } else {
+    hotAPI.reload("data-v-dbf45fc8", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+
 /***/ "./resources/assets/js/org_chart.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -65937,7 +65846,7 @@ window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 //Vue.component('header-component', require('./components/HeaderComponent.vue'));
 Vue.component('navbar-component', __webpack_require__("./resources/assets/js/components/NavbarComponent.vue"));
-Vue.component('gallery-component', __webpack_require__("./resources/assets/js/components/GalleryComponent.vue"));
+Vue.component('orgchart-component', __webpack_require__("./resources/assets/js/components/OrgChartComponent.vue"));
 Vue.component('footer-component', __webpack_require__("./resources/assets/js/components/FooterComponent.vue"));
 
 var app = new Vue({

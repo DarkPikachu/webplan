@@ -18,7 +18,7 @@ window.Vue = require('vue');
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 //Vue.component('header-component', require('./components/HeaderComponent.vue'));
 Vue.component('navbar-component', require('./components/NavbarComponent.vue'));
-Vue.component('gallery-component', require('./components/GalleryComponent.vue'));
+Vue.component('orgchart-component', require('./components/OrgChartComponent.vue'));
 Vue.component('footer-component', require('./components/FooterComponent.vue'));
 
 const app = new Vue({

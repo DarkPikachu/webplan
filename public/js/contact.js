@@ -53240,7 +53240,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("h4", [_vm._v("Get in touch")]),
+          _c("h4", [_vm._v("Contacts")]),
           _vm._v(" "),
           _c("hr")
         ]),
