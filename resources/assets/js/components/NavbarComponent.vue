@@ -50,7 +50,7 @@
                             <b-dropdown-item href="#"> </b-dropdown-item>
                         </b-nav-item-dropdown>
 
-                        <b-nav-item href="#"><i class="fa fa-phone"></i> เบอร์โทรติดต่อ</b-nav-item>
+                        <b-nav-item v-bind:href="urlLink.contact_menu.url" ><i class="fa fa-phone"></i> {{ urlLink.contact_menu.label }}</b-nav-item>
 
                         <b-nav-item-dropdown text="Plan Application" right>
                             <b-dropdown-item href="#">Account</b-dropdown-item>

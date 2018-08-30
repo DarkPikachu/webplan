@@ -13,6 +13,7 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
     .js('resources/assets/js/about_us.js', 'public/js')
+    .js('resources/assets/js/contact.js', 'public/js')
     .js('resources/assets/js/org_chart.js', 'public/js')
     .js('resources/assets/js/personnel.js', 'public/js')
     .js('resources/assets/js/gallery.js', 'public/js')

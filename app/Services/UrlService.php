@@ -64,6 +64,10 @@ class UrlService{
                 "form_4": "'.url("/").'",
                 "form_5": "'.url("/").'",
                 "form_6": "'.url("/").'"
+            },
+            "contact_menu":{
+                "label" : "เบอร์โทรติดต่อ",
+                "url" : "'.url("/contact").'"
             }
         }';
 

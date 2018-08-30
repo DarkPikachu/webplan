@@ -57,6 +57,10 @@ Route::get('sitemap', function () {
     return view('about');
 });
 
+Route::get('contact', function () {
+    return view('contact');
+});
+
 Route::get('annual_info_university', function () {
     return view('annual_info_university');
 });

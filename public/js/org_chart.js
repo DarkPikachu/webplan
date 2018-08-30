@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -53333,10 +53333,18 @@ var render = function() {
                                 1
                               ),
                               _vm._v(" "),
-                              _c("b-nav-item", { attrs: { href: "#" } }, [
-                                _c("i", { staticClass: "fa fa-phone" }),
-                                _vm._v(" เบอร์โทรติดต่อ")
-                              ]),
+                              _c(
+                                "b-nav-item",
+                                {
+                                  attrs: { href: _vm.urlLink.contact_menu.url }
+                                },
+                                [
+                                  _c("i", { staticClass: "fa fa-phone" }),
+                                  _vm._v(
+                                    " " + _vm._s(_vm.urlLink.contact_menu.label)
+                                  )
+                                ]
+                              ),
                               _vm._v(" "),
                               _c(
                                 "b-nav-item-dropdown",
@@ -65938,7 +65946,7 @@ var app = new Vue({
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./resources/assets/js/org_chart.js");

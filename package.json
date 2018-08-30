@@ -29,6 +29,7 @@
         "vue-flux": "^1.0.0",
         "vue-gallery": "^1.4.0",
         "vue-router": "^3.0.1",
-        "vue-template-compiler": "^2.5.17"
+        "vue-template-compiler": "^2.5.17",
+        "vuetify": "^1.2.1"
     }
 }
