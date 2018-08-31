@@ -1953,6 +1953,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -20046,7 +20050,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, "\nh6.description{\r\n\tfont-weight: bold;\r\n\tletter-spacing: 2px;\r\n\tcolor: #999;\r\n\tborder-bottom: 1px solid rgba(0, 0, 0,0.1);\r\n\tpadding-bottom: 5px;\n}\r\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -54277,17 +54281,28 @@ var render = function() {
         "v-app",
         { attrs: { light: "" } },
         [
+          _c("v-navigation-drawer", { attrs: { app: "" } }),
+          _vm._v(" "),
+          _c("v-toolbar", { attrs: { app: "" } }),
+          _vm._v(" "),
           _c(
             "v-content",
             [
               _c(
                 "v-container",
                 [
-                  _c("v-layout", { attrs: { row: "" } }, [
-                    _c("h6", { staticClass: "description" }, [
-                      _vm._v("OUR TEAM")
-                    ])
-                  ]),
+                  _c(
+                    "v-layout",
+                    { attrs: { row: "" } },
+                    [
+                      _c("v-flex", { attrs: { xs12: "", md12: "" } }, [
+                        _c("h4", [_vm._v("OUR TEAM")]),
+                        _vm._v(" "),
+                        _c("hr")
+                      ])
+                    ],
+                    1
+                  ),
                   _vm._v(" "),
                   _c(
                     "v-layout",
@@ -54441,9 +54456,9 @@ var render = function() {
                                   _vm._v(" "),
                                   _c("v-card-text", [
                                     _vm._v(
-                                      "\n                            " +
+                                      "\n                                    " +
                                         _vm._s(post.content) +
-                                        "\n                            "
+                                        "\n                                "
                                     )
                                   ]),
                                   _vm._v(" "),
